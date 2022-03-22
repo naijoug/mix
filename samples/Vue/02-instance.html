@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 Vue 实例</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <!-- 数据和方法 -->
+    <div id="example">
+    </div>
+    <script>
+        var data = { a: 1 }
+        var vm = new Vue({
+            el: "#example",
+            data: data
+        })
+        // b: 不具备响应式
+        vm.b = 'hi'
+        vm.$data === data
+        vm.$el == document.getElementById('example')
+        vm.$watch('a', function(newValue, oldValue) {
+            console.log(oldValue + "->" + newValue)
+        })
+    </script>
+    <div id="app">
+        <p>{{ foo }}</p>
+        <button v-on:click="foo = 'baz'">Change it</button>
+    </div>
+    <script>
+        var obj = {
+            foo: 'bar'
+        }
+        // freeze: 阻止修改现有属性(只读属性)
+        Object.freeze(obj)
+        new Vue({
+            el: "#app",
+            data: obj
+        })
+    </script>
+    <!-- 实例生命周期钩子 -->
+    <div id="lifecycle">
+        <p>{{ a }}</p>
+        <button v-on:click="a = 2">点击</button>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: "#lifecycle",
+            data: {
+                a: 1
+            },
+            // 不要再选项 property 或回调上使用箭头函数(箭头函数没有 this)
+            //  ❌ created: () => console.log(this.a)
+            //  ❌ vm.$watch('a', newValue => this.myMethod())
+            beforeCreate: function() {
+                console.log('1️⃣ beforeCreate')
+            },
+            created: function() {
+                console.log('2️⃣ created')
+                console.log('a is: ' + this.a)
+            },
+            beforeMount: function() {
+                console.log('3️⃣ beforeMount')
+            },
+            mounted: function() {
+                console.log('4️⃣ mounted')
+            },
+            beforeUpdate: function() {
+                console.log('5️⃣ beforeUpdate')
+            },
+            updated: function() {
+                console.log('6️⃣ updated')
+            },
+            beforeDestory: function() {
+                console.log('7️⃣ beforeDestory')
+            },
+            destoryed: function() {
+                console.log('8️⃣ destoryed')
+            }
+        })
+        vm.$watch('a', function(newValue, oldValue) {
+            console.log("a changed: " + oldValue + " -> " + newValue)
+        })
+    </script>
+</body>
+</html>
