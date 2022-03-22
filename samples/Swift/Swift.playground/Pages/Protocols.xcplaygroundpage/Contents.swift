@@ -72,7 +72,7 @@ class LinearCongruentialGenerator: RandomNumberGenerator {
     let a = 3877.0
     let c = 29573.0
     func random() -> Double {
-        lastRandom = ((lastRandom * a + c).truncatingRemainder(dividingBy:m))
+        lastRandom = ((lastRandom * a + c).truncatingRemainder(dividingBy: m))
         return lastRandom / m
     }
 }
@@ -468,7 +468,7 @@ print("And here's a random Boolean: \(generator1.randomBool())")
 //  * 使用协议扩展来为任何方法或计算属性提供默认实现
 //  * 如何一个类型本省提供了协议的要求，会覆盖扩展提供的默认实现
 
-extension PrettyTextRepresentable  {
+extension PrettyTextRepresentable {
     var prettyTextualDescription: String {
         return textualDescription
     }
@@ -479,6 +479,7 @@ extension PrettyTextRepresentable  {
 // * 注：
 //      - 一类类型遵循多个具有同名方法或属性的扩展协议，优先调用约束较多的
 
+// swiftlint:disable for_where
 extension Collection where Element: Equatable {
     func allEqual() -> Bool {
         for element in self {
@@ -494,5 +495,5 @@ let differentNumbers = [100, 100, 200, 100, 200]
 print(equalNumbers.allEqual())
 print(differentNumbers.allEqual())
 
-
+// swiftlint:disable file_length
 //: [Generics](@next)

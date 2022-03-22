@@ -4,6 +4,7 @@
 
 //: Nested Types in Action (嵌套类型实践)
 
+// swiftlint:disable nesting
 struct BlackjackCard { // 扑克牌
     enum Suit: Character { // 嵌套的花色枚举
         case spades = "♠", hearts = "♡", diamonds = "♢", clubs = "♣"

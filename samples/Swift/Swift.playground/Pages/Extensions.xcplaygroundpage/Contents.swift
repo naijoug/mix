@@ -89,6 +89,7 @@ extension Int {
 // Mutating Instance Methods - 可变实例方法
 //  * 可以扩展可变实例方法来修改变量
 
+// swiftlint:disable shorthand_operator
 extension Int {
     mutating func square() {
         self = self * self

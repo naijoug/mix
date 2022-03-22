@@ -132,7 +132,7 @@ class StepCounter {
             print("About to set totalSteps to \(newTotalSteps)")
         }
         didSet { // 默认参数为 : oldValue
-            if totalSteps > oldValue  {
+            if totalSteps > oldValue {
                 print("Added \(totalSteps - oldValue) steps")
             }
         }

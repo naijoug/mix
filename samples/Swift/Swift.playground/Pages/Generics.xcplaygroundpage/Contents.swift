@@ -104,7 +104,7 @@ protocol SomeProtocol {}
 func someFunction<T: SomeClass, U: SomeProtocol>(someT: T, someU: U) {
     // 函数定义
 }
-
+// swiftlint:disable for_where
 // Type Constraints in Action - 类型约束行为
 func findIndex(ofString valueToFind: String, in array: [String]) -> Int? {
     for (index, value) in array.enumerated() {
@@ -128,7 +128,7 @@ func findIndex<T>(of valueToFind: T, in array:[T]) -> Int? {
     return nil
 }
  */
-func findIndex<T: Equatable>(of valueToFind: T, in array:[T]) -> Int? {
+func findIndex<T: Equatable>(of valueToFind: T, in array: [T]) -> Int? {
     for (index, value) in array.enumerated() {
         if value == valueToFind {
             return index

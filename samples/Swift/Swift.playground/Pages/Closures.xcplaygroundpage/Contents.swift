@@ -29,13 +29,13 @@ reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in
 reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in return s1 > s2 } )
 
 // Inferring Type From Context - 从语境中推断类型
-reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 } )
+reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 })
 
 // Implicit Returns from Single-Expression Closures - 单表达式闭包省略 return
-reversedNames = names.sorted(by: { s1, s2 in s1 > s2 } )
+reversedNames = names.sorted(by: { s1, s2 in s1 > s2 })
 
 // Shorthand Argument Names - 简写实际参数名
-reversedNames = names.sorted(by: { $0 > $1 } )
+reversedNames = names.sorted(by: { $0 > $1 })
 
 // Operator Methods - 运算符函数
 reversedNames = names.sorted(by: >)
@@ -149,7 +149,7 @@ print(customersInLine.count)
 func serve(customer customerProvider: () -> String) {
     print("Now serving \(customerProvider())!")
 }
-serve(customer: { customersInLine.remove(at: 0) } )
+serve(customer: { customersInLine.remove(at: 0) })
 
 func serve(customer customerProvider: @autoclosure () -> String) {
     print("Now serving \(customerProvider())!")

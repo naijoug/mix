@@ -113,6 +113,7 @@ var largest = 0
 for (kind, numbers) in interestingNumbers {
     print(kind)
     for number in numbers {
+        // swiftlint:disable:next for_where
         if number > largest {
             largest = number
         }
@@ -123,6 +124,7 @@ print(largest)
 // while 循环
 var n = 2
 while n < 100 {
+    // swiftlint:disable:next shorthand_operator
     n = n * 2
 }
 print(n)
@@ -158,6 +160,7 @@ func greet(_ person: String, on day: String) -> String {
 greet("John", on: "Wednesday")
 
 // 使用元组创建复合值
+// swiftlint:disable:next large_tuple
 func calculateStatistics(scores: [Int]) -> (min: Int, max: Int, sum: Int) {
     var min = scores[0]
     var max = scores[0]
@@ -236,7 +239,7 @@ print(mapperNumbers)
 
 // 通过数字调用闭包参数
 // 闭包作为最后一个参数括号可以省略
-let sortedNumbers = numbers.sorted{ $0 > $1 }
+let sortedNumbers = numbers.sorted { $0 > $1 }
 print(sortedNumbers)
 
 
@@ -561,10 +564,10 @@ possibleInteger = .some(100)
 
 // where : 明确一系列需求
 func anyCommonElements<T: Sequence, U: Sequence>(_ lhs: T, rhs: U) -> Bool
-    where T.Element: Equatable, T.Element == U.Element
-{
+    where T.Element: Equatable, T.Element == U.Element {
     for lhsItem in lhs {
         for rhsItem in rhs {
+            // swiftlint:disable:next for_where
             if lhsItem == rhsItem {
                 return true
             }
@@ -574,4 +577,5 @@ func anyCommonElements<T: Sequence, U: Sequence>(_ lhs: T, rhs: U) -> Bool
 }
 anyCommonElements([1, 2, 3], rhs: [3])
 
+// swiftlint:disable file_length
 //: [The Basics](@next)

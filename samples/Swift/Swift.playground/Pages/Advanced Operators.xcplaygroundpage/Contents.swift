@@ -144,6 +144,7 @@ let alsoPositive = -negative
 //  * 不能重载默认的赋值运算符 = ，可以重载复合赋值运算符
 //  * 三元条件运算符 ( a ? b : c ) 也不能重载
 
+// swiftlint:disable shorthand_operator
 extension Vector2D { // 重载加法赋值运算符 +=
     static func += (left: inout Vector2D, right: Vector2D) {
         left = left + right

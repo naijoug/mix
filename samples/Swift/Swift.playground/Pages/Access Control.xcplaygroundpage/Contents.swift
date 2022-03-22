@@ -54,6 +54,7 @@
 //: Access Control Syntax (访问控制语法)
 //  * 访问控制修饰符放置在最前面
 
+// swiftlint:disable private_over_fileprivate
 public class SomePublicClass {}
 internal class SomeInternalClass {}
 fileprivate class SomeFilePrivateClass {}

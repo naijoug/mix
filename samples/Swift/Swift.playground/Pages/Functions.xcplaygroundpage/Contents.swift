@@ -45,7 +45,7 @@ func printAndCount(string: String) -> Int {
     return string.count
 }
 func printWithoutCounting(string: String) {
-    let _ = printAndCount(string: string)
+    _ = printAndCount(string: string)
 }
 printAndCount(string: "hello, world")
 printWithoutCounting(string: "hello, world")

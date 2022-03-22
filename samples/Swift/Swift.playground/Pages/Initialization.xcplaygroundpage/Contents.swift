@@ -295,7 +295,7 @@ class ShoppingListItem1: RecipeIngredient {
 var breakfastList = [
     ShoppingListItem1(),
     ShoppingListItem1(name: "Bacon"),
-    ShoppingListItem1(name: "Eggs", quantity: 6),
+    ShoppingListItem1(name: "Eggs", quantity: 6)
 ]
 breakfastList[0].name = "Orange juice"
 breakfastList[0].purchased = true
@@ -494,4 +494,5 @@ print(board.squareIsBlackAt(row: 0, column: 1))
 print(board.squareIsBlackAt(row: 7, column: 7))
 
 
+// swiftlint:disable file_length
 //: [Deinitialization](@next)

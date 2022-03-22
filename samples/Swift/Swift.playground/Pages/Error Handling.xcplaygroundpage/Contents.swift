@@ -56,7 +56,7 @@ class VendingMachine {
 let favoriteSnacks = [
     "Alice": "Chips",
     "Bob": "Licorice",
-    "Eve": "Pretzels",
+    "Eve": "Pretzels"
 ]
 func buyFavoriteSnack(person: String, vendingMachine: VendingMachine) throws {
     let snackName = favoriteSnacks[person] ?? "Candy Bar"
