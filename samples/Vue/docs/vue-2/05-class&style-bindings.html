@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 Class 与 Style 绑定</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <!-- 绑定 HTML Class -->
+    <div id="app-1">
+        <!-- 对象语法 -->
+        <div v-bind:class="{ active: isActive }">one</div>
+        <div
+            class="static"
+            v-bind:class="{ active: isActive, 'text-danger': hasError }"
+        >two</div>
+        <!-- 绑定的数据对象不必内联定义在模板里 -->
+        <div v-bind:class="classObject">three</div>
+        <!-- 也可以在这里绑定一个返回对象的计算属性。这是一个常用且强大的模式 -->
+        <div v-bind:class="classObject1">four</div>
+        <!-- 数组语法 -->
+        <div v-bind:class="[activeClass, errorClass]">five</div>
+        <div v-bind:class="[isActive ? activeClass : '', errorClass]">six</div>
+        <div v-bind:class="[{ active: isActive }, errorClass]">seven</div>
+    </div>
+    <script>
+        new Vue({
+            el: "#app-1",
+            data: {
+                isActive: true,
+                hasError: false,
+                classObject: {
+                    active: true,
+                    'text-danger': false
+                },
+                activeClass: 'active',
+                errorClass: 'text-danger'
+            },
+            computed: {
+                classObject1: function () {
+                    return {
+                    active: this.isActive && !this.error,
+                    'text-danger': this.error && this.error.type === 'fatal'
+                    }
+                }
+            }
+        })
+    </script>
+    <!-- 绑定内联样式 -->
+    <div id="app-2">
+        <!-- 对象语法 -->
+        <div v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }">one</div>
+        <div v-bind:style="styleObject">two</div>
+        <!-- 数组语法 -->
+        <div v-bind:style="[baseStyles, overridingStyles]">three</div>
+        <!-- 自动添加前缀 -->
+        <!-- 多重值 2.3.0+ -->
+        <div :style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }">four</div>
+    </div>
+    <script>
+        new Vue({
+            el: "#app-2",
+            data: {
+                activeColor: 'red',
+                fontSize: 30,
+                styleObject: {
+                    color: 'red',
+                    fontSize: '13px'
+                },
+                baseStyles: {
+                    color: 'green',
+                    fontSize: '13px'
+                },
+                overridingStyles: {
+                    color: 'blue',
+                    fontSize: '30px'
+                }
+            }
+        })
+    </script>
+</body>
+</html>

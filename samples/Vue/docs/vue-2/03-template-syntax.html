@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 模板语法</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <!-- 插值 -->
+    <div id="app-1">
+        <!-- 文本 -->
+        <span v-once>Message: {{ msg }}</span>
+        <!-- 原始 HTML -->
+        <p>Using mustaches: {{ rawHtml }}</p>
+        <p>Using v-html directive: <span v-html="rawHtml"></span></p>
+        <!-- Attribute -->
+        <div v-bind:id="dynamicId"></div>
+        <button v-bind:disable="isButtonDisabled">Button</button>
+        <!-- 使用 JavaSc 表达式 -->
+        <div v-bind:id="'list-' + id"></div>
+    </div>
+    <script>
+        new Vue({
+            el: "#app-1",
+            data: {
+                msg: "This is a message",
+                rawHtml: "<span style='color: red;''>This should be read.</span>"
+            }
+        })
+    </script>
+    <!-- 指令 -->
+    <div id="app-2">
+        <p v-if="seen">现在你看到我了</p>
+        <!-- 参数 -->
+        <a v-bind:href="url">Vue</a>
+        <a v-on:click="doSomething">do something</a>
+        <!-- 动态参数 (2.6.0) -->
+        <a v-bind:[attributeName]="url">动态</a>
+        <a v-on:[event]="doSomething">do something</a>
+        <!-- 这回触发一个编译警告⚠️ -->
+        <a v-bind:['foo' + bar]="value"></a>
+        <!-- 🔥🔥🔥: 避免使用大写字符来命名键名
+        在 DOM 中使用模板时这段代码会被转换为 `v-bind:[someattr]`。
+        除非在实例中有一个名为“someattr”的 property，否则代码不会工作。
+        -->
+        <a v-bind:[someAttr]="value"> ... </a>
+        <!-- 修饰符: (modifier) 是以半角句号 .
+             指明的特殊后缀,用于指出一个指令应该以特殊方式绑定。 
+        -->
+        <form v-on:submit.prevent="onSubmit">...</form>
+    </div>
+    <script>
+        new Vue({
+            el: "#app-2",
+            data: {
+                url: "https://cn.vuejs.org",
+                attributeName: "herf",
+                eventName: "click"
+            },
+            methods: {
+                doSomething: function() {
+                    console.log("do something.")
+                }
+            }
+        })
+    </script>
+    <!-- 缩写 -->
+    <div id="app-3">
+        <!-- v-bind : -->
+        <a v-bind:href="url">完整</a>
+        <a :href="url">缩写</a>
+        <a :[key]="url">动态参数的缩写(2.6.0+)</a>
+        <!-- v-on @ -->
+        <a v-on:click="doSomething">完整</a>
+        <a @click="doSomething">缩写</a>
+        <a @[event]="doSomething">动态参数的缩写(2.6.0+)</a>
+    </div>
+    <script>
+        new Vue({
+            el: "#app-3",
+            data: {
+                url: "https://cn.vuejs.org",
+                key: "href",
+                event: "click"
+            },
+            methods: {
+                doSomething: function() {
+                    console.log("do something....")
+                }
+            }
+        })
+    </script>
+</body>
+</html>
