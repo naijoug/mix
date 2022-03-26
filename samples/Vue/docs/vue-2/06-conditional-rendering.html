@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 条件渲染</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- v-if -->
+        <h1 v-if="awesome">Vue is awesome!</h1>
+        <h1 v-else>Oh on 😭</h1>
+        <!-- v-else -->
+        <div v-if="Math.random() > 0.5">
+            Now you see me
+        </div>
+        <div v-else>
+        Now you don't
+        </div>
+        <!-- v-else-if -->
+        <div v-if="type === 'A'">
+        A
+        </div>
+        <div v-else-if="type === 'B'">
+        B
+        </div>
+        <div v-else-if="type === 'C'">
+        C
+        </div>
+        <div v-else>
+        Not A/B/C
+        </div>
+        <!-- v-show -->
+        <h1 v-show="ok">Hello!</h1>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                awesome: true,
+                type: 'C',
+                ok: false
+            }
+        })
+    </script>
+</body>
+</html>
