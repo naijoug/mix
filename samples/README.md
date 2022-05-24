@@ -2,8 +2,15 @@
 
 ## Swift
 
+- [Docs](https://www.swift.org/)
 
+## Python
+
+## HTML
+
+## JavaScript
 
 ## Vue
 
-- [Vue](https://cn.vuejs.org)
+- [Vue](https://vuejs.org/)
+- [Vue 中文](https://cn.vuejs.org)
