@@ -22,6 +22,7 @@
 | CORS  | Cross-Origin Resource Sharing     | 跨域资源共享
 | NIO   | NoneBlocking IO                   |
 | BIO   | Blocking IO                       |
+| VPC   | Virtual Private Cloud             | 
 
 ## SOA
 > 面向服务的一种软件架构设计，基于网络通用的通信语言的服务接口，让软件组件可重复利用。
@@ -61,11 +62,16 @@
 
 - [IaaS、PaaS、SaaS 的区别？](https://www.zhihu.com/question/21641778)
 
-| - | - | -
-| -- | -- | -- 
-| IaaS  | Infrastructure-as-a-Service   | 基础设置即服务
-| PaaS  | Platform-as-a-Service         | 平台即服务
-| SaaS  | Software-as-a-Service         | 软件即服务
+  | - | - | -
+  | -- | -- | -- 
+  | IaaS  | Infrastructure-as-a-Service   | 基础设置即服务
+  | PaaS  | Platform-as-a-Service         | 平台即服务
+  | SaaS  | Software-as-a-Service         | 软件即服务
+
+- `Image Hosting Service` : 图床服务
+    * [七牛](https://www.qiniu.com/)
+    * [imgur](https://imgur.com/)
+    * [sm.ms](https://sm.ms/)
 
 ## Virtual
 

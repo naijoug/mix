@@ -4,6 +4,7 @@
 
 - [Docker — 从入门到实践](https://github.com/yeasy/docker_practice)
 - [Docker Resources](https://github.com/hangyan/docker-resources)
+- [10分钟看懂 Docker 和 K8S](https://zhuanlan.zhihu.com/p/53260098)
 
 ## Concept
 

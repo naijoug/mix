@@ -11,7 +11,7 @@
 
 - Spring IoC/AOP -> Spring -> Spring Boot -> Spring Cloud 
 - IoC : Inversion of Control 控制反转
-- AOP : 
+- AOP : Aspect Oriented Programming 面向切面编程
 - DI : Dependency Injection 依赖注入
 
 ## Spring
