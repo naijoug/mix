@@ -2,25 +2,72 @@
 
 ## Reference
 
+- [Learn X in Y minutes](https://learnxinyminutes.com/)
+
 ## Concept
 
-- 进程 & 线程
-    > 进程 : 一个运行的程序，分配独立的内存空间
-    >
-    > 线程 : 共享进程中的内存空间
-    >
-    > 死锁 : 当多个线程完成功能需要同时获取多个共享资源的时候可能会导致死锁
+- [Paradigm](notes/Paradigm.md)
+- [Code Style](notes/CodeStyle.md)
+- [Multithread](notes/Multithread.md)
+- [Memory Management](notes/MemoryManagement.md)
+- [Regular Expression](notes/RegularExpression.md)
 
-    * 哲学家就餐问题
-    >
-    > 5个哲学家吃中餐，坐在圆卓子旁。每人有5根筷子（不是5双），每两个人中间放一根，哲学家时而思考，时而进餐。每个人都需要一双筷子才能吃到东西，吃完后将筷子放回原处继续思考，如果每个人都立刻抓住自己左边的筷子，然后等待右边的筷子空出来，同时又不放下已经拿到的筷子，这样每个人都无法得到1双筷子，无法吃饭都会饿死，这种情况就会产生死锁：每个人都拥有其他人需要的资源，同时又等待其他人拥有的资源，并且每个人在获得所有需要的资源之前都不会放弃已经拥有的资源。
+## Basic
 
-    * 线程的状态
+- `Type` (基本类型) & `Conversion` (类型转换)
+- `Identifier` (标识符) & `Keyword` (关键字) & `Comment` (注释)
+- `Variable` (变量) & `Constant` (常量) & `Scope` (作用域)
+- `Operator` (运算符)
+- `If-else` (条件语句) & `Loop` (循环)
+- `Array` (数组)
+- `String` (字符串)
+- `Function` (函数)
+- `Struct` (结构体) & `Enum` (枚举)
 
-    | 状态 | 说明
-    | -- | --
-    | 创建    | 新创建了一个线程对象。
-    | 可运行  | 线程对象创建后，其他线程调用了该对象的`start()`方法。该状态的线程位于可运行线程池中，变得可运行，等待获取`CPU`的执行权。
-    | 运行    | 就绪状态的线程获取了`CPU`执行权，执行程序代码。
-    | 阻塞    | 阻塞状态是线程因为某种原因放弃`CPU`使用权，暂时停止运行。直到线程进入就绪状态，才有机会转到运行状态。
-    | 死亡    | 线程执行完它的任务时。
+## Data Structure & Algorithm
+
+- `Linear List` (线性表) & `Linked List` (链表)
+- `Sort` (排序)
+- `Search` (查找)
+- `String` (字符串)
+
+## Object-Oriented
+
+- `Class` (类) & `Instance` (对象)
+- `Inherit` (继承) & `Polymorphic` (多态)
+- `Interface` (接口) & `Abstract` (抽象)
+- `Access Control` (访问控制)
+    
+## Library
+
+- `Collection` (集合)
+- `Generic` (泛型)    
+- `Math` (数学)
+- `Time` (时间) & `Date` (日期)
+    
+## Advance   
+
+- `Regular Expression` (正则表达式)
+- `IO` (输入输出)
+- `Exception` (错误异常处理)
+- `Memory` (内存管理)
+- `Multithreading` (多线程)
+- `Database` (数据库)
+
+## Network
+
+- `XML` & `JSON` & `Protobuf` & `Serialization` (序列化)
+- `HTTP` & `HTTPS` & `Socket` & `WebSocket` (网络处理)
+
+## Web
+
+- `REST` (Representational State Transfer)
+- `RPC` (Remote Procedure Call Protocol) 远程过程调用协议
+- 表单处理
+- 文件上传 & 下载
+- 页面重定向
+- `Session` & `Cookie`
+- 安全 & 加密
+- 邮件发送
+- 国际化 & 本地化
+- 部署 & 维护

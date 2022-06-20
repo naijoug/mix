@@ -1,12 +1,15 @@
-# Python
+# [Python](https://www.python.org/)
 > Python
 
 ## Reference
 
-- [Python](https://www.python.org/)
+- [Python Docs](https://docs.python.org/zh-cn/3/)
 - [Learn Python](https://github.com/xianhu/LearnPython)
 - [Python 100 Days](https://github.com/jackfrued/Python-100-Days)
 - [Python 教程](https://www.liaoxuefeng.com/wiki/1016959663602400)
+- [Python Cookbook](https://github.com/yidao620c/python3-cookbook)
+- [Python 最佳实践指南](https://github.com/Prodesire/Python-Guide-CN)
+- [Python 进阶](https://github.com/eastlakeside/interpy-zh)
 - [Python 中文学习大本营](http://www.pythondoc.com/)
 
 ## Python2 vs Python3
