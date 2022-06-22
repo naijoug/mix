@@ -4,6 +4,7 @@
 
 - [OpenJDK](https://github.com/openjdk)
 - [HOW2J](https://how2j.cn/)
+- [On Java 8](https://github.com/LingCoder/OnJava8)
 - [Thinking in Java (Java 编程思想)](https://github.com/quanke/think-in-java)
 - [Java 教程](https://www.liaoxuefeng.com/wiki/1252599548343744)
 - [Java Core Sprout](https://github.com/crossoverJie/JCSprout) : 处于萌芽阶段的 Java 核心知识库
