@@ -1,9 +1,9 @@
 # note
 
-## Reference
+## [Programmer](./Programmer/README.md)
 
-- [books-collection](https://github.com/waylau/books-collection) 
-    > 给程序员的开源、免费图书集合
+- [Git](./Programmer/notes/Git.md)
+- [Shell](./Programmer/notes/Shell.md)
 
 ## [Programming](./Programming/README.md)
 
