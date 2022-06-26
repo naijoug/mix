@@ -4,8 +4,20 @@
 
 - [即时通讯网](http://www.52im.net/)
 - [TCP/IP详解 卷1：协议](http://www.52im.net/topic-tcpipvol1.html)
+- [TxThinking Talks](https://talks.txthinking.com/)
 - [JSDelivr](https://www.jsdelivr.com) : A free CDN for Open Source
 - [OpenSSH](https://github.com/openssh/openssh-portable)
+
+## 内网穿透
+
+- [frp](https://github.com/fatedier/frp)
+  > A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+- [Holer](https://github.com/Wisdom-Projects/holer)
+  > Holer exposes local servers behind NATs and firewalls to the public internet over secure tunnels.
+- [localtunnel](https://github.com/localtunnel/localtunnel)
+  > expose yourself
+- [ngrok](https://github.com/inconshreveable/ngrok)
+  > Introspected tunnels to localhost
 
 ## notes
 
@@ -18,9 +30,42 @@
   | -- | --
   | `DNS`     | (Domain Name Server) 域名解析服务器
   | `IM`      | (Instant Messaging) 即时通讯
+  | `SSH`     | (Secure Shell) 安全(加密) Shell
   | `CDN`     | (Content Delivery Network) 内容分发网络
   | `VPN`     | (Virtual Private Network) 虚拟私人网络
-  | `SSH`     | (Secure Shell) 安全(加密) Shell
+  | `VPS`     |（Virtual Private Server）虚拟专用服务器技术，将一台服务器分割成多个虚拟专享服务器的优质服务。 实现VPS的技术分为容器技术，和虚拟化技术。 每个VPS主机都可分配独立公网IP地址、独立操作系统、独立超大空间、独立内存、独立CPU资源、独立执行程序和独立系统配置等.
+
+- TCP & UDP & HTTP
+
+  | 类型 | 特点 | 说明 | 应用
+  | --- | --- | --- | ---
+  | `TCP\IP`  | 传输速度慢，不容易丢包   | 传输协议，长连接          | 聊天
+  | `UDP`     | 传输速度快，容易丢包     | 传输协议，长连接          | 局域网游戏，网络游戏
+  | `HTTP`    | 传输速度慢，单次传输     | 超文本传输协议，短连接     | 网站
+
+- 网络请求状态码
+
+  | 状态码 | 说明
+  | --- | ---
+  | 1xx   | 代表临时响应，需要请求者继续执行操作的状态代码。
+  | 2xx   | 代表的多是操作成功。
+  | `200` | 请求成功
+  | 3xx   | 代表重定向，表示要完成请求，需要进一步操作
+  | 4xx   | 代表请求错误，表示请求可能出错，妨碍了服务器的处理。
+  | `404` | NotFound
+  | 5xx   | 代表服务器错误，表示服务器在尝试处理请求时发生内部错误。 这些错误可能是服务器本身的错误，而不是请求出错
+  | `500` | 服务器内部错误
+
+## OSI 模型 (Open Systems Interconnection Model)
+> 国际标准组织定义的开放式系统环境通信协议
+
+- 物理层 (Physical Layer)
+- 数据链路层 (Data Link Layer)
+- 网络层 (Network Layer)
+- 传输层 (Transport Layer)
+- 会话层 (Session Layer)
+- 表示层 (Presentation Layer)
+- 应用层 (Application Layer)
 
 ## `TCP/IP`
 
@@ -47,25 +92,6 @@
   | TXT 记录      | (Textfile)
   | TTL 值        | (Time-To-Live) 
   | PTR 值        | (Pointer)
-
-## `VPN`
-
-- [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)
-    > Manage and switch between multiple proxies quickly & easily.
-- [iGuge](https://microsoftedge.microsoft.com/addons/detail/iguge/mchibleoefileemjfghfejaggonplmmg)
-    > We offer accelerated access to Google scholar Search, Chrome Store etc products.
-
-  | `VPN` | 设备数量 | 免费流量/月 | 服务器地址 | 免费是否可用
-  | :-: | :-: | :-: | :-: | :-: 
-  | [Speedify](http://speedify.com/)                  | 5 | 1G    | N  | ✅ 
-  | [Hotspot Shield](https://www.hotspotshield.com/)  | 1 | INF   | N  | ✅ 
-  | [Windscribe](https://windscribe.com/)             | N | 10G   | 11 | ✅  
-  | [SurfEasy](https://www.surfeasy.com/)             | 5 | 1.3G  | N  | ✅ 
-  | [TunnelBear](https://www.tunnelbear.com/)         | N | 500M  | N  | ✅ 
-  | [Hide.me](https://hide.me)                        | 1 | 2G    | 5  | ❌
-  | [ProtonVPN](https://protonvpn.com)                | 1 | INF   | 3  | ❌  
-  | [ZoogVPN](https://zoogvpn.com/)                   | 1 | 10G   | 3  | ❌ 
-  | [ExpressVPN](https://www.expressvpn.com/)         | - | -     | -  | ❌
 
 ## `SSH`
 

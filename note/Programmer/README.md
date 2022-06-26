@@ -47,9 +47,14 @@
 - [反向面试](https://github.com/yifeikong/reverse-interview-zh)
 - [技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
 - [android-interview](https://github.com/guoxiaoxing/android-interview)
+- [IT 行业应试学知识库](https://github.com/apachecn/Interview)
 
 ## Tool
 
+- [TabNine](https://github.com/codota/TabNine)
+    > AI Code Completions
+- [Copilot](https://github.com/features/copilot)
+    > Your AI pair programmer
 - [Google Voice](https://github.com/ssnhd/googlevoice)
 
 ## Animation
@@ -63,3 +68,4 @@
     > 一款免费的浏览器扩展和最为流行的用户脚本管理器
 - [Greasy Fork](https://greasyfork.org/zh-CN)
 - [OpenUserJS](https://openuserjs.org/)
+- [Google Chinese ResultsBlocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist)

@@ -1,5 +1,10 @@
 # Android
 
+## Reference
+
+- [Kotlin](https://github.com/JetBrains/kotlin)
+- [Kotlin 语言中文站](https://github.com/hltj/kotlin-web-site-cn)
+
 ## Concept
 
 - Android 系统体系结构

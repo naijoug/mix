@@ -4,7 +4,7 @@
 
 - [Learn X in Y minutes](https://learnxinyminutes.com/)
 
-## Concept
+## notes
 
 - [Paradigm](notes/Paradigm.md)
 - [Code Style](notes/CodeStyle.md)
