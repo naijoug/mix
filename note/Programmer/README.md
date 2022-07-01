@@ -51,11 +51,12 @@
 
 ## Tool
 
+- [NeoVim](https://github.com/neovim/neovim)
+    > Vim-fork focused on extensibility and usability
 - [TabNine](https://github.com/codota/TabNine)
     > AI Code Completions
 - [Copilot](https://github.com/features/copilot)
     > Your AI pair programmer
-- [Google Voice](https://github.com/ssnhd/googlevoice)
 
 ## Animation
 

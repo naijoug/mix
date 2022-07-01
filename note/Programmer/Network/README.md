@@ -7,6 +7,8 @@
 - [TxThinking Talks](https://talks.txthinking.com/)
 - [JSDelivr](https://www.jsdelivr.com) : A free CDN for Open Source
 - [OpenSSH](https://github.com/openssh/openssh-portable)
+- [SwitchHosts](https://github.com/oldj/SwitchHosts)
+  > 
 
 ## 内网穿透
 

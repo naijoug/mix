@@ -6,6 +6,7 @@
 - [阮一峰](http://www.ruanyifeng.com/)
 - [廖雪峰](https://www.liaoxuefeng.com/)
 - [刘欣 (码农翻身)](https://shrtm.nu/fyRs)
+- [王兴彬 (棒棒彬) - 字节跳动](https://github.com/Binlogo/Knowledge-Track)
 - [郭曜源 (ibireme) - 优酷](http://blog.ibireme.com) : `YYKit` 作者、iOS RunLoop
 - [孙源 (sunnyxx) - 滴滴](http://blog.sunnyxx.com) : Objective-C 深入研究
 - [李忠 (limboy) - 蘑菇街](http://limboy.me) : RAC
