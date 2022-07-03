@@ -6,11 +6,13 @@
 
 ## notes
 
-- [Paradigm](notes/Paradigm.md)
 - [Code Style](notes/CodeStyle.md)
 - [Multithread](notes/Multithread.md)
 - [Memory Management](notes/MemoryManagement.md)
 - [Regular Expression](notes/RegularExpression.md)
+
+## [Paradigm](Paradigm/README.md)
+
 
 ## Basic
 

@@ -32,6 +32,7 @@
 - [RoadMap](https://github.com/xx-zh/xx-zh-roadmap)
 - [给程序员的开源、免费图书集合](https://github.com/waylau/books-collection)
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
+- [Be a professional programmer](https://github.com/stanzhai/be-a-professional-programmer)
 
 ## Tutorials
 
@@ -70,3 +71,8 @@
 - [Greasy Fork](https://greasyfork.org/zh-CN)
 - [OpenUserJS](https://openuserjs.org/)
 - [Google Chinese ResultsBlocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist)
+
+## Money
+
+- [How to make more money](https://github.com/easychen/howto-make-more-money)
+    > 程序员如何优雅的挣零花钱？

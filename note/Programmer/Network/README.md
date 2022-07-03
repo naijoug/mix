@@ -7,8 +7,9 @@
 - [TxThinking Talks](https://talks.txthinking.com/)
 - [JSDelivr](https://www.jsdelivr.com) : A free CDN for Open Source
 - [OpenSSH](https://github.com/openssh/openssh-portable)
+- [curl](https://github.com/curl/curl)
+  > A command line tool and library for transferring data with URL syntax
 - [SwitchHosts](https://github.com/oldj/SwitchHosts)
-  > 
 
 ## 内网穿透
 
@@ -23,8 +24,8 @@
 
 ## notes
 
-- [HTTP](HTTP.md)
-- [HTTPS](HTTPS.md)
+- [HTTP](notes/HTTP.md)
+- [HTTPS](notes/HTTPS.md)
 
 ## Concept
 
