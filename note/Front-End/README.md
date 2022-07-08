@@ -7,3 +7,8 @@
 - [Front End Handbook](https://github.com/dwqs/front-end-handbook)
 - [FE learning](https://github.com/qiu-deqing/FE-learning)
 - [Microsoft Visual Studio Code 中文手册](https://github.com/jeasonstudio/CN-VScode-Docs)
+
+## Tool
+
+- [Seeing-Theory](https://github.com/seeingtheory/Seeing-Theory)
+    > A visual introduction to probability and statistics.
