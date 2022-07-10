@@ -92,3 +92,13 @@
   $ find . -name \*.m | xargs genstrings -o en.lproj
   $ find ./ -name "*.m" -print0 | xargs -0 genstrings -o en.lproj # 与上面等价
   ```
+    
+## Tool
+
+- [XcodesApp](https://github.com/RobotsAndPencils/XcodesApp) : 切换不同的 Xcode 版本
+    > https://github.com/RobotsAndPencils/XcodesApp
+- [XcodeProjects](https://github.com/DKalachniuk/XcodeProjects)
+    > Switch between projects faster. Don't write "pod install", "pod update" and "cd <your project>" anymore. Just click couple of buttons
+- [Apple Party](https://github.com/37iOS/AppleParty)
+- [ProfilesManager](https://github.com/shaojiankui/ProfilesManager)
+    > Apple iOS/macOS Provisioning Profiles management,.provisionprofile, .mobileprovision files manager tool for mac

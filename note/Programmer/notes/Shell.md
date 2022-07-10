@@ -7,6 +7,8 @@
 
 - [Shell 教程](https://www.runoob.com/linux/linux-shell.html)
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [explainshell](https://github.com/idank/explainshell)
+    > match command-line arguments to their help text
 
 ## Concept
 

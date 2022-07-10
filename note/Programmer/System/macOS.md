@@ -9,9 +9,11 @@
 
 ## [Homebrew]
 > macOS 缺失的软件包的管理器
->
-> * [Homebrew](https://github.com/Homebrew/brew) : 用于安装缺少的命令行工具等
-> * [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) : brew 的扩展，用于命令行安装 macOS 应用 (GUI程序)
+
+- [Homebrew](https://github.com/Homebrew/brew) : 用于安装缺少的命令行工具等
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) : brew 的扩展，用于命令行安装 macOS 应用 (GUI程序)
+- [Cakebrew](https://github.com/brunophilipe/Cakebrew) : Homebrew 图形化 macOS App
+    > Manage your Homebrew formulas with style using Cakebrew.
 
 ```sh
 # 安装 brew
@@ -70,6 +72,15 @@ $ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk3 /opt/ntfs
     > MITM : Man in the middle attack (中间人攻击)
 - [Charles(青花瓷)](http://www.charlesproxy.com/) : 网络代理调试工具
     > Web debugging proxy application. 
+- [Kap](https://github.com/wulkano/Kap) : 录屏软件
+    > An open-source screen recorder built with web technology
+- [Drawio](https://github.com/jgraph/drawio-desktop) : 开源绘图软件
+- [keeweb](https://github.com/keeweb/keeweb) : 开源的跨平台密码管理工具
+    > Free cross-platform password manager compatible with KeePass
+- [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal)
+    > ✨ Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
+- [Dozer](https://github.com/Mortennn/Dozer)
+    > Hide menu bar icons on macOS
 - [xScope](https://xscopeapp.com/) : 屏幕测量工具 
     > A powerful set of tools that are ideal for measuring, inspecting & testing on-screen graphics and layouts.
 - [spectacle](https://github.com/eczarny/spectacle) : 屏幕分屏
