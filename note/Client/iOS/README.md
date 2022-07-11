@@ -10,6 +10,7 @@
 - [NSHipster 中文](https://nshipster.cn/)
 - [tips](https://github.com/pro648/tips)
 - [iOS 知识小集](https://github.com/awesome-tips/iOS-Tips)
+- [KKBOX iOS/Mac OS X 基礎開發教材](https://github.com/KKBOX/kkbox-ios-dev)
 
 ## notes
 

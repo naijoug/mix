@@ -10,6 +10,7 @@
 - [curl](https://github.com/curl/curl)
   > A command line tool and library for transferring data with URL syntax
 - [SwitchHosts](https://github.com/oldj/SwitchHosts)
+- [ping test](https://ping.chinaz.com/)
 
 ## 内网穿透
 

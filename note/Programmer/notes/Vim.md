@@ -8,6 +8,7 @@
 
 - [Vim Cheat Sheet](https://github.com/rtorr/vim-cheat-sheet)
 - [简明 Vim 练级攻略](http://coolshell.cn/articles/5426.html)
+- [Vim 从入门到精通](https://github.com/wsdjeg/vim-galore-zh_cn)
 - [史上最全Vim快捷键键位图 -- 入门到进阶](http://cenalulu.github.io/linux/all-vim-cheatsheat/) 
 - [Vimium](https://github.com/philc/vimium) : The Hacker's Browser
 

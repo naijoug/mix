@@ -24,6 +24,11 @@
 - [Multipass](https://github.com/canonical/multipass)
     > Multipass orchestrates virtual Ubuntu instances
 
+## Computer
+
+- [µGo语言实现——从头开发一个迷你Go语言编译器](https://github.com/wa-lang/ugo-compiler-book)
+    > 📚 µGo语言实现(从头开发一个迷你Go语言编译器)[Go版本+Rust版本]
+
 ## PATH
 
 ```sh

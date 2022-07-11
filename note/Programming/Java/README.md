@@ -3,6 +3,7 @@
 ## Reference
 
 - [OpenJDK](https://github.com/openjdk)
+- [Java 全栈知识体系](https://pdai.tech)
 - [HOW2J](https://how2j.cn/)
 - [On Java 8](https://github.com/LingCoder/OnJava8)
 - [Thinking in Java (Java 编程思想)](https://github.com/quanke/think-in-java)

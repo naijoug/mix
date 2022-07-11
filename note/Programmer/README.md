@@ -5,6 +5,7 @@
 
 - [OKR](https://www.okr.com/)
     > OKR（Objectives & Key Results），中文名称是“目标与关键结果”
+- [程序员考公指南](https://github.com/coder2gwy/coder2gwy)
 
 ## notes
 
