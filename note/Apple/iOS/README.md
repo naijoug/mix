@@ -2,15 +2,15 @@
 
 ## Reference
 
+- [Awesome iOS](https://ios.libhunt.com/)
+    > A curated list of awesome iOS libraries, including Objective-C and Swift Projects
 - [Awesome Swift](https://github.com/matteocrippa/awesome-swift)
     > A collaborative list of awesome Swift libraries and resources. Feel free to contribute!
 - [TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)
     > iOS开发常用三方库、插件、知名博客等等
 - [ObjC 中国](https://objccn.io/)
 - [NSHipster 中文](https://nshipster.cn/)
-- [tips](https://github.com/pro648/tips)
-- [iOS 知识小集](https://github.com/awesome-tips/iOS-Tips)
-- [KKBOX iOS/Mac OS X 基礎開發教材](https://github.com/KKBOX/kkbox-ios-dev)
+- [iOS Core Animation: Advanced Techniques中文译本](https://github.com/ZsIsMe/ios_core_animation_advanced_techniques)
 
 ## notes
 
@@ -18,7 +18,7 @@
 - [UIKit](notes/UIKit.md)
 - [SwiftUI](notes/SwiftUI.md)
 - [Solutions](notes/Solutions.md)
-- [Totorials](notes/Tutorials.md)
+- [Tutorials](notes/Tutorials.md)
 - [Objective-C](notes/Objective-C.md)
 
 ## Concept
@@ -57,6 +57,8 @@
 
 - [FLEX](https://github.com/FLEXTool/FLEX)
     > An in-app debugging and exploration tool for iOS
+- [DoKit](https://github.com/didi/DoKit)
+    > 一款面向泛前端产品研发全生命周期的效率平台。
 
 ## Localized
 
@@ -103,3 +105,7 @@
 - [Apple Party](https://github.com/37iOS/AppleParty)
 - [ProfilesManager](https://github.com/shaojiankui/ProfilesManager)
     > Apple iOS/macOS Provisioning Profiles management,.provisionprofile, .mobileprovision files manager tool for mac
+- [tuist](https://github.com/tuist/tuist)
+    > 🚀 Create, maintain, and interact with Xcode projects at scale
+- [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
+    > Meta-programming for Swift, stop writing boilerplate code.

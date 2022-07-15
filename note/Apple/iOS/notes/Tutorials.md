@@ -3,6 +3,12 @@
 ## Apple
 
 - [Documentation Archive](https://developer.apple.com/library/archive/navigation/)
+- [iOS App Dev Tutorials](https://developer.apple.com/tutorials/app-dev-training)
+- [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui)
+
+## OpenSource
+
+- [Developing iOS 8 Apps with Swift](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
 
 ## [Raywenderlich](https://raywenderlich.com) 
 
@@ -22,6 +28,10 @@
     * [How to Create a Framework for iOS](https://www.raywenderlich.com/65964/create-a-framework-for-ios)
     * [iOS开发——创建你自己的Framework](http://www.cocoachina.com/ios/20150127/11022.html)
 
+- UIVisualEffectView 教程
+    * [UIVisualEffectView Tutorial: Getting Started](https://www.raywenderlich.com/16125723-uivisualeffectview-tutorial-getting-started)
+    * [UIVisualEffectView 教程](https://juejin.cn/post/6844903568667836423)
+
 - RxSwift & RxCocoa 入门教程 
     * [Getting Started With RxSwift and RxCocoa](https://www.raywenderlich.com/900-getting-started-with-rxswift-and-rxcocoa)
     * [RxSwift & RxCocoa 入门教程](http://southpeak.github.io/2017/01/16/Getting-Started-With-RxSwift-and-RxCocoa/)
@@ -37,3 +47,6 @@
 - IGListKit
     * [IGListKit Tutorial: Better UICollectionViews](https://www.raywenderlich.com/9106-iglistkit-tutorial-better-uicollectionviews)
     * [比 UICollectionView更好用的IGListKit教程](https://blog.csdn.net/kmyhy/article/details/54846390)
+
+- Speech
+    - [Speech Recognition Tutorial for iOS](https://www.raywenderlich.com/573-speech-recognition-tutorial-for-ios)

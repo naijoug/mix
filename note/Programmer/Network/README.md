@@ -5,7 +5,12 @@
 - [即时通讯网](http://www.52im.net/)
 - [TCP/IP详解 卷1：协议](http://www.52im.net/topic-tcpipvol1.html)
 - [TxThinking Talks](https://talks.txthinking.com/)
-- [JSDelivr](https://www.jsdelivr.com) : A free CDN for Open Source
+- [网络安全学习资料](https://github.com/findneo/Newbie-Security-List)
+
+## Tool
+
+- [JSDelivr](https://www.jsdelivr.com) 
+    > A free CDN for Open Source
 - [OpenSSH](https://github.com/openssh/openssh-portable)
 - [curl](https://github.com/curl/curl)
   > A command line tool and library for transferring data with URL syntax

@@ -8,6 +8,8 @@
 - [Apple silicon Apps](https://isapplesiliconready.com)
 
 ## [Homebrew]
+> 🍺 The missing package manager for macOS (or Linux)
+> 
 > macOS 缺失的软件包的管理器
 
 - [Homebrew](https://github.com/Homebrew/brew) : 用于安装缺少的命令行工具等
@@ -18,7 +20,7 @@
 ```sh
 # 安装 brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+    
 # 安装
 $ brew tap caskroom/cask
 # 使用
@@ -63,7 +65,16 @@ $ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk3 /opt/ntfs
 
 ## Software
 
+- [mint](https://github.com/yonaskolb/Mint) : swift 软件包管理
+    > A package manager that installs and runs executable Swift packages
+    >
+    > Swift Package Manager Tools -> SPMT -> Spearmint -> Mint! 🌱😄
 - [MWeb](http://zh.mweb.im) : Markdown 编辑器
+    > Markdown writing, note taking and static blog generator App
+- [VLC](https://github.com/videolan/vlc) : 视频播放器
+    > VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
+- [ipatool](https://github.com/majd/ipatool) : 命令行搜索和下载 `AppStore` 中的 iOS 软件包 `ipa` 
+    > Command-line tool that allows searching and downloading app packages (known as ipa files) from the iOS App Store
 - [SiteSucker](https://ricks-apps.com/) : 扒网站
     > Download websites to your computer.
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy) : 抓包神器
@@ -74,12 +85,14 @@ $ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk3 /opt/ntfs
     > Web debugging proxy application. 
 - [Kap](https://github.com/wulkano/Kap) : 录屏软件
     > An open-source screen recorder built with web technology
+- [Vimac](https://github.com/dexterleng/vimac) : 键盘控制 macOS
+    > Productive macOS keyboard-driven navigation
 - [Drawio](https://github.com/jgraph/drawio-desktop) : 开源绘图软件
 - [keeweb](https://github.com/keeweb/keeweb) : 开源的跨平台密码管理工具
     > Free cross-platform password manager compatible with KeePass
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal)
     > ✨ Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
-- [Dozer](https://github.com/Mortennn/Dozer)
+- [Dozer](https://github.com/Mortennn/Dozer) : 菜单栏 icon 管理
     > Hide menu bar icons on macOS
 - [xScope](https://xscopeapp.com/) : 屏幕测量工具 
     > A powerful set of tools that are ideal for measuring, inspecting & testing on-screen graphics and layouts.

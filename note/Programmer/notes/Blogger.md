@@ -17,8 +17,9 @@
 - [于德志 (halfrost) - 饿了么](https://halfrost.com/) : iOS 、FE、Go、机器学习
 - [崔江涛 (kenshincui)](http://www.cnblogs.com/kenshincui/) :
 - [钟颖 (Cyan) - 微软](https://www.zhihu.com/people/ios_dev/posts) : `Pin` 作者
-- [戴铭 (ming1016)](https://github.com/ming1016/study) : [](滴滴 -> 快手)
+- [戴铭 (ming1016) - 快手](https://github.com/ming1016/study)
 - [翁培钧 - 滴滴](https://github.com/windstormeye/iOS-Course)
+- [图拉鼎](https://imtx.me)
 - [zhihaozhang](https://zhihaozhang.github.io/)
 - [OldBirds](https://oldbird.run/) : SwiftUI、Flutter、Vapor
 

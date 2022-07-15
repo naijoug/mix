@@ -4,29 +4,17 @@
 ## Reference
 
 - [CocoaPods](https://github.com/CocoaPods/CocoaPods)
+- [CocoaPods doc](https://rubydoc.info/gems/cocoapods)
+- [2020-09-16 Podfile 的解析逻辑](https://www.desgard.com/2020/09/16/cocoapods-story-4.html)
+- [2020-10-12 Podspec 文件分析](https://www.desgard.com/2020/10/12/cocoapods-story-5.html)
 
 ## Concept
-
-
-
-##  `resources` vs `resource_bundles`
-
-- [Cocoapods Resources Management?](https://yoxisem544.github.io/cocoapods-resources/)
-
-```ruby
-spec.resources = ['Images/*.png', 'Sounds/*']
-```
-
-```ruby
-spec.resource_bundles = {
-    'MapBox' => ['MapView/Map/Resources/*.png'],
-    'MapBoxOtherResources' => ['MapView/Map/OtherResources/*.png']
-}
-```
 
 ## Commands
 
 ```bash
+$ brew install cocoapods        # brew 安装 cocoapods
+
 # 参数说明:
 #   --no-repo-update : `pod install` & `pod update` 会默认执行`pod repo update`会更新本地pod索引,加上这个参数就仅跟新当前项目需要的框架。
 #   --verbose :         显示具体的输出信息
@@ -81,4 +69,59 @@ $ pod repo push XXSpecs XXKit.podspec           # 添加specs文件到指定的�
 
 ## Podfile
 
-## 
+``` bash Podfile 
+source 'https://github.com/CocoaPods/Sepcs.git' # 指定获得框架的源代码的仓库
+source 'https://xxx.gitt.com/xxx/XXSpecs.git'   # 指定私有仓库
+
+use_frameworks! # 编译成动态库(.framework)[Swift库必须写],不写编译成静态库(.a)
+platform: ios, '11.0' # 指定在哪个版本编译
+
+def debug_pods
+    pod 'SwiftLint', :configurations => ['Debug']
+end
+def app_pods
+    pod 'Test', :git => "https://github.com/xxx/Test.git" # 获取指定 url 版本库
+    pod 'XXKit', :path => 'LocalPods/Modules/XXKit' # 开发模式, 引用本地开发库
+end
+```
+
+## Podsepc
+
+- `resources` vs `resource_bundles`
+    * [Cocoapods Resources Management?](https://yoxisem544.github.io/cocoapods-resources/)
+
+```ruby
+# 不推荐: 直接将资源拷贝到主工程(容易造成资源重名冲突)
+spec.resources = ['Sources/Resource/*.png']
+# 推荐: bundle 引入模式
+#   动态库: 在所在 framework 下生成资源 bundle
+#   静态库: 在主工程下生成资源 bundle
+spec.resource_bundles = {
+    'XXKit' => ['Sources/Resource/*']
+}
+```
+
+```ruby XXKit.podsepc
+Pod::Spec.new do |s|
+  s.name                  = 'XX Kit'
+  s.version               = '0.0.1'
+  s.summary               = 'XX Kit.'        
+  s.description = <<-DESC
+                    This is XXKit.
+                  DESC               
+  s.homepage              = 'https://github.com/xxx/XXKit'
+  s.license               = { :type => 'MIT', :file => 'LICENSE' }
+  s.author                = { 'xxx' => 'xxx@mail.com' }
+  s.source                = { :git => 'https://github.com/xxx/XXKit.git', :tag => s.version.to_s }
+  s.swift_version         = '5.0'
+  s.ios.deployment_target = '11.0'
+
+  s.frameworks            = 'UIKit'
+  s.source_files          = ["Sources/*.swift", "Sources/Module/**/*"]
+  s.resource_bundles      = {
+    'XXKit' => ['Sources/Resource/*']
+  }
+  
+  s.dependency 'Ext'
+end
+```

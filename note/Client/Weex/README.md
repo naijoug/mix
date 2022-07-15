@@ -1,4 +1,5 @@
 # Weex
+> A framework for building Mobile cross-platform UI
 
 ## Reference
 
