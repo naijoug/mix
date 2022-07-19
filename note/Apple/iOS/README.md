@@ -55,10 +55,22 @@
 
 ## Debug Tools
 
+- [flipper](https://github.com/facebook/flipper)
+    > A desktop debugging platform for mobile developers.
 - [FLEX](https://github.com/FLEXTool/FLEX)
     > An in-app debugging and exploration tool for iOS
 - [DoKit](https://github.com/didi/DoKit)
     > 一款面向泛前端产品研发全生命周期的效率平台。
+- [Knuff](https://github.com/KnuffApp/Knuff)
+    > The debug application for Apple Push Notification Service (APNs).
+
+## Animation
+
+- [awesome iOS animation](https://github.com/onmyway133/awesome-ios-animation)
+- [Animatable Properties](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreAnimation_guide/AnimatableProperties/AnimatableProperties.html)
+- [CAMediaTimingFunction playground](http://netcetera.org/camtf-playground.html)
+- [tween-o-matic](https://github.com/simonwhitaker/tween-o-matic)
+    > A Mac OS X app to help you design CAMediaTimingFunction curves
 
 ## Localized
 

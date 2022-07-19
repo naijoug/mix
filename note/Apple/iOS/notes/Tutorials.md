@@ -10,6 +10,10 @@
 
 - [Developing iOS 8 Apps with Swift](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
 
+## Apple Samples
+
+- [Asynchronously Loading Images into Table and Collection Views](https://developer.apple.com/library/archive/samplecode/LazyTableImages) 
+
 ## [Raywenderlich](https://raywenderlich.com) 
 
 - macOS 开发教程
