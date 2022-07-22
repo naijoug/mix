@@ -43,7 +43,6 @@
     > Create text layouts, optimize font handling, and access font metrics and glyph data.
 - `Core Data` : 数据存储框架
     > Persist or cache data on a single device, or sync data to multiple devices with CloudKit.
-    * `ORM` : (Object Relational Mapping) 对象关系映射
 - `MapKit` : 地图框架
     > Display map or satellite imagery within your app, call out points of interest, and determine placemark information for map coordinates.
 - `StoreKit` : 应用内购买

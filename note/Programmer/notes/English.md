@@ -7,3 +7,5 @@
 - [A programmer guide to English](https://github.com/yujiangshui/A-Programmers-Guide-to-English)
 - [Chinese programmer wrong pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
     > 中国程序员容易发音错误的单词
+- [Qwerty Learner](https://github.com/Kaiyiwing/qwerty-learner)
+    > 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件

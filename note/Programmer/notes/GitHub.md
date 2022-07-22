@@ -14,6 +14,7 @@
 - [书栈网](https://www.bookstack.cn/)
 - [RoadMap](https://github.com/xx-zh/xx-zh-roadmap)
 - [给程序员的开源、免费图书集合](https://github.com/waylau/books-collection)
+- [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
 - [Be a professional programmer](https://github.com/stanzhai/be-a-professional-programmer)
 
@@ -77,3 +78,10 @@
     > 程序员如何优雅的挣零花钱？
 - [DevMoneySharing](https://github.com/loonggg/DevMoneySharing)
     > 独立开发者赚钱经验分享
+    
+## Funny
+
+- [State-of-the-Art Shitcode Principles](https://github.com/trekhleb/state-of-the-art-shitcode)
+    > 💩State-of-the-art shitcode principles your project should follow to call it a proper shitcode
+- [This-repo-has-N-stars](https://github.com/fslongjin/This-repo-has-916-stars)
+    > 当star的数量发生改变时，项目名称会被动态地更新。

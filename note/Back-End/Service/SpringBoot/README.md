@@ -6,6 +6,7 @@
 - [Awesome Spring Boot](https://github.com/ityouknow/awesome-spring-boot)
 - [Spring Boot Tutorial](https://github.com/waylau/spring-boot-tutorial)
 - [Spring Boot Learning](https://github.com/dyc87112/SpringBoot-Learning)
+- [Spring Boot 参考指南](https://github.com/qibaoguang/Spring-Boot-Reference-Guide)
 
 ## Concept
 

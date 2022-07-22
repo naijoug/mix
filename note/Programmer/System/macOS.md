@@ -105,21 +105,44 @@ $ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk3 /opt/ntfs
 
 ## Tips
 
-- macOS 壁纸路径 : `/Library/Desktop Pictures/`
+- macOS 壁纸路径 
+    > `/Library/Desktop Pictures/`
+
 - 截图快捷键: `Command + Shift + 4`
-    * 用法 : 系统自带的快捷键截图，通过`空格键`可以进行`窗口模式`和`自定义区域模式`切换，截图完成之后自动保存在桌面。(快捷键`Command + Shift + Control + 4`将自动保存在剪切板。)
-    * 缺点 : 没有取消功能，截图完成之后就直接保存到桌面或剪切板。
+    > * 用法 : 系统自带的快捷键截图，通过`空格键`可以进行`窗口模式`和`自定义区域模式`切换，截图完成之后自动保存在桌面。(快捷键`Command + Shift + Control + 4`将自动保存在剪切板。)
+    >
+    > * 缺点 : 没有取消功能，截图完成之后就直接保存到桌面或剪切板。
 - 录屏快捷键: `Command + Shift + 5`
-- 修改默认打开程序 : `选中要打开文件 -> 右键 -> 显示简介 -> 打开方式`
+
+- 修改默认打开程序
+    > `选中要打开文件 -> 右键 -> 显示简介 -> 打开方式`
+
 - 进入隐藏目录
-    * `Finder` : 前往 -> 前往文件夹，输入 `/path`
-    * `Terminal` : `$ open /path`
+    > * `Finder` : 前往 -> 前往文件夹，输入 `/path`
+    > * `Terminal` : `$ open /path`
+
 - macOS 文本编辑器`"直引号"`会变`“弯引号”`的问题
     > `Word`、`Pages`、`备忘录`，使用英文引号`""`(直引号)，可是打出却变为了`“”`(弯引号)。这几个文本编辑软件都默认打开智能替换的功能，手动进行关闭就行了。
-    * Word : `偏好设置 -> 自动更正 -> 键入时自动套用格式 -> "直引号"替换为“弯引号”`(去掉选择对号)
-    * Pages、备忘录 : `编辑 -> 替换 -> 智能引号`(去掉选择对号)
+    > * Word : `偏好设置 -> 自动更正 -> 键入时自动套用格式 -> "直引号"替换为“弯引号”`(去掉选择对号)
+    > * Pages、备忘录 : `编辑 -> 替换 -> 智能引号`(去掉选择对号)
     
 - Apple 提供的编辑软件 `Pages` 和 `备忘录`，都是默认开启了智能替换功能，包括：`智能引号`、`智能破折号`、`智能链接`...
-    * 智能引号 : 就是将`""`(直引号)转化为`“”`(弯引号)
-    * 智能破折号 : 当输入多个破折号`-`时，会将多个破折号连成一条长破折号
-    * 智能链接 : 把网址复制到文本中时，会自动转化为超链接
+    > * 智能引号 : 就是将`""`(直引号)转化为`“”`(弯引号)
+    > * 智能破折号 : 当输入多个破折号`-`时，会将多个破折号连成一条长破折号
+    > * 智能链接 : 把网址复制到文本中时，会自动转化为超链接
+
+- Get iPhone UDID
+    > * Finder
+        1. Finder
+        2. In the sidebar, select the iPhone
+        3. Click the subtitle
+        4. UDID
+    > * Xcode
+        1. Xcode -> Window
+        2. Devices & Simulators -> iPhone
+        3. Identifier
+    > * System Report
+        1. macOS  -> About This Mac
+        2. Overview -> System Report
+        3. Sidebar Hardware -> USB
+        4. Serial Number
