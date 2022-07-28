@@ -8,6 +8,7 @@
     > a Chinese ebook on how to build a good project on Github. Explore the users' behavior. Find some thing interest.
 - [Hacker Laws](https://github.com/dwmkerr/hacker-laws)
     > Laws, Theories, Principles and Patterns that developers will find useful.
+- [awesome list chinese](https://github.com/icopy-site/awesome-cn)
 
 ## 📚
 
@@ -81,7 +82,15 @@
     
 ## Funny
 
+- [文言 wenyan-lang](https://github.com/wenyan-lang/wenyan)
+    > 文言文編程語言 A programming language for the ancient Chinese.
+- [Seeing Theory](https://github.com/seeingtheory/Seeing-Theory)
+    > A visual introduction to probability and statistics.
 - [State-of-the-Art Shitcode Principles](https://github.com/trekhleb/state-of-the-art-shitcode)
     > 💩State-of-the-art shitcode principles your project should follow to call it a proper shitcode
 - [This-repo-has-N-stars](https://github.com/fslongjin/This-repo-has-916-stars)
     > 当star的数量发生改变时，项目名称会被动态地更新。
+- [sao-gen-gen](https://github.com/disksing/sao-gen-gen)
+    > 骚话生成器生成器
+- [Thief](https://github.com/cteamx/Thief)
+    > 一款基于 `Electron` 开发的创新跨平台摸鱼神器

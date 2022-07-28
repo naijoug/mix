@@ -2,6 +2,8 @@
 
 ## Reference
 
+- [AltSwiftUI](https://github.com/rakutentech/AltSwiftUI) : 支持 `iOS 11.0` 的 `SwiftUI`
+    > Open Source UI framework based on SwiftUI syntax and features, adding backwards 
 - [Awesome SwiftUI](https://github.com/onmyway133/awesome-swiftui)
     > 🌮 Awesome resources, articles, libraries about SwiftUI
 - [Fucking SwiftUI](https://fuckingswiftui.com/)
@@ -16,9 +18,8 @@
 - [RxSwift to Combine Cheatsheet](https://github.com/CombineCommunity/rxswift-to-combine-cheatsheet)
 - [OpenCombine](https://github.com/OpenCombine/OpenCombine) : 支持 `iOS 8.0` 的 `Combine`
     > Open source implementation of Apple's Combine framework for processing values over time.
-- [AltSwiftUI](https://github.com/rakutentech/AltSwiftUI) : 支持 `iOS 11.0` 的 `SwiftUI`
-    > Open Source UI framework based on SwiftUI syntax and features, adding backwards compatibility.
-- [Using Combine](https://github.com/heckj/swiftui-notes)
+compatibility.
+- [Using Combine](https://heckj.github.io/swiftui-notes/)
     > content for Using Combine - notes on learning Combine with UIKit and SwiftUI
 
 ## OpenSource Apps

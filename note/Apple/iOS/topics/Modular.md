@@ -31,3 +31,8 @@
 
 - [2019-10-22  CocoaPods的资源管理和Asset Catalog优化](https://dreampiggy.com/2018/11/26/CocoaPods%E7%9A%84%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%92%8CAsset%20Catalog%E4%BC%98%E5%8C%96/)
 - [2020-05-14 组件化资源文件管理方案](http://gonghonglou.com/2020/05/14/pod-resource/)
+
+## coordinator pattern
+
+- [How to use the coordinator pattern in iOS apps](https://www.hackingwithswift.com/articles/71/how-to-use-the-coordinator-pattern-in-ios-apps)
+- [Advanced coordinators in iOS](https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios)

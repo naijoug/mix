@@ -91,9 +91,14 @@
 
 ## GitHub
 
+- [freshOS](https://github.com/freshOS)
+    > Simple iOS tools to solve problems 99% of us have.
 - [Yalantis](https://github.com/Yalantis)
+    > Knowledge is power and the way to get power is by sharing knowledge. We are open source because this is a smart way to live, work and play.
 - [Ramotion](https://github.com/Ramotion)
+    > UI Engineering, UI/UX Design and Front-End Development Agency
 - [NextLevel](https://github.com/NextLevel)
+    > Camera Platform in Swift
 
   | Official Apps | Language 
   | --- | --- 

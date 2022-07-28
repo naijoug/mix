@@ -6,6 +6,7 @@
 - [强迫症的 Mac 设置指南](https://github.com/macdao/ocds-guide-to-setting-up-mac)
 - [Apps that are reported to support Apple Silicon](https://doesitarm.com/)
 - [Apple silicon Apps](https://isapplesiliconready.com)
+- [Objective-See's Tools](https://github.com/objective-see)
 
 ## [Homebrew]
 > 🍺 The missing package manager for macOS (or Linux)
