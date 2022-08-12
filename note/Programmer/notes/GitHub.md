@@ -94,3 +94,4 @@
     > 骚话生成器生成器
 - [Thief](https://github.com/cteamx/Thief)
     > 一款基于 `Electron` 开发的创新跨平台摸鱼神器
+- [程序员考公指南](https://github.com/coder2gwy/coder2gwy)

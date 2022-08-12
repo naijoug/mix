@@ -4,9 +4,11 @@
 
 - [Open Source macOS Apps](https://github.com/serhii-londar/open-source-mac-os-apps)
 - [强迫症的 Mac 设置指南](https://github.com/macdao/ocds-guide-to-setting-up-mac)
-- [Apps that are reported to support Apple Silicon](https://doesitarm.com/)
-- [Apple silicon Apps](https://isapplesiliconready.com)
 - [Objective-See's Tools](https://github.com/objective-see)
+- [Does It ARM?](https://doesitarm.com/)
+    > Apps that are reported to support Apple Silicon
+- [Is Apple Silicon ready?](https://isapplesiliconready.com/)
+    > The complete guide for MacOS Apps Optimized for Apple Silicon Macs and the M1 Processor
 
 ## [Homebrew]
 > 🍺 The missing package manager for macOS (or Linux)

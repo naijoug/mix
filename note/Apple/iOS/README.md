@@ -2,6 +2,10 @@
 
 ## Reference
 
+- [Awesome iOS](https://github.com/kechengsou/awesome-ios)
+    > iOS 开发者资源大全
+- [Open-Source iOS Apps](https://github.com/dkhamsing/open-source-ios-apps)
+    > 📱 Collaborative List of Open-Source iOS Apps
 - [Awesome iOS](https://ios.libhunt.com/)
     > A curated list of awesome iOS libraries, including Objective-C and Swift Projects
 - [Awesome Swift](https://github.com/matteocrippa/awesome-swift)

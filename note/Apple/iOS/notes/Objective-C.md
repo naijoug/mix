@@ -4,6 +4,21 @@
 
 ## Concept
 
+- Foundation & Core Foundation
+
+| framework | 说明 
+| --- | --- 
+| `Foundation`      | OC 对象     
+| `Core Foundation` | C 结构体类型 
+
+- `__bridge` & `__bridge_retained` & `__bridge_transfer`
+
+| 桥接方法 | 说明
+| --- | ---
+| `__bridge`            | 
+| `__bridge_retained`   | `Foundation -> Core Foundation`
+| `__bridge_transfer`   | `Core Foundation -> Foundation`
+
 - id & instancetype
 
 | 类型 | 相同点 | 不同点

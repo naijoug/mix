@@ -16,6 +16,10 @@
   > A command line tool and library for transferring data with URL syntax
 - [SwitchHosts](https://github.com/oldj/SwitchHosts)
 - [ping test](https://ping.chinaz.com/)
+- [Proxyman](https://github.com/ProxymanApp)
+    > Modern and Delightful Web Debugging Proxy for macOS, iOS, and Android ⚡️
+- [whistle](https://github.com/avwo/whistle)
+    > HTTP, HTTP2, HTTPS, Websocket debugging proxy
 
 ## 内网穿透
 
