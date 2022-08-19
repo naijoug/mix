@@ -114,6 +114,8 @@ $ echo $SHELL       # 查看当前使用 shell
     * 4.`~/.zlogin`
     * 5.`~/.zshrc`
 
+## Usage
+
 ```bash
 #!/bin/bash # Shebang : 指定解析脚本使用的 Shell 程序
 
@@ -208,4 +210,19 @@ fi
     action;
     [return int;] # 若省略 return, 则将最后一条命令运行结果作为返回值
 }
+```
+
+```sh
+# 判断上一个 shell 命令是否执行成功
+if [ $? -eq 0 ]; then
+    echo "succeeded."
+else
+    echo "failed."
+fi
+# 或者
+if [ $? -ne 0 ]; then
+    echo "failed."
+else
+    echo "succeeded."
+fi
 ```

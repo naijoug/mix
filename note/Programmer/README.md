@@ -3,8 +3,6 @@
 
 ## Reference
 
-- [🥇掘金翻译计划](https://github.com/xitu/gold-miner)
-- [thoughtworks 技术雷达](https://www.thoughtworks.com/zh-cn/radar/archive)
 - [OKR](https://www.okr.com/)
     > OKR（Objectives & Key Results），中文名称是“目标与关键结果”
 

@@ -20,6 +20,8 @@ $ brew cask install fastlane    # install fastlane
 
 $ fastlane install_plugins  # install plugins
 $ fastlane update_plugins   # update plugins
+
+$ fastlane new_action # 自定义 action
 ```
 
 ## Fastfile

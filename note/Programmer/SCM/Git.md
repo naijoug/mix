@@ -93,6 +93,8 @@
   $ git reset HEAD file       # 把暂存区的修改撤销(撤销到工作区)
   $ git reflog                # 记录每一次git的命令    
   $ git checkout -- file      # 撤销文件工作区的全部修改
+  $ git restore --staged file # 插销暂存文件
+  $ git restore --staged .    # 撤销所有暂存文件
   # git 远程操作
   $ git remote                # 查看远程仓库信息
   $ git remote add origin git@github.com:naijoug/NGKit.git    # 添加名为`origin`的仓库

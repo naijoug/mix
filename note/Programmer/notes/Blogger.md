@@ -8,6 +8,7 @@
 - [刘欣 (码农翻身)](https://shrtm.nu/fyRs)
 - [Coding Tour](www.codingtour.com) : `ARTS` 实践者
 - [王兴彬 (棒棒彬) - 字节跳动](https://github.com/Binlogo/Knowledge-Track)
+- [林洵锋](https://fullstackaction.com/) : FSA全栈行动
 - [郭曜源 (ibireme) - 优酷](http://blog.ibireme.com) : `YYKit` 作者、iOS RunLoop
 - [孙源 (sunnyxx) - 滴滴](http://blog.sunnyxx.com) : Objective-C 深入研究
 - [李忠 (limboy) - 蘑菇街](http://limboy.me) : RAC
@@ -25,6 +26,9 @@
 
 ## Corporate
 
+- [🥇掘金翻译计划](https://github.com/xitu/gold-miner)
+- [thoughtworks - 技术雷达](https://www.thoughtworks.com/zh-cn/radar/archive)
+- [TO-D 杂志](https://github.com/zineland/2d2d)
 - [天猫无线](http://pingguohe.net/)
 - [美团](https://tech.meituan.com/)
 - [今日头条](https://techblog.toutiao.com/)
