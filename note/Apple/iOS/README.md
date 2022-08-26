@@ -104,11 +104,13 @@
 - [NextLevel](https://github.com/NextLevel)
     > Camera Platform in Swift
 
-  | Official Apps | Language 
-  | --- | --- 
-  | [Wikipedia iOS](https://github.com/wikimedia/wikipedia-ios) | OC & Swift 
-  | [Firefox for iOS](https://github.com/mozilla-mobile/firefox-ios) | Swift
-  | [WordPress for iOS](https://github.com/wordpress-mobile/WordPress-iOS) | Swift
+## OpenSource Apps
+
+- [Kickstarter for iOS](https://github.com/kickstarter/ios-oss)
+- [Wikipedia iOS](https://github.com/wikimedia/wikipedia-ios)
+- [Firefox for iOS](https://github.com/mozilla-mobile/firefox-ios)
+- [WordPress for iOS](https://github.com/wordpress-mobile/WordPress-iOS) 
+
 
 ## Architecture
 
@@ -121,6 +123,8 @@
     > A desktop debugging platform for mobile developers.
 - [FLEX](https://github.com/FLEXTool/FLEX)
     > An in-app debugging and exploration tool for iOS
+- [Chisel](https://github.com/facebook/chisel)
+    > Chisel is a collection of LLDB commands to assist debugging iOS apps.
 - [DoKit](https://github.com/didi/DoKit)
     > 一款面向泛前端产品研发全生命周期的效率平台。
 - [Knuff](https://github.com/KnuffApp/Knuff)
