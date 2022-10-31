@@ -1,7 +1,7 @@
 # Mix
 
 ## [note](./note/README.md)
-> Fullstack developer skill notes.
+> A fullstack developer skill notes.
 
 ## [todo](./todo/README.md)
 > A todo project.

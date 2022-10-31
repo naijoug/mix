@@ -2,12 +2,16 @@
 
 ## Reference
 
+- [🍻SwiftOnTap](https://swiftontap.com/)
+    > Complete SwiftUI Docs with Examples.
 - [AltSwiftUI](https://github.com/rakutentech/AltSwiftUI) : 支持 `iOS 11.0` 的 `SwiftUI`
     > Open Source UI framework based on SwiftUI syntax and features, adding backwards 
 - [Awesome SwiftUI](https://github.com/onmyway133/awesome-swiftui)
     > 🌮 Awesome resources, articles, libraries about SwiftUI
 - [Fucking SwiftUI](https://fuckingswiftui.com/)
 - [SwiftUI by Example](https://www.hackingwithswift.com/quick-start/swiftui)
+- [FuckingSwiftUI](https://github.com/agelessman/FuckingSwiftUI)
+    > 提供SwiftUI中文教程，包含进阶内容
 - [SwiftUI Cheat Sheet](https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet)
 - [Building SwiftUI debugging utilities](https://www.swiftbysundell.com/articles/building-swiftui-debugging-utilities)
 

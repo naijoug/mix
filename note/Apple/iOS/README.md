@@ -129,6 +129,8 @@
     > 一款面向泛前端产品研发全生命周期的效率平台。
 - [Knuff](https://github.com/KnuffApp/Knuff)
     > The debug application for Apple Push Notification Service (APNs).
+- [CocoaDebug](https://github.com/CocoaDebug/CocoaDebug)
+    > iOS Debugging Tool 🚀
 
 ## Animation
 

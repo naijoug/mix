@@ -73,28 +73,29 @@
   $ git commit -m 'commit info'   # 提交变动
   $ git commit --amend            # 修改最后一次提交
   # git 查看变动
-  $ git diff                  # 查看工作区文件变化
-  $ git diff file             # 查看工作区指定文件变化
-  $ git diff --staged         # 查看暂存区文件变化
-  $ git diff --cached         # 查看暂存区文件变化
-  $ git diff HEAD -- file     # 查看版本库和工作区指定文件变化
+  $ git diff                    # 查看工作区文件变化
+  $ git diff file               # 查看工作区指定文件变化
+  $ git diff --staged           # 查看暂存区文件变化
+  $ git diff --cached           # 查看暂存区文件变化
+  $ git diff HEAD -- file       # 查看版本库和工作区指定文件变化
   # git log
-  $ git log                   # 查看历史记录
-  $ git log -p -2             # 显示最后两次提交记录 ( -p : 显示每次提交差异 )
-  $ git log --stat            # 显示增改行数统计
-  $ git log --pretty=oneline  # 将提交信息显示在一行中
+  $ git log                     # 查看历史记录
+  $ git log -p -2               # 显示最后两次提交记录 ( -p : 显示每次提交差异 )
+  $ git log --stat              # 显示增改行数统计
+  $ git log --pretty=oneline    # 将提交信息显示在一行中
   $ git log --pretty=format='%h - %an, %ar : %s' # 格式化提交信息
-  $ git log --graph           # 查看历史分支合并图
-  $ git log --abbrev-commit   # 缩写(commit id)
+  $ git log --graph             # 查看历史分支合并图
+  $ git log --abbrev-commit     # 缩写(commit id)
   $ git log --pretty=oneline --abbrev-commit # 多参数显示历史记录
   # git 回退
-  $ git reset --hard HEAD^    # 回退到上一版本 ( HEAD: 当前版本 HEAD^: 上一版本 HEAD^^: 上上版本  HEAD~100:上100个版本)
-  $ git reset --hard b317a3   # 会退到指定版本 (commit id , 可以不写全只写前几位)
-  $ git reset HEAD file       # 把暂存区的修改撤销(撤销到工作区)
-  $ git reflog                # 记录每一次git的命令    
-  $ git checkout -- file      # 撤销文件工作区的全部修改
-  $ git restore --staged file # 插销暂存文件
-  $ git restore --staged .    # 撤销所有暂存文件
+  $ git reset --hard HEAD^      # 回退到上一版本 ( HEAD: 当前版本 HEAD^: 上一版本 HEAD^^: 上上版本  HEAD~100:上100个版本)
+  $ git reset --hard b317a3     # 会退到指定版本 (commit id , 可以不写全只写前几位)
+  $ git reset HEAD file         # 把暂存区的修改撤销(撤销到工作区)
+  $ git reflog                  # 记录每一次git的命令    
+  $ git checkout -- file        # 撤销文件工作区的全部修改
+  $ git restore --staged file   # 插销暂存文件
+  $ git restore --staged .      # 撤销所有暂存文件
+  $ git restore .               # 撤销工作区所有修改
   # git 远程操作
   $ git remote                # 查看远程仓库信息
   $ git remote add origin git@github.com:naijoug/NGKit.git    # 添加名为`origin`的仓库
@@ -111,7 +112,6 @@
   $ git fetch origin          # 下载服务器代码到本地,不影响本地代码(在/origin/master远程分支)
   $ git pull                  # 从远程仓库，抓取最新代码到本地
   $ git pull --allow-unrelated-histories
-  $ git checkout -b dev origin/dev    # 创建与远程分支`origin/dev`对应的的本地分支`dev`
   # git 分支管理
   $ git branch                # 查看分支
   $ git branch dev            # 创建名为`dev`的分支
@@ -122,6 +122,7 @@
   $ git branch --no-merged    # 查看未合并的分支
   $ git checkout dev          # 切换分支
   $ git checkout -b dev       # 创建 & 切换分支
+  $ git checkout -b dev origin/dev    # 创建与远程分支`origin/dev`对应的的本地分支`dev`
   $ git merge dev             # 合并`dev`分支到当前分支( Fast Forward 模式合并 )
   $ git merge --no-ff -m 'merge no-ff' dev # 不用( Fast Forward )模式进行合并
   # fork 之后

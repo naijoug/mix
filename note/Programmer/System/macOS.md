@@ -105,6 +105,8 @@ $ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk3 /opt/ntfs
     > Just a simple app for your Mac that reminds you to stand up once an hour.
 - [wtf](https://github.com/wtfutil/wtf) 
     > The personal information dashboard for your terminal
+- [Poedit](https://github.com/vslavik/poedit) : cross-platform translation editor
+    > Translations editor for Mac, Windows and Unix
 
 ## Tips
 
