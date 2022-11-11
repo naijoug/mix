@@ -105,6 +105,7 @@
   $ git remote rename origin name # 重命名`origin`为`name`
   $ git remote rm origin      # 删除名为`origin`的远程仓库
   $ git push origin master    # 推动master到origin远程仓库
+  $ git push origin dev:dev   # 推送本地分支 dev 到远程 origin 
   $ git push origin https://<Username>:<Token>@github.com/<Username>/<Repo>.git
   $ git push -u origin master # 设定 master 分支的远程 origin 的 upstream 分支
   #       -u : --set-upstream
