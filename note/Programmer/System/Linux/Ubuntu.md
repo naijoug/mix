@@ -9,6 +9,9 @@
 ```sh
 $ sudo lsb_release -a   # 查看当前 Ubuntu 版本详细信息
 
+$ sudo passwd # 设置 root 密码
+$ su root # 切换到 root 用户
+
 # 查看网卡 IP 的三种方法
 $ ip addr
 $ ifconfig

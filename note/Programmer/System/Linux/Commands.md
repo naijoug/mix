@@ -294,12 +294,12 @@ $ lsof -i:8080              # 查看端口为 8080 的进程
 $ kill 180201               # 杀死指定端口进程
 $ kill -9 19468             # 彻底杀死进程
 
-# nohup : 不挂断地(no hangup)运行命令并输出日志到nohup.out，忽略 SIGHUG [挂起信号 : 关闭终端]
+# nohup : 不挂断地(no hangup)运行命令并输出日志到 nohup.out，忽略 SIGHUG [挂起信号 : 关闭终端]
 # & : 后台运行，忽略 SIGINT [中断信号 :Ctrl + C]
-$ nohup ./server.sh         # Ctrl + C 停止运行，关闭终端不停止运行
-$ ./server.sh &             # Ctrl + C 不停止运行，关闭终端停止运行
-$ nohup ./server.sh &       # Ctrl + C 不停止运行，关闭终端不停止运行
-$ nohup ./server.sh > server.log 2>&1 & # 后台启动服务， 并将标准输出(1)和标准错误输出(2) 都重定向到 server.log 文件
+$ nohup ./service.sh         # Ctrl + C 停止运行，关闭终端不停止运行
+$ ./service.sh &             # Ctrl + C 不停止运行，关闭终端停止运行
+$ nohup ./service.sh &       # Ctrl + C 不停止运行，关闭终端不停止运行
+$ nohup ./service.sh > service.log 2>&1 & # 后台启动服务，将标准错误 2 重定向到标准输出 &1 ，标准输出 &1 再被重定向输入到 service.log 文件中
 
 # jobs [ctrl+z 挂起运行的进程 (ctrl+c : 结束当前任务)]
 $ jobs          # 查看任务(任务编号 & 进程号)
