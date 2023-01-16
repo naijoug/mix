@@ -95,6 +95,8 @@ $ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk3 /opt/ntfs
     > Free cross-platform password manager compatible with KeePass
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal)
     > ✨ Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
+- [Hidden Bar](https://github.com/dwarvesf/hidden) : 隐藏菜单栏 icon
+    > An ultra-light MacOS utility that helps hide menu bar icons
 - [Dozer](https://github.com/Mortennn/Dozer) : 菜单栏 icon 管理
     > Hide menu bar icons on macOS
 - [xScope](https://xscopeapp.com/) : 屏幕测量工具 
