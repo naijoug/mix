@@ -132,6 +132,7 @@
   #   方案一 : 将本机
   $ ssh-keygen                # 创建 ssh 密钥对(~/.ssh/id_rsa.pub)
   $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" 
+  $ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa-xxx
   #   -t : 加密算法(默认: RSA)
   #   -b : 秘钥长度(默认: 2048)
   #   -C : 指定秘钥的用户信息
