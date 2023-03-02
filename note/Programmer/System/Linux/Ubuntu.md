@@ -9,6 +9,9 @@
 ```sh
 $ sudo lsb_release -a   # 查看当前 Ubuntu 版本详细信息
 
+$ sudo passwd # 设置 root 密码
+$ su root # 切换到 root 账户
+
 # 查看网卡 IP 的三种方法
 $ ip addr
 $ ifconfig
@@ -43,4 +46,11 @@ $ sudo locale-gen zh_CN.UTF-8 # 根据模板生成指定语言库
 $ sudo vim /etc/hostname # 修改的 hostname
 $ sudo vim /etc/hosts # 添加 hostname 的本机 ip
 #   127.0.1.1 XXX
+
+# install desktop
+$ sudo apt-get update
+$ sudo apt-get install ubuntu-desktop xrdp -y # 安装左面和 RDP 软件
+$ sudo adduser [USER] # 创建新用户
+$ sudo usermod -aG sudo [USER] # 用户授权
+$ 
 ```

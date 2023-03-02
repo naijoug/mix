@@ -180,6 +180,9 @@ $ ls -l /usr/bin | less         # 使用less查看输出的内容
 
 # grep : 用来查找文件中的匹配文本(配合使用)
 $ ls -l | grep python           # 列出当前目录匹配python的文件
+$ grep '[keyword]' -A 100 path/to/file # 查询文件指定关键字下文(After) 100 行
+$ grep '[keyword]' -B 100 path/to/file # 查询文件指定关键字上文(Before) 100 行
+$ grep '[keyword]' -C 100 path/to/file # 查询文件指定关键字上下文(Context) 100 行
 
 # tee : 从`Stdin`读取数据, 同时输出到`Stdout`和文件 (联合其它命令使用)
 $ ls -l /usr | tee tee.txt      # 将Users内容同时输出到屏幕和文件

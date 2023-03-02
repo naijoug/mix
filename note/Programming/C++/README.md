@@ -129,54 +129,54 @@
 
 - make : 通过 Makefile 文件进行编译和链接程序 (Makefile 缺陷 : 工程大时手写 Makefile 比较困难，更换平台需要修改 Makefile)
 
-```bash Makefile
-# target : prerequisites
-# [tab]command
+    ```bash Makefile
+    # target : prerequisites
+    # [tab]command
+    
+    # 1.0 版本
+    sayHello: main.o hello.o 
+    	gcc -o sayHello main.o hello.o
+    main.o: main.c hello.h
+    	gcc -c main.c
+    hello.o: hello.c hello.h
+    	gcc -c hello.c
+    clean:
+    	rm sayHello main.o hello.o
+    
+    # 2.0 版本
+    objs = main.o hello.o
+    sayHello: $(objs)
+    	gcc -o sayHello $(objs)
+    main.o: main.c hello.h  # Makefile 可以自动推导文件依赖关系
+    hello.o: hello.c hello.h
+    .PHONY : clean # 防止与 clean 命名的文件冲突
+    clean:
+    	-rm sayHello $(objs)
+    ```
 
-# 1.0 版本
-sayHello: main.o hello.o 
-	gcc -o sayHello main.o hello.o
-main.o: main.c hello.h
-	gcc -c main.c
-hello.o: hello.c hello.h
-	gcc -c hello.c
-clean:
-	rm sayHello main.o hello.o
+    ```bash
+    $ make # 按照 Makefile 文件进行编译
+    $ make clean # 按照 Makefile 清除中间文件
+    ```
 
-# 2.0 版本
-objs = main.o hello.o
-sayHello: $(objs)
-	gcc -o sayHello $(objs)
-main.o: main.c hello.h  # Makefile 可以自动推导文件依赖关系
-hello.o: hello.c hello.h
-.PHONY : clean # 防止与 clean 命名的文件冲突
-clean:
-	-rm sayHello $(objs)
-```
+- `CMake` : (Cross-platform Make) 跨平台 make 工具, 通过 CMakeLists.txt 文件生成 Makefile
 
-```bash
-$ make # 按照 Makefile 文件进行编译
-$ make clean # 按照 Makefile 清除中间文件
-```
-
-> `CMake` : (Cross-platform Make) 跨平台 make 工具, 通过 CMakeLists.txt 文件生成 Makefile
-
-  ```bash CMakeLists.txt
-  # 主目录 CMakeLists.txt
-  cmake_minimum_required(VERSION 3.12)    # CMake 最低版本
-  project(test)   # 项目名称
-  add_subdirectory(hello) # 添加 cmake 管理子目录
-  target_link_libraries(test hello) # 链接名为 hello 的链接库
-  aux_source_directory(. DIR_SOURCES) # 目录下所有源文件
-  add_executable(test ${DIR_SOURCES}) # 将目标文件编译为可执行文件 test
-  # 子目录(hello) CMakeLists.txt
-  aux_source_directory(. DIR_LIB_SOURCES)
-  add_library(hello ${DIR_LIB_SOURCES})
-  ```
-
-  ```bash
-  $ cmake .   # 根据 CMakeLists.txt 生成 Makefile
-  $ make      # 根据生成的 Makefile 进行编译链接
+    ```bash CMakeLists.txt
+    # 主目录 CMakeLists.txt
+    cmake_minimum_required(VERSION 3.12)    # CMake 最低版本
+    project(test)   # 项目名称
+    add_subdirectory(hello) # 添加 cmake 管理子目录
+    target_link_libraries(test hello) # 链接名为 hello 的链接库
+    aux_source_directory(. DIR_SOURCES) # 目录下所有源文件
+    add_executable(test ${DIR_SOURCES}) # 将目标文件编译为可执行文件 test
+    # 子目录(hello) CMakeLists.txt
+    aux_source_directory(. DIR_LIB_SOURCES)
+    add_library(hello ${DIR_LIB_SOURCES})
+    ```
+        
+    ```bash
+    $ cmake .   # 根据 CMakeLists.txt 生成 Makefile
+    $ make      # 根据生成的 Makefile 进行编译链接
   ```
 
 ## [SWIG](https://github.com/swig/swig) 
