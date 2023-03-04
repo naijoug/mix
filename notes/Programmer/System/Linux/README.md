@@ -15,6 +15,23 @@
 - [Commands](Commands.md)
 - [Funny Commands](FunnyCommands.md)
 
+## Linux Tools
+
+- [NetData](https://github.com/netdata/netdata)
+    > Real-time performance monitoring, done right! 
+- [Glances](https://github.com/nicolargo/glances)
+    > Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems.
+- [Linux Dash](https://github.com/tariqbuilds/linux-dash)
+    > A beautiful web dashboard for Linux
+- [Conky](https://github.com/brndnmtthws/conky)
+    > Light-weight system monitor for X, Wayland, and other things, too
+- [Ward](https://github.com/Rudolf-Barbu/Ward)
+    > Server dashboard
+- [Prometheus](https://github.com/prometheus/prometheus)
+    > The Prometheus monitoring system and time series database.
+- [Grafana](https://github.com/grafana/grafana)
+    > The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.
+
 ## init.d & service & systemd
 
 - [How do I run a single command at startup using systemd?](https://askubuntu.com/questions/919054/how-do-i-run-a-single-command-at-startup-using-systemd)

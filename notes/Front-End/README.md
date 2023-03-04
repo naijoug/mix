@@ -10,6 +10,10 @@
 - [30 seconds of code](https://github.com/30-seconds/30-seconds-of-code)
     > Short JavaScript code snippets for all your development needs
 
+## Concept
+
+- SPA (Single Page Applaction) : 单页面应用
+
 ## Cross Platform
 
 - [uni-app](https://github.com/dcloudio/uni-app)
