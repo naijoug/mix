@@ -1,4 +1,4 @@
-# note
+# notes
 
 ## [Programmer](./Programmer/README.md)
 

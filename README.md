@@ -1,7 +1,7 @@
-# Mix
+# mix
 
-## [note](./note/README.md)
-> A fullstack developer skill notes.
+## [notes](./notes/README.md)
+> fullstack developer skill notes.
 
-## [todo](./todo/README.md)
-> A todo project.
+## [samples](./samples/README.md)
+> some code samples.
