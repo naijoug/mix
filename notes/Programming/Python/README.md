@@ -38,6 +38,9 @@
     $ pip install [package] # 安装python包
     $ pip list              # 查看已安装的python包
 
+    # venv
+    $ python -m venv ~/path/to/env # 创建虚拟环境
+    
     # virtualenv
     $ pip install virtualenv    # 安装 virtualenv
     $ virtualenv test_env                       # 在当前目录建立一个 python 虚拟环境
