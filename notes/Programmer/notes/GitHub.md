@@ -61,6 +61,8 @@
     > AI Code Completions
 - [Copilot](https://github.com/features/copilot) : GitHub AI 程序员
     > Your AI pair programmer
+- [HTTPie](https://github.com/httpie/httpie)
+    > 🥧 HTTPie for Terminal — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
 
 ## Animation
 
