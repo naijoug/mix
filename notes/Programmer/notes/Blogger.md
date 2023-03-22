@@ -21,6 +21,7 @@
 - [戴铭 (ming1016) - 快手](https://github.com/ming1016/study)
 - [翁培钧 - 滴滴](https://github.com/windstormeye/iOS-Course)
 - [图拉鼎](https://imtx.me)
+- [knowledge-kit](https://github.com/FantasticLBP/knowledge-kit)
 - [zhihaozhang](https://zhihaozhang.github.io/)
 - [OldBirds](https://oldbird.run/) : SwiftUI、Flutter、Vapor
 - [everettjf](https://everettjf.github.io) : Fullstack

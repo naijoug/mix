@@ -16,7 +16,7 @@
 
 ## Usage
 
-```bash
+```shell
 # pip
 $ pip --version         # 查看 pip 版本
 $ pip install <package> # 安装 Python 包
@@ -53,7 +53,7 @@ $ pip config list
 - [Anaconda](https://www.anaconda.com)
     > Data science technology for a better world.
 
-```bash
+```shell
 # venv (Python 3.3)
 $ python -m venv .env # 创建虚拟环境
 $ source .env/bin/activate # 激活虚拟空间
@@ -129,6 +129,7 @@ $ conda env remove -n env
   print(str(b, encoding='utf-8'))
   print(bytes.decode(b))
   ``` 
+  
 ## Conditional Expression 
 > 条件表达式
 

@@ -111,7 +111,6 @@
 - [Firefox for iOS](https://github.com/mozilla-mobile/firefox-ios)
 - [WordPress for iOS](https://github.com/wordpress-mobile/WordPress-iOS) 
 
-
 ## Architecture
 
 - [The Composable Architecture (TCA)](https://github.com/pointfreeco/swift-composable-architecture)

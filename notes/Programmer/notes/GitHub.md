@@ -86,6 +86,8 @@
     
 ## Funny
 
+- [ASCII generator](https://github.com/uvipen/ASCII-generator)
+    > ASCII generator (image to text, image to image, video to video)
 - [文言 wenyan-lang](https://github.com/wenyan-lang/wenyan)
     > 文言文編程語言 A programming language for the ancient Chinese.
 - [Seeing Theory](https://github.com/seeingtheory/Seeing-Theory)
