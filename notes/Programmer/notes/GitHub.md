@@ -2,13 +2,14 @@
 
 ## Reference
 
+- [starlist.dev](https://starlist.dev/)
+    > 🤩 Top 1000 GitHub Repositories Ranked by Stars
 - [Github1s](https://github.com/conwnet/github1s) : 通过在线 VSCode 查看 Github 仓库代码
     > One second to read GitHub code with VS Code.
 - [GitHub 漫游指南](https://github.com/phodal/github)
     > a Chinese ebook on how to build a good project on Github. Explore the users' behavior. Find some thing interest.
 - [Hacker Laws](https://github.com/dwmkerr/hacker-laws)
     > Laws, Theories, Principles and Patterns that developers will find useful.
-- [awesome list chinese](https://github.com/icopy-site/awesome-cn)
 
 ## 📚
 
