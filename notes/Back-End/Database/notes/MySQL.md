@@ -3,6 +3,10 @@
 ## Reference
 
 - [MySQL](http://www.mysql.com/)
+- [mysql-tutorial](https://github.com/jaywcjlove/mysql-tutorial)
+    > MySQL入门教程（MySQL tutorial book）
+- [mycli](https://github.com/dbcli/mycli)
+    > A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting.
 - [菜鸟教程 - MySQL](http://www.runoob.com/mysql/mysql-tutorial.html)
 - [Mac OS X 下安装MySQL 5.7](http://jacob110.github.io/2015/10/13/mac-os-install-mysql5-7/)
 - [Mac下重置Mysql的root密码](http://devlu.me/2016/01/18/Mac%E4%B8%8B%E9%87%8D%E7%BD%AEMysql%E7%9A%84root%E5%AF%86%E7%A0%81/)

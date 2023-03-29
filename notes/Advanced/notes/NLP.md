@@ -13,13 +13,25 @@
 
 ## Reference
 
-- [NLTK](https://github.com/nltk/nltk)
-    > Natural Language Toolkit
 - [spaCy](https://github.com/explosion/spaCy)
     > 💫 Industrial-strength Natural Language Processing (NLP) in Python
+- [NLTK](https://github.com/nltk/nltk)
+    > Natural Language Toolkit
 - [Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP) 
     > A Java suite of core NLP tools.
 - [Apache OpenNLP](https://github.com/apache/opennlp)
     > A machine learning based toolkit for the processing of natural language text.
 - [Tokenizers](https://github.com/huggingface/tokenizers)
     > 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
+- [jieba](https://github.com/fxsjy/jieba) : Chinese
+    > “结巴”中文分词：做最好的 Python 中文分词组件
+- [LAC](https://github.com/baidu/lac) : Chinese
+    > (Lexical Analysis of Chinese) 百度NLP：分词，词性标注，命名实体识别，词重要性
+- [KoNLPy](https://github.com/konlpy/konlpy) : Korean  
+    > Python package for Korean natural language processing.
+- [Janome](https://github.com/mocobeta/janome) : Japanese
+    > Japanese morphological analysis engine written in pure Python
+- [CAMeL Tools](https://github.com/CAMeL-Lab/camel_tools) : Arabic
+    > A suite of Arabic natural language processing tools developed by the CAMeL Lab at New York University Abu Dhabi.
+- [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) : Thai
+    > Thai Natural Language Processing in Python.

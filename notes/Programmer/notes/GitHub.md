@@ -2,13 +2,14 @@
 
 ## Reference
 
+- [starlist.dev](https://starlist.dev/)
+    > 🤩 Top 1000 GitHub Repositories Ranked by Stars
 - [Github1s](https://github.com/conwnet/github1s) : 通过在线 VSCode 查看 Github 仓库代码
     > One second to read GitHub code with VS Code.
 - [GitHub 漫游指南](https://github.com/phodal/github)
     > a Chinese ebook on how to build a good project on Github. Explore the users' behavior. Find some thing interest.
 - [Hacker Laws](https://github.com/dwmkerr/hacker-laws)
     > Laws, Theories, Principles and Patterns that developers will find useful.
-- [awesome list chinese](https://github.com/icopy-site/awesome-cn)
 
 ## 📚
 
@@ -61,6 +62,8 @@
     > AI Code Completions
 - [Copilot](https://github.com/features/copilot) : GitHub AI 程序员
     > Your AI pair programmer
+- [HTTPie](https://github.com/httpie/httpie)
+    > 🥧 HTTPie for Terminal — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
 
 ## Animation
 
@@ -84,6 +87,8 @@
     
 ## Funny
 
+- [ASCII generator](https://github.com/uvipen/ASCII-generator)
+    > ASCII generator (image to text, image to image, video to video)
 - [文言 wenyan-lang](https://github.com/wenyan-lang/wenyan)
     > 文言文編程語言 A programming language for the ancient Chinese.
 - [Seeing Theory](https://github.com/seeingtheory/Seeing-Theory)

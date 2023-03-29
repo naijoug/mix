@@ -3,6 +3,8 @@
 
 ## Reference
 
+- [pip](https://github.com/pypa/pip)
+    > The Python Package Installer
 - [Python Docs](https://docs.python.org/zh-cn/3/)
 - [Learn Python](https://github.com/xianhu/LearnPython)
 - [Python 100 Days](https://github.com/jackfrued/Python-100-Days)
@@ -11,6 +13,26 @@
 - [Python 最佳实践指南](https://github.com/Prodesire/Python-Guide-CN)
 - [Python 进阶](https://github.com/eastlakeside/interpy-zh)
 - [Python 中文学习大本营](http://www.pythondoc.com/)
+
+## Usage
+
+```shell
+# pip
+$ pip --version         # 查看 pip 版本
+$ pip install <package> # 安装 Python 包
+# 临时使用镜像安装 Python 包
+$ pip install -i https://mirrors.aliyun.com/pypi/simple <package>
+$ pip list              # 查看已安装的 Python 包
+# pip config
+# pip 设置阿里镜像源 > https://developer.aliyun.com/mirror/pypi
+$ pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+$ pip config set install.trusted-host mirrors.aliyun.com
+# pip 取消设置阿里镜像源
+$ pip config unset global.index-url
+$ pip config unset install.trusted-host
+# 显示 pip 配置设置
+$ pip config list       
+```
 
 ## Python2 vs Python3
 
@@ -21,58 +43,60 @@
 | `except IOError, (errno, strerror)` | `except IOError as (errno, strerror)` 
 | `3 / 2 = 1` | `3 / 2 = 1.5` 
 
-## `pyenv` & `pip` & `virtualenv` & `Anaconda`
+## Virtual Environment 
+> `venv` & `pyenv` & `virtualenv` & `Anaconda`
 
-- [pyenv](https://github.com/pyenv/pyenv) : Simple Python version management
-- [pip](https://github.com/pypa/pip) : The Python Package Installer
-- [virtualenv](https://github.com/pypa/virtualenv) : Virtual Python Environment builder
+- [pyenv](https://github.com/pyenv/pyenv)
+    > Simple Python version management
+- [virtualenv](https://github.com/pypa/virtualenv) 
+    > Virtual Python Environment builder
 - [Anaconda](https://www.anaconda.com)
+    > Data science technology for a better world.
 
-    ```bash
-    # pyenv
-    $ brew install pyenv    # 安装 pyenv
-    $ pyenv versions        # 查看 python 版本
+```shell
+# venv (Python 3.3)
+$ python -m venv .env # 创建虚拟环境
+$ source .env/bin/activate # 激活虚拟空间
+$ deactivate # 关闭虚拟空间
 
-    # pip
-    $ pip --version         # 查看pip版本
-    $ pip install [package] # 安装python包
-    $ pip list              # 查看已安装的python包
+# pyenv
+$ brew install pyenv    # 安装 pyenv
+$ pyenv versions        # 查看 python 版本
 
-    # virtualenv
-    $ pip install virtualenv    # 安装 virtualenv
-    $ virtualenv test_env                       # 在当前目录建立一个 python 虚拟环境
-    $ virtualenv --no-site-packages test_env    # 不复制系统 python 环境的第三方包
-    $ virtualenv -p /usr/bin/python2.7 test_env # 指定 python 版本
-    $ source test_env/bin/activate # 激活虚拟空间
-    $ deactivate # 关闭虚拟空间
-    ```
+# virtualenv
+$ pip install virtualenv    # 安装 virtualenv
+$ virtualenv test_env                       # 在当前目录建立一个 python 虚拟环境
+$ virtualenv --no-site-packages test_env    # 不复制系统 python 环境的第三方包
+$ virtualenv -p /usr/bin/python2.7 test_env # 指定 python 版本
+$ source test_env/bin/activate # 激活虚拟空间
+$ deactivate # 关闭虚拟空间
 
-    ```bash
-    $ conda -V          # conda版本
-    $ conda list        # 查看当前环境安装包
-    $ conda list -n env # 指定环境安装包
-    $ conda info        # 查看conda信息
-    # 查看已创建虚拟环境
-    $ conda info -e
-    $ conda env list    
-    # 创建
-    $ conda create --name $ENVIRONMENT_NAME [package]
-    $ conda create -n py3 python=3 # 创建python3环境
-    $ conda create -n py2 python=2 # 创建python2环境
-    $ conda create --name python34 python=3.4   # 创建指定版本环境
-    # 激活
-    $ source activate py3
-    # 关闭
-    $ source deactivate
-    # 包
-    $ conda search [package]            # 搜索包
-    $ conda install -n env [package]    # 安装包
-    $ conda update -n env [package]     # 更新包        
-    $ conda remove --name env [package] # 删除包
-    # 删除虚拟环境
-    $ conda remove -n env --all
-    $ conda env remove -n env
-    ```
+# conda
+$ conda -V          # conda版本
+$ conda list        # 查看当前环境安装包
+$ conda list -n env # 指定环境安装包
+$ conda info        # 查看conda信息
+# 查看已创建虚拟环境
+$ conda info -e
+$ conda env list    
+# 创建
+$ conda create --name $ENVIRONMENT_NAME [package]
+$ conda create -n py3 python=3 # 创建python3环境
+$ conda create -n py2 python=2 # 创建python2环境
+$ conda create --name python34 python=3.4   # 创建指定版本环境
+# 激活
+$ source activate py3
+# 关闭
+$ source deactivate
+# 包
+$ conda search [package]            # 搜索包
+$ conda install -n env [package]    # 安装包
+$ conda update -n env [package]     # 更新包        
+$ conda remove --name env [package] # 删除包
+# 删除虚拟环境
+$ conda remove -n env --all
+$ conda env remove -n env
+```
 
 ## Interactive Mode 
 > Python 交互模式
@@ -105,6 +129,7 @@
   print(str(b, encoding='utf-8'))
   print(bytes.decode(b))
   ``` 
+  
 ## Conditional Expression 
 > 条件表达式
 
