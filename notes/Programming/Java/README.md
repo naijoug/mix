@@ -3,12 +3,17 @@
 ## Reference
 
 - [OpenJDK](https://github.com/openjdk)
-- [Java 全栈知识体系](https://pdai.tech)
+- [💯 Java 全栈知识体系](https://pdai.tech)
+- [toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer)
+    > 一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准Java程序员进阶之路😄
+- [JCSprout](https://github.com/crossoverJie/JCSprout)
+    > 👨‍🎓 Java Core Sprout : basic, concurrent, algorithm
 - [HOW2J](https://how2j.cn/)
-- [On Java 8](https://github.com/LingCoder/OnJava8)
-- [Thinking in Java (Java 编程思想)](https://github.com/quanke/think-in-java)
 - [Java 教程](https://www.liaoxuefeng.com/wiki/1252599548343744)
-- [Java Core Sprout](https://github.com/crossoverJie/JCSprout) : 处于萌芽阶段的 Java 核心知识库
+- [📚 OnJava8](https://github.com/LingCoder/OnJava8)
+    > On Java 8》中文版
+- [📚 think-in-java](https://github.com/quanke/think-in-java)
+    > Thinking in Java (Java 编程思想)
 
 ## Note
 

@@ -1,6 +1,11 @@
 # CSS
 > Cascading Style Sheet : 层叠式样式表
 
+## Reference
+
+- [CSS-Guidelines](https://github.com/chadluo/CSS-Guidelines)
+    > 通用 CSS 笔记、建议与指导
+
 ## Concept
 
 - CSS 特点
