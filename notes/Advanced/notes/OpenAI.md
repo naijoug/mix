@@ -1,8 +1,10 @@
 # OpenAI
 
-## chatGPT
+## Reference
     
 - [chatGPT](chat.openai.com)
+- [文心一言](https://yiyan.baidu.com/)
+- [通义千问](https://tongyi.aliyun.com/)
 
 ## whisper
 
