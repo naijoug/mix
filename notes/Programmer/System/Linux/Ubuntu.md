@@ -6,7 +6,7 @@
 
 ## Usage
 
-```sh
+```shell
 $ sudo lsb_release -a   # 查看当前 Ubuntu 版本详细信息
 
 $ sudo passwd # 设置 root 密码
@@ -52,5 +52,4 @@ $ sudo apt-get update
 $ sudo apt-get install ubuntu-desktop xrdp -y # 安装左面和 RDP 软件
 $ sudo adduser [USER] # 创建新用户
 $ sudo usermod -aG sudo [USER] # 用户授权
-$ 
 ```

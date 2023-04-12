@@ -15,7 +15,7 @@
 
 ## 安装系统
 
-  ```sh
+  ```shell
   $ df                            # 查看当前挂载的磁盘
   $ diskutil unmount /dev/disk2   # 卸载 SD 卡
   $ diskutil list                 # 查看当前磁盘信息
@@ -39,7 +39,7 @@
   ```
 3. 电脑 SSH 连接树莓派 : 电脑和树莓派连接同一个 Wi-Fi 或 通过网线连接
 
-  ```sh
+  ```shell
   $ ssh pi@raspberrypi.local  # 通过 host 连接
   $ hostname -I               # 查看 ip
   $ ssh pi@xx.xx.xx.xx        # 通过 ip 连接    
@@ -47,7 +47,7 @@
 
 ## 配置系统
 
- ```sh
+ ```shell
  $ sudo raspi-config # 进入配置页面
  $ hostnamectl   # 查看当前系统版本
  # 摄像头Pi Cam
@@ -72,7 +72,7 @@
 
 - 启用 root 用户
 
-  ```sh
+  ```shell
   $ sudo passwd root              # 设置 root 用户密码
   $ sudo passwd --unlock root     # 启用 root 用户
   $ su root                       # 切换至 root 用户
@@ -95,7 +95,7 @@
     > A pure Python interface to the Raspberry Pi camera module
 - [mjpg-streamer](https://github.com/jacksonliam/mjpg-streamer) : 读取相机数据转化为图片流
 
-  ```sh
+  ```shell
   # 1. 安装
   #   依赖
   $ sudo apt-get install cmake libjpeg8-dev

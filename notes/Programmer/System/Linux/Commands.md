@@ -7,14 +7,14 @@
 
 ## Commands
 
-``` bash
+```shell
 # [命令] [选项(可多个)] [参数]
 $ command -options arguments
 ```
 
 ### 命令操作
 
-``` bash
+```shell
 # type : 显示命令的类型
 $ type ls               # 显示ls命令
 $ type python           # 显示python命令
@@ -40,7 +40,7 @@ $ unalias showUsers                     # 删除showUsers别名
 
 ### 文件|目录基本操作
 
-``` bash
+``` shell
 # ls : 列出目录内容
 # -a(all): 所有文件(包括隐藏文件.) ; -l: 长模式显示 ; -i: 显示文件索引结点 ; -r(reverse): 反序 ; -S: 文件大小排序 ; -t: 修改时间排序
 $ ls                    # 列出当前目录的文件和子目录
@@ -101,7 +101,7 @@ $ ln -s file slink      # 创建符号链接(为file创建了一个slink的链�
 
 ### 文件查看
 
-``` bash
+``` shell
 # cat : 读取文件(1|多个)
 $ cat file                      # 读取文件
 $ cat -n file                   # 读取文件，并显示行号(空格也添加行号)
@@ -141,7 +141,7 @@ $ diff file1 file2
 
 ### 文件权限
 
-``` bash
+``` shell
 # chmod : 改变文件|目录访问权限
 #   -c: 当发生改变时，报告处理信息 
 #   -f: 错误信息不输出 
@@ -174,7 +174,7 @@ $ chown -R test:test folders/ # 改变 folders 文件夹内所有的拥有者和
 
 ### 重定向
 
-``` bash
+``` shell
 # | : 管道线(从标准输入读取内容，再把数据输送到标准输出)
 $ ls -l /usr/bin | less         # 使用less查看输出的内容 
 
@@ -205,7 +205,7 @@ $ cat < error.txt               # 将error.txt文件内容输出到屏幕
 
 ### 查找
 
-``` bash
+``` shell
 # which : 显示一个可执行程序的位置 
 $ which /usr/bin | grep python
 
@@ -219,7 +219,7 @@ $ find /usr -name "*.txt"       # 查找后缀为.txt的文件
 - **打包** : 将多个文件打包成一个大文件
 - **压缩** : 将一个大文件通过压缩算法变成一个小文件
 
-``` bash
+``` shell
 # tar : 打包工具
 # -c(create): 打包文件 ; x(extract): 解包 ; f: 指定打包文件 ; v: 显示执行过程
 $ tar cvf file.tar dir  # 打包
@@ -244,7 +244,7 @@ $ unzip file.zip            # 解压文件
 
 ### 磁盘存储
 
-``` bash
+``` shell
 # 挂载硬盘
 $ fdisk -l              # 查看硬盘名称
 $ mkfs.ext4 /dev/sdb    # 首次挂载需要格式化硬盘【高危操作：仅首次需要】
@@ -267,7 +267,7 @@ $ du -sh folder     # 只显示输入文件夹(不显示子文件夹)占用空�
 
 ### 内存监控
 
-``` bash
+``` shell
 # top : 实时动态地查看系统的整体运行情况
 $ top
 
@@ -283,7 +283,7 @@ $ iostat
 
 ### 进程
 
-``` bash
+``` shell
 # ps : 查看进程号
 $ ps -A                     # 显示所有进程信息
 $ ps -u root                # 显示指定用户信息
@@ -323,7 +323,7 @@ $ watch uptime
 
 ### 网络
 
-``` bash
+``` shell
 # ip 
 $ ip addr # 查看网卡 IP 信息
 
@@ -415,7 +415,7 @@ $ ufw delete deny smtp  # 删除禁用规则
 
 ### 系统相关
 
-``` bash
+``` shell
 $ cat /etc/issue        # 查看版本号
 $ uname -r              # 查看内核版本号
 $ sudo passwd root      # 修改密码
@@ -437,6 +437,11 @@ $ LANG="en_US.UTF-8"            # 临时修改系统变量`LANG`
 
 # export : 将shell变量输出为环境变量
 $ export LANG="en_US.UTF-8"     # 修改系统变量`LANG`
+#  设置代理
+$ export ALL_PROXY=socks://proxy-url:port       # 设置代理地址
+$ export SOCKS5_PROXY=socks://proxy-url:port    # 设置 socks5 代理
+$ export http_proxy=http://proxy-url:port       # 设置 http 代理
+$ export https_proxy=https://proxy-url:port     # 设置 https 代理
 
 # echo : 显示一行文本
 # `$((expression))` : 算术表达式 (+、-、*、/、%、**(取幂))

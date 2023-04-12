@@ -20,7 +20,7 @@
 - [Cakebrew](https://github.com/brunophilipe/Cakebrew) : Homebrew 图形化 macOS App
     > Manage your Homebrew formulas with style using Cakebrew.
 
-```sh
+```shell
 # 安装 brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     
@@ -37,7 +37,7 @@ $ brew cask info atom   # 查看特定关键信息
 
 ## Usage
 
-```sh
+```shell
 # 打开任何来源开关
 $ sudo spctl --master-disable
 # app 已损坏无法打开

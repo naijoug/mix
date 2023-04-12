@@ -31,7 +31,7 @@
 
 ## PATH
 
-```sh
+```shell
 $ echo $PATH # 查看环境变量
 $ export PATH=$PATH:<PATH 1>:<PATH 2>:<PATH 3>:----:<PATH N> # 设置 PATH
 ```

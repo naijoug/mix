@@ -16,8 +16,8 @@
 - [Serialization](notes/Serialization.md)
 - [Character Encoding](notes/CharacterEncoding.md)
 
-- [Algorithm](Algorithm/README.md)
-- [Network](Network/README.md)
+- [Algorithm](algorithm/README.md)
+- [Network](network/README.md)
 
 ## SCM
 > Source Control Management : 源代码控制管理

@@ -6,7 +6,7 @@
 
 ## Commands
 
-``` bash
+``` shell
 $ sl
 # sl 
 #   > steam locomotive (蒸汽机车), 一辆蒸汽火车从屏幕经过
@@ -33,7 +33,7 @@ $ toilet -f mono12 -F gay a girl # 自定义颜色字体显示
 #   > DIY 艺术字生成
 ```
 
-``` bash
+``` shell
 $ aptitude moo
 # There are no Easter Eggs in this program.
 $ aptitude -v moo

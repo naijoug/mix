@@ -42,7 +42,7 @@
   | `service` | 命令 `System V init`，可以理解为 `init` 的一个别名
   | `systemd` | 最新的 Linux 初始化系统 `PID = 1`，d (daemon 守护进程) 
 
-  ```sh
+  ```shell
   # systemd 
   #   - systemctl : 控制系统的主命令
   $ systemctl --version # 查看版本信息
@@ -73,7 +73,7 @@
 > Red Hat 公司定义的包管理器
 > Linux : RedHat、CentOS
 
-  ``` bash
+  ``` shell
   $ rpm -ivh package.rpm  # 安装 rpm 包
   $ rpm -Uvh package.rpm  # 升级 rpm 包
   $ rpm -ev package       # 卸载 rpm 包
@@ -87,7 +87,7 @@
     * 软件源配置文件 : `/etc/yum.repos.d/xxx.repo`
     * yum 配置文件 : `/etc/yum.conf`
     
-  ``` bash
+  ``` shell
   $ yum list  # 列出系统中已安装软件
   $ yum install package # 安装指定软件
   $ yum check-update # 检查系统可升级软件列表
@@ -100,7 +100,7 @@
 > Debian Linux 系统定义的包管理器
 > Linux : Debian、Ubuntu
 
-  ``` bash
+  ``` shell
   $ dpkg -i package.deb       # 安装 deb 包
   $ dpkg -i package.deb       # 升级 deb 包 (同安装)
   $ dpkg -r package.deb       # 卸载 deb 包 (不卸载配置文件)
@@ -115,7 +115,7 @@
     * 软件源配置文件 :` /etc/apt/sources.list`
     * apt 配置文件 : `/etc/apt/apt.conf.d`
     
-  ``` bash
+  ``` shell
   $ apt-get update # 更新软件源索引
   $ apt-get install package # 安装指定软件
   $ apt-get source package # 下载指定软件源代码
@@ -136,7 +136,7 @@
 ## Alien
 > RPM 包与 DEB 包相互转换工具
 
-  ``` bash
+  ``` shell
   $ alien -d package.rpm # rpm -> deb
   $ alien -r package.deb # deb -> rpm
   ``` 

@@ -7,7 +7,7 @@
 
 ## Usage
 
-```sh
+``` shell
 # 安装 multipass
 $ brew install multipass
 
