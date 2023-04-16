@@ -5,6 +5,7 @@
 - [chatGPT](chat.openai.com)
 - [文心一言](https://yiyan.baidu.com/)
 - [通义千问](https://tongyi.aliyun.com/)
+- [COGNOSYS](https://www.cognosys.ai)
 
 ## whisper
 
