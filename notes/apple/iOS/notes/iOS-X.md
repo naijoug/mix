@@ -13,6 +13,7 @@
 - iOS 14
     * [iOS 14 相册适配指南](https://mp.weixin.qq.com/s/eGHi17N-XOsZB2Bh-tZZXA)
     * [iOS14 隐私适配及部分解决方案](https://juejin.im/post/6850418120923250701)
+- [iOS 15 - iOS 16 开发适配](https://github.com/XLsn0w/iOS16)
 
 ## iOS 2
 

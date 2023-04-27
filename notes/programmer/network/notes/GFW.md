@@ -14,7 +14,6 @@
 
 ## Proxy
 
-- [proxy](https://github.com/githubvpn007/proxy)
 - [goproxy](https://github.com/snail007/goproxy)
     > Proxy 是 golang 实现的高性能http, https, websocket, tcp, socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP, SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。
 - [shadowsocks](https://github.com/shadowsocks) : 基于 `Socks5` 代理方式的加密传输协议

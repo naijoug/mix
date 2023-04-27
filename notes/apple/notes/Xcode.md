@@ -1,5 +1,10 @@
 # Xcode
 
+## Reference
+
+- [XcodesApp](https://github.com/XcodesOrg/XcodesApp)
+    > The easiest way to install and switch between multiple versions of Xcode - with a mouse click.
+
 ## Usage
 
 ```bash
