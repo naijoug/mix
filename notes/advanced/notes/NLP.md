@@ -35,3 +35,31 @@
     > A suite of Arabic natural language processing tools developed by the CAMeL Lab at New York University Abu Dhabi.
 - [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) : Thai
     > Thai Natural Language Processing in Python.
+- [underthesea](https://github.com/undertheseanlp/underthesea)
+    > Underthesea - Vietnamese NLP Toolkit
+- [pyvi](https://github.com/trungtv/pyvi)
+    > Python Vietnamese Core NLP Toolkit
+- [VNLP](https://github.com/vngrs-ai/vnlp)  
+    > State-of-the-art, lightweight NLP tools for Turkish language. Developed by VNGRS.
+- [Malaya](https://github.com/huseinzol05/malaya)   
+    > Natural Language Toolkit for bahasa Malaysia
+- [indonesian-roberta-base-posp-tagger](https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger)   
+    > Indonesian RoBERTa Base POSP Tagger
+
+## Awesmoe
+
+- [令人讚嘆的自然語言處理](https://github.com/keon/awesome-nlp/blob/master/README-ZH-TW.md)
+
+## Concept
+
+- NLP (Natural Language Processing) : 自然语言处理
+- BERT (Bidirectional Encoder Representations from Transformers) : 基于大规模无监督预训练的双向表示法
+- GPT (Generative Pre-trained Transformer) : 生成式预训练语言模型
+- RNN
+- ELMO (Embeddings from Language Mode) : 
+- SA (Self-Attention) : 自注意力机制
+- F-FNN (Feed-Forward Neural Networks) : 前向神经网络
+- RC (Residual Connection) : 残差连接
+- MLM (Masked Language Model) : 掩码语言模型
+- NSP (Next Sentence Prediction) : 下一句预测
+- POS (Part of Speech) : 词性

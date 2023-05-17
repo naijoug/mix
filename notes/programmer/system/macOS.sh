@@ -3,19 +3,40 @@
 
 # install homebrew  | https://github.com/Homebrew/brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# install iTerm2    | https://github.com/gnachman/iTerm2
-$ brew cask install iterm2
 # install oh-my-zsh | https://github.com/ohmyzsh/ohmyzsh
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# install developer tools
-$ brew install gh               # GitHub CLI    | https://github.com/cli/cli
-$ sudo gem install cocoapods    # cocoapods     | https://github.com/CocoaPods/CocoaPods
-$ brew install carthage         # carthage      | https://github.com/Carthage/Carthage
-$ brew install fastlane         # fastlane      | https://github.com/fastlane/fastlane
-$ brew install mitmproxy        # mitmproxy     | https://github.com/mitmproxy/mitmproxy
+# install Formulae
+## cocoapods        | https://github.com/CocoaPods/CocoaPods
+brew install cocoapods
+## carthage         | https://github.com/Carthage/Carthage
+brew install carthage
+## fastlane         | https://github.com/fastlane/fastlane
+brew install fastlane    
+## GitHub cli       | https://github.com/cli/cli
+brew install gh 
+## mitmproxy        | https://github.com/mitmproxy/mitmproxy   
+brew install mitmproxy        
 
-# install software
-$ brew install --cask openinterminal    # open in terminal  | https://github.com/Ji4n1ng/OpenInTerminal
-$ brew install --cask squirrel          # Rime for macOS    | https://github.com/rime/squirrel
+# install Casks
+## iTerm2           | https://github.com/gnachman/iTerm2
+brew install --cask iterm2
+## OpenInTerminal   | https://github.com/Ji4n1ng/OpenInTerminal
+brew install --cask openinterminal   
+## SwitchHosts      | https://github.com/oldj/SwitchHosts 
+brew install --cask switchhosts
+## ClashX           | https://github.com/yichengchen/clashX | agent
+brew install --cask clashx
+## OrbStack         | https://github.com/orbstack/orbstack | docker
+brew install --cask orbstack
+## Rime for macOS   | https://github.com/rime/squirrel 
+$ brew install --cask squirrel 
+## Sogou Input
+brew install --cask sogouinput
+## Sourcetree
+brew install --cask sourcetree
+## Sublime
+brew install --cask sublime-text
+## Visual Studio Code
+brew install --cask visual-studio-code
+        

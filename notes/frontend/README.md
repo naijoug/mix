@@ -13,9 +13,40 @@
 - [30 seconds of code](https://github.com/30-seconds/30-seconds-of-code)
     > Short JavaScript code snippets for all your development needs
 
+## `npm` vs `yarn` vs `pnpm`
+
+- [npm](https://github.com/npm/cli)
+    > the package manager for JavaScript
+- [yarn](https://github.com/yarnpkg/yarn)
+    > Fast, reliable, and secure dependency management.
+- [pnpm](https://github.com/pnpm/pnpm) : [中文文档](https://pnpm.io/zh/)
+    > Fast, disk space efficient package manager
+
+## Usage
+
+```shell
+# npm
+$ npm get registry  # 查看到当前镜像
+$ npm config set registry https://registry.npmmirror.com # 设置为阿里镜像
+$ npm config set registry https://registry.npmjs.org/
+# yarn
+$ yarn config get registry 
+$ yarn config set registry https://registry.npmmirror.com
+$ yarn config set registry https://registry.yarnpkg.com
+```
+
 ## Concept
 
 - SPA (Single Page Applaction) : 单页面应用
+
+## Frameworks
+
+- [nest](https://github.com/nestjs/nest) : [中文文档](https://docs.nestjs.cn/)
+    > A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications on top of TypeScript & JavaScript (ES6, ES7, ES8) 🚀
+- [egg](https://github.com/eggjs/egg) : [中文文档](https://www.eggjs.org/zh-CN)
+    > 🥚 Born to build better enterprise frameworks and apps with Node.js & Koa
+- [nx](https://github.com/nrwl/nx)
+    > Smart, Fast and Extensible Build System
 
 ## Cross Platform
 
