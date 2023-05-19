@@ -54,8 +54,7 @@
 
 - NLP (Natural Language Processing) : 自然语言处理
 - BERT (Bidirectional Encoder Representations from Transformers) : 基于大规模无监督预训练的双向表示法
-- GPT (Generative Pre-trained Transformer) : 生成式预训练语言模型
-- RNN
+- RNN () : 
 - ELMO (Embeddings from Language Mode) : 
 - SA (Self-Attention) : 自注意力机制
 - F-FNN (Feed-Forward Neural Networks) : 前向神经网络

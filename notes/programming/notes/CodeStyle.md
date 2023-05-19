@@ -5,6 +5,7 @@
 
 - [Google Style Guides](https://google.github.io/styleguide/) : [Google 开源项目风格指南](http://zh-google-styleguide.readthedocs.io/en/latest/)
 - [中文技术文档的写作规范 - 阮一峰](https://github.com/ruanyf/document-style-guide)
+- [代码安全指南](https://github.com/Tencent/secguide)
 - [awesome-comment](https://github.com/Blankj/awesome-comment) : 神级注释
 - [Objective-C开发编码规范](https://github.com/QianKaiLu/Objective-C-Coding-Guidelines-In-Chinese)
 - [Airbnb JavaScript编码规范指南](https://github.com/libertyAlone/airbnb-javascript-style-guide-cn)

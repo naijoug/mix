@@ -6,6 +6,8 @@
 - [文心一言](https://yiyan.baidu.com/)
 - [通义千问](https://tongyi.aliyun.com/)
 - [COGNOSYS](https://www.cognosys.ai)
+- [ChatALL](https://github.com/sunner/ChatALL)
+    > Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers
 
 ## whisper
 
