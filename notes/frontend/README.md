@@ -40,14 +40,19 @@ $ yarn config set registry https://registry.yarnpkg.com
 
 - SPA (Single Page Applaction) : 单页面应用
 
+## Monorepo
+
+- [nx](https://github.com/nrwl/nx)
+    > Smart, Fast and Extensible Build System
+
 ## Frameworks
 
 - [nest](https://github.com/nestjs/nest) : [中文文档](https://docs.nestjs.cn/)
     > A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications on top of TypeScript & JavaScript (ES6, ES7, ES8) 🚀
+- [next](https://github.com/vercel/next.js) : [中文文档](https://www.nextjs.cn/)
+    > The React Framework
 - [egg](https://github.com/eggjs/egg) : [中文文档](https://www.eggjs.org/zh-CN)
     > 🥚 Born to build better enterprise frameworks and apps with Node.js & Koa
-- [nx](https://github.com/nrwl/nx)
-    > Smart, Fast and Extensible Build System
 
 ## Cross Platform
 

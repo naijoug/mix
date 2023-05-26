@@ -2,7 +2,10 @@
 
 ## Reference
 
-- [Vue](https://vuejs.org/)
+- [Vue](https://github.com/vuejs/core)
+    > 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+- [Nuxt](https://github.com/nuxt/nuxt)
+    > Nuxt is an intuitive and extendable way to create type-safe, performant and production-grade full-stack web apps and websites with Vue 3.
 
 ## UI
 

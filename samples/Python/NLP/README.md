@@ -1,9 +1,11 @@
-## install
+# NLP
+
+## Usage
 
 ```sh
 # activate virtual env
-$ python -m venv .env
-$ source .env/bin/activate
+$ python -m venv .venv
+$ source .venv/bin/activate
 
 # install spaCy
 pip install -U pip setuptools wheel
