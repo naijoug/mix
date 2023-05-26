@@ -116,21 +116,6 @@
 - [The Composable Architecture (TCA)](https://github.com/pointfreeco/swift-composable-architecture)
     > A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.
 
-## Debug Tools
-
-- [flipper](https://github.com/facebook/flipper)
-    > A desktop debugging platform for mobile developers.
-- [FLEX](https://github.com/FLEXTool/FLEX)
-    > An in-app debugging and exploration tool for iOS
-- [Chisel](https://github.com/facebook/chisel)
-    > Chisel is a collection of LLDB commands to assist debugging iOS apps.
-- [DoKit](https://github.com/didi/DoKit)
-    > 一款面向泛前端产品研发全生命周期的效率平台。
-- [Knuff](https://github.com/KnuffApp/Knuff)
-    > The debug application for Apple Push Notification Service (APNs).
-- [CocoaDebug](https://github.com/CocoaDebug/CocoaDebug)
-    > iOS Debugging Tool 🚀
-
 ## Animation
 
 - [awesome iOS animation](https://github.com/onmyway133/awesome-ios-animation)
@@ -175,6 +160,21 @@
   $ find ./ -name "*.m" -print0 | xargs -0 genstrings -o en.lproj # 与上面等价
   ```
     
+## Debug Tool
+
+- [flipper](https://github.com/facebook/flipper)
+    > A desktop debugging platform for mobile developers.
+- [FLEX](https://github.com/FLEXTool/FLEX)
+    > An in-app debugging and exploration tool for iOS
+- [Chisel](https://github.com/facebook/chisel)
+    > Chisel is a collection of LLDB commands to assist debugging iOS apps.
+- [DoKit](https://github.com/didi/DoKit)
+    > 一款面向泛前端产品研发全生命周期的效率平台。
+- [Knuff](https://github.com/KnuffApp/Knuff)
+    > The debug application for Apple Push Notification Service (APNs).
+- [ThemeEngine](https://github.com/CocoaDebug/CocoaDebug)
+    > iOS Debugging Tool 🚀
+    
 ## Tool
 
 - [XcodesApp](https://github.com/RobotsAndPencils/XcodesApp) : 切换不同的 Xcode 版本
@@ -188,3 +188,5 @@
     > 🚀 Create, maintain, and interact with Xcode projects at scale
 - [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
     > Meta-programming for Swift, stop writing boilerplate code.
+- [ThemeEngine](https://github.com/alexzielenski/ThemeEngine)
+    > OS X App to edit compiled .car files

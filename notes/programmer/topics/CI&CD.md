@@ -1,5 +1,9 @@
-# CI
-> (Continuous Integration) 持续集成
+# CI CD
+
+## Concept
+
+- `CI` : (Continuous Integration) 持续集成
+- `CD` : (Continuous Deploy) 持续部署
 
 ## Reference
 

@@ -19,6 +19,8 @@ brew install gh
 brew install mitmproxy        
 
 # install Casks
+## Warp             | 
+brew install --cask warp
 ## iTerm2           | https://github.com/gnachman/iTerm2
 brew install --cask iterm2
 ## OpenInTerminal   | https://github.com/Ji4n1ng/OpenInTerminal

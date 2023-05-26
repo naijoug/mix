@@ -2,6 +2,10 @@
 
 ## Reference
 
+- [GitHub Hosts](https://github.com/ineo6/hosts/) : [GitLab](https://gitlab.com/ineo6/hosts/)
+    > GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。
+- [gh-proxy](https://github.com/hunshcn/gh-proxy)
+    > github release、archive以及项目文件的加速项目
 - [starlist.dev](https://starlist.dev/)
     > 🤩 Top 1000 GitHub Repositories Ranked by Stars
 - [Github1s](https://github.com/conwnet/github1s) : 通过在线 VSCode 查看 Github 仓库代码
@@ -14,6 +18,7 @@
 ## 📚
 
 - [书栈网](https://www.bookstack.cn/)
+- [中文书籍收录整理](https://github.com/shjwudp/shu)
 - [RoadMap](https://github.com/xx-zh/xx-zh-roadmap)
 - [给程序员的开源、免费图书集合](https://github.com/waylau/books-collection)
 - [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)

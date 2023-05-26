@@ -2,7 +2,8 @@
 
 ## Reference
 
-- [Docker — 从入门到实践](https://github.com/yeasy/docker_practice)
+- [docker_practice](https://github.com/yeasy/docker_practice) : [Docker — 从入门到实践](https://yeasy.gitbook.io/docker_practice)
+    > Learn and understand Docker&Container technologies, with real DevOps practice!
 - [Docker Resources](https://github.com/hangyan/docker-resources)
 - [10分钟看懂 Docker 和 K8S](https://zhuanlan.zhihu.com/p/53260098)
 - [OrbStack](https://github.com/orbstack)

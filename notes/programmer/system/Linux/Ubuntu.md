@@ -7,7 +7,11 @@
 ## Usage
 
 ```shell
-$ sudo lsb_release -a   # 查看当前 Ubuntu 版本详细信息
+# 查看当前 Ubuntu 版本详细信息
+$ lsb_release -a 
+$ cat /etc/issue
+$ cat /etc/os-release
+$ uname -a
 
 $ sudo passwd # 设置 root 密码
 $ su root # 切换到 root 账户

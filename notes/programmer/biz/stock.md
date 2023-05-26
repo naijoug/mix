@@ -6,6 +6,12 @@
 - [RSI](https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%B0%8D%E5%BC%B7%E5%BC%B1%E6%8C%87%E6%95%B8)
 - [KD](https://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9C%BA%E6%8C%87%E6%A0%87)
 
+## Quant
+> 量化交易
+
+- [Qbot](https://github.com/UFund-Me/Qbot)
+    > [🔥updating ...] 自动量化交易机器人 Qbot is an AI-oriented quantitative investment platform, which aims to realize the potential, empower AI technologies in quantitative investment.
+
 ## Concept
 
 | 名称 | 公式

@@ -13,6 +13,7 @@
 - [TypeScript](https://github.com/microsoft/TypeScript)
     > TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 - [TypeScript 使用手册（中文版）](https://github.com/zhongsp/TypeScript)
+- [typescript-tutorial](https://github.com/xcatliu/typescript-tutorial) : [TypeScript 入门教程](https://ts.xcatliu.com/)
 
 ## Libraries
 

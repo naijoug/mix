@@ -6,7 +6,7 @@
 
 ## Concept
 
-| - | - | -
+| abbr | full | description
 | -- | -- | --
 | SOA   | Service Oriented Architecture     | 面向服务的架构
 | SOAP  | Simple Object Access Protocol     | 简单对象协议 
@@ -62,7 +62,7 @@
 
 - [IaaS、PaaS、SaaS 的区别？](https://www.zhihu.com/question/21641778)
 
-  | - | - | -
+  | abbr | full | description
   | -- | -- | -- 
   | IaaS  | Infrastructure-as-a-Service   | 基础设置即服务
   | PaaS  | Platform-as-a-Service         | 平台即服务

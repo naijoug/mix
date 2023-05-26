@@ -3,6 +3,7 @@
 
 ## Reference
 
+- [Git Large File Storage](https://git-lfs.com/)
 - [Git Pro 2nd](https://git-scm.com/book/zh/v2)
 - [Git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 - [Git Cheat Sheet 中文版](https://github.com/flyhigher139/Git-Cheat-Sheet)
@@ -40,7 +41,7 @@
 
 ## Commands
 
-  ```sh
+  ```shell
   $ git config --list         # 显示配置信息
   # 设置当前 git 项目的配置(用户名 & 邮箱)
   $ git config user.name 'username'
@@ -58,7 +59,7 @@
   git config --global http.https://github.com.proxy socks5://xxx.com:8080 # 设置 github 代理
   ```
 
-  ```sh
+  ```shell
   # git初始化
   $ git init                  # 将当前目录初始化为git
   $ git init --bare           # 

@@ -10,6 +10,7 @@
     > VScode 说明文档翻译
 - [Web](https://github.com/qianguyihao/Web)
     > 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。
+- [dev-zuo 笔记](https://fe.zuo11.com/) : 
 - [30 seconds of code](https://github.com/30-seconds/30-seconds-of-code)
     > Short JavaScript code snippets for all your development needs
 

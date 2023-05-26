@@ -10,7 +10,6 @@
 > - **IBM**: 自然语言处理(NLP) 是计算机科学的一个分支，更具体地说，是人工智能(AI)的分支，目标是让计算机能够以与人类大致相同的方式理解文本和口语。
 > - **Nvidia**: 自然语言处理(NLP) 使用 AI 处理和分析文本或语音数据，以便理解和解释内容、对内容进行分类和/或从内容中获得见解。
 
-
 ## Reference
 
 - [spaCy](https://github.com/explosion/spaCy)
@@ -49,16 +48,3 @@
 ## Awesmoe
 
 - [令人讚嘆的自然語言處理](https://github.com/keon/awesome-nlp/blob/master/README-ZH-TW.md)
-
-## Concept
-
-- NLP (Natural Language Processing) : 自然语言处理
-- BERT (Bidirectional Encoder Representations from Transformers) : 基于大规模无监督预训练的双向表示法
-- RNN () : 
-- ELMO (Embeddings from Language Mode) : 
-- SA (Self-Attention) : 自注意力机制
-- F-FNN (Feed-Forward Neural Networks) : 前向神经网络
-- RC (Residual Connection) : 残差连接
-- MLM (Masked Language Model) : 掩码语言模型
-- NSP (Next Sentence Prediction) : 下一句预测
-- POS (Part of Speech) : 词性
