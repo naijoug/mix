@@ -1,6 +1,6 @@
 # NLP
 > Natural Language Processing : 自然语言处理
-> 
+
 > - **Wikipedia**: 自然语言处理（英语：Natural Language Processing，缩写作 NLP）是人工智慧和语言学领域的分支学科。此领域探讨如何处理及运用自然语言；自然语言处理包括多方面和步骤，基本有认知、理解、生成等部分。
 > - **Baidu**: 自然语言处理( Natural Language Processing, NLP)是以语言为对象，利用计算机技术来分析、理解和处理自然语言的一门学科,即把计算机作为语言研究的强大工具，在计算机的支持下对语言信息进行定量化的研究,并提供可供人与计算机之间能共同使用的语言描写。包括自然语言理解( NaturalLanguage Understanding, NLU)和自然语言生成( Natural LanguageGeneration, NLG)两部分。
 > - **Google**: 作为人工智能技术的分支，NLP（自然语言处理）使用机器学习来处理和解释文本和数据。自然语言识别和自然语言生成是 NLP 的类型。
@@ -45,6 +45,7 @@
 - [indonesian-roberta-base-posp-tagger](https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger)   
     > Indonesian RoBERTa Base POSP Tagger
 
-## Awesmoe
+## Tutorial
 
+- [HuggingFace NLP Course](https://huggingface.co/learn/nlp-course/zh-CN)
 - [令人讚嘆的自然語言處理](https://github.com/keon/awesome-nlp/blob/master/README-ZH-TW.md)

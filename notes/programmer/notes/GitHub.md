@@ -10,6 +10,8 @@
     > 🤩 Top 1000 GitHub Repositories Ranked by Stars
 - [Github1s](https://github.com/conwnet/github1s) : 通过在线 VSCode 查看 Github 仓库代码
     > One second to read GitHub code with VS Code.
+- [Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
+    > 收集整理 GitHub 上高质量、有趣的开源项目。
 - [GitHub 漫游指南](https://github.com/phodal/github)
     > a Chinese ebook on how to build a good project on Github. Explore the users' behavior. Find some thing interest.
 - [Hacker Laws](https://github.com/dwmkerr/hacker-laws)
@@ -17,9 +19,12 @@
 
 ## 📚
 
-- [书栈网](https://www.bookstack.cn/)
-- [中文书籍收录整理](https://github.com/shjwudp/shu)
+- [shu](https://github.com/shjwudp/shu)
+    > 中文书籍收录整理
+- [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
+    > The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。
 - [RoadMap](https://github.com/xx-zh/xx-zh-roadmap)
+- [书栈网](https://www.bookstack.cn/)
 - [给程序员的开源、免费图书集合](https://github.com/waylau/books-collection)
 - [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)

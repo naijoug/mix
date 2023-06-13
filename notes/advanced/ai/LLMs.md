@@ -46,19 +46,20 @@
 - [WizardVicunaLM](https://github.com/melodysdreamj/WizardVicunaLM)
     > LLM that combines the principles of wizardLM and vicunaLM
 
-## Chinese
+## Other
 
 - [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
     > ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型
 - [Luotuo-Chinese-LLM](https://github.com/LC1332/Luotuo-Chinese-LLM)
     > 骆驼(Luotuo): Open Sourced Chinese Language Models
-
-## Other
-
 - [Visual OpenLLM](https://github.com/visual-openllm/visual-openllm)
     > something like visual-chatgpt, 文心一言的开源版
 - [wenda](https://github.com/wenda-LLM/wenda)
     > 闻达：一个LLM调用平台。为小模型外挂知识库查找和设计自动执行动作，实现不亚于于大模型的生成能力
+- [Linly](https://github.com/CVI-SZU/Linly)
+    > Chinese-LLaMA基础模型；ChatFlow中文对话模型；中文OpenLLaMA模型；NLP预训练/指令微调数据集
+- [CPM-Bee](https://github.com/OpenBMB/CPM-Bee)
+    > 百亿参数的中英文双语基座大模型
     
 ## Tutorial
 

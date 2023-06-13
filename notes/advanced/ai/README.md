@@ -47,6 +47,17 @@
 - `CNN` : 卷积神经网络
     > 特色 : 处理网格数据(如: 图像处理)
 
+## `Streamlit` vs `Gradio`
+
+- [Streamlit](https://github.com/streamlit/streamlit)
+    > Streamlit — A faster way to build and share data apps.
+- [Gradio](https://github.com/gradio-app/gradio)
+    > Create UIs for your machine learning model in Python in 3 minutes
+
+## Concept
+
+- `Fine Tuning` : 微调
+
 ## Tools
 
 - [Transformers](https://github.com/huggingface/transformers)
@@ -62,6 +73,5 @@
 
 ## Tutorial
 
-- []()
 - [2023-05-25 通过抬杠，了解文本摘要的实现原理](https://juejin.cn/post/7236694100216692795)
 - [2023-05-20 快来尝试你的第一个AI程序](https://juejin.cn/post/7234852669021831227)

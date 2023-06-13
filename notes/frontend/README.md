@@ -42,6 +42,8 @@ $ yarn config set registry https://registry.yarnpkg.com
 
 ## Monorepo
 
+- [Lerna](https://github.com/lerna/lerna)
+    > 🐉 Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.
 - [nx](https://github.com/nrwl/nx)
     > Smart, Fast and Extensible Build System
 
@@ -53,6 +55,8 @@ $ yarn config set registry https://registry.yarnpkg.com
     > The React Framework
 - [egg](https://github.com/eggjs/egg) : [中文文档](https://www.eggjs.org/zh-CN)
     > 🥚 Born to build better enterprise frameworks and apps with Node.js & Koa
+- [Strapi](https://github.com/strapi/strapi)
+    > 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
 
 ## Cross Platform
 
@@ -75,6 +79,10 @@ $ yarn config set registry https://registry.yarnpkg.com
 
 - [Seeing-Theory](https://github.com/seeingtheory/Seeing-Theory)
     > A visual introduction to probability and statistics.
+- [WebdriverIO](https://github.com/webdriverio/webdriverio)
+    > Next-gen browser and mobile automation test framework for Node.js
+- [Jest](https://github.com/jestjs/jest)
+    > Delightful JavaScript Testing.
 
 ## UI
 
