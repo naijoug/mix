@@ -39,3 +39,4 @@
 - [2023-05-17 70款ChatGPT插件评测](https://zhuanlan.zhihu.com/p/629337429)
 - [2023-05-14 简单实现一个ChatGPT Plugin](https://zhuanlan.zhihu.com/p/629207240)
 - [2023-04-07 ChatGPT应用开发小记](https://www.bmpi.dev/dev/chatgpt-development-notes/my-gpt-reader/)
+- [2023-06-10 ChatGPT实践应用和大模型技术解析](https://live.juejin.cn/4354/ChatGPT)
