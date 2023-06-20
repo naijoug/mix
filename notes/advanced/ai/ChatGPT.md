@@ -4,6 +4,7 @@
 
 - [chatGPT](chat.openai.com)
 - [OpenAI docs](https://platform.openai.com/docs)
+- [Chat GPT Demo](https://chatgptdemo.net)
 
 ## Fake
 

@@ -26,6 +26,12 @@
 | Functions             | MyExcitingMethod()
 
 - Python
+> [pylint](https://github.com/pylint-dev/pylint)
+
+```shell
+$ pip install pylint # 安装 pylint
+$ pylint --generate-rcfile > .pylintrc # 生成 .pylintrc 文件
+```
 
 | Type | Public | Internal
 | --- | --- | --- 

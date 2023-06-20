@@ -293,7 +293,7 @@ quadrantChart
     Campaign F: [0.35, 0.78]
 ```
 
-### Requirement Diagram : 需求恶徒
+### Requirement Diagram : 需求图
 
 ```mermaid
 requirementDiagram

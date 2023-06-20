@@ -69,17 +69,17 @@ $ pip install opencv-python # 安装 opencv-python
         + `cv2.IMWRITE_JPEG_QUALITY` : JPEG, 图像质量(0~100, 默认:95)
         + `cv2.IMWRITE_PNG_COMPRESSION` : PNG, 压缩级别(0~9, 默认:3)
 
-  ```python
-  img = cv2.imread('test.png')    # 读取图片
-  cv2.imshow('img', img)          # 显示图片
-  cv2.imwrite('save.png', img)    # 保存图片
-  cv2.imwrite("test1.jpg", img，[int(cv2.IMWRITE_JPEG_QUALITY), 10])
-  cv2.imwrite("test2.png", img, [int(cv2.IMWRITE_PNG_COMPRESSION), 0]) 
-  cv2.namedWindow('image', cv2.WINDOW_NORMAL) # 创建窗口
-  cv2.imshow('image', img)        # 显示在指定窗口
-  cv2.waitKey(0)                  # 等待键盘输入
-  cv2.destoryAllWindows()         # 销毁窗口
-  ```
+```python
+img = cv2.imread('test.png')    # 读取图片
+cv2.imshow('img', img)          # 显示图片
+cv2.imwrite('save.png', img)    # 保存图片
+cv2.imwrite("test1.jpg", img，[int(cv2.IMWRITE_JPEG_QUALITY), 10])
+cv2.imwrite("test2.png", img, [int(cv2.IMWRITE_PNG_COMPRESSION), 0]) 
+cv2.namedWindow('image', cv2.WINDOW_NORMAL) # 创建窗口
+cv2.imshow('image', img)        # 显示在指定窗口
+cv2.waitKey(0)                  # 等待键盘输入
+cv2.destoryAllWindows()         # 销毁窗口
+```
 
 ### 视频
 
