@@ -1,5 +1,9 @@
 # AI
 
+## Reference
+
+- [AI 工具集](https://ai-bot.cn/)
+
 ## Concept
 
 | abbr | full | description
@@ -53,6 +57,8 @@
     > Streamlit — A faster way to build and share data apps.
 - [Gradio](https://github.com/gradio-app/gradio)
     > Create UIs for your machine learning model in Python in 3 minutes
+- [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+    > A browser interface based on Gradio library for Stable Diffusion.
 
 ## Concept
 
@@ -66,12 +72,26 @@
     > Code for loralib, an implementation of "LoRA: Low-Rank Adaptation of Large Language Models"
 - [LangChain](https://github.com/hwchase17/langchain)
     > ⚡ Building applications with LLMs through composability ⚡
+- [embedchain](https://github.com/embedchain/embedchain)
+    > Framework to easily create LLM powered bots over any dataset.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
     > Integrate cutting-edge LLM technology quickly and easily into your apps
 - [guidance](https://github.com/microsoft/guidance)
     > A guidance language for controlling large language models. 
 
+## AI Coder
+
+- [Github Copilot](https://github.com/features/copilot)
+    > Your AI pair programmer
+- [Amazon CodeWhisperer](https://aws.amazon.com/cn/codewhisperer)
+- [Alibaba cosy](https://github.com/alibaba-cloud-toolkit/cosy) 
+    > 阿里云智能编码插件（Alibaba Cloud AI Coding Assistant）是一款AI编程助手，它提供代码智能补全和IDE内的代码示例搜索能力，帮助你更快更高效地写出高质量代码。
+
 ## Tutorial
 
+- [Microsoft - ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)
+    > 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all
+- [Ali - 人工智能学习路线](https://developer.aliyun.com/learning/roadmap/ai)
+- [course.fast.ai](https://github.com/fastai/course22)
 - [2023-05-25 通过抬杠，了解文本摘要的实现原理](https://juejin.cn/post/7236694100216692795)
 - [2023-05-20 快来尝试你的第一个AI程序](https://juejin.cn/post/7234852669021831227)

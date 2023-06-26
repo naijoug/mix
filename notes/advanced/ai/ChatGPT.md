@@ -5,6 +5,7 @@
 - [chatGPT](chat.openai.com)
 - [OpenAI docs](https://platform.openai.com/docs)
 - [Chat GPT Demo](https://chatgptdemo.net)
+- [Awesome-ChatGPT](https://github.com/runningcheese/Awesome-ChatGPT)
 
 ## Fake
 
@@ -23,6 +24,8 @@
 
 ## Tools
 
+- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer)
+    > Specify what you want it to build, the AI asks for clarification, and then builds it.
 - [ChatALL](https://github.com/sunner/ChatALL)
     > Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers
 - [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
@@ -36,6 +39,7 @@
 
 ## Tutorial
 
+- [使用腾讯云函数一分钟搭建 OpenAI 免翻墙代理](https://github.com/Ice-Hazymoon/openai-scf-proxy)
 - [2023-05-24 拥有自我意识的AI：AutoGPT](https://juejin.cn/post/7236594708301840441)
 - [2023-05-17 70款ChatGPT插件评测](https://zhuanlan.zhihu.com/p/629337429)
 - [2023-05-14 简单实现一个ChatGPT Plugin](https://zhuanlan.zhihu.com/p/629207240)

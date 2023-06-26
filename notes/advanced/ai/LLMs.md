@@ -63,7 +63,11 @@
     
 ## Tutorial
 
+- [Full Stack LLM Bootcamp](https://github.com/the-full-stack/website)
 - [基于本地知识库的 ChatGLM 等大语言模型应用实现](https://github.com/imClumsyPanda/langchain-ChatGLM)
 - [一种平价的chatgpt实现方案, 基于ChatGLM-6B + LoRA](https://github.com/mymusise/ChatGLM-Tuning)
 - [2023-05-18 GPT大语言模型Vicuna本地化部署实践（效果秒杀Alpaca）](https://zhuanlan.zhihu.com/p/630287397)
 - [2023-04-22 大模型也内卷，Vicuna训练及推理指南，效果碾压斯坦福羊驼](https://zhuanlan.zhihu.com/p/624012908)
+- [2023-01-18 通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
+- [2019-01-27 BERT大火却不懂Transformer？读这一篇就够了](https://zhuanlan.zhihu.com/p/54356280)
+- [2019-01-13 放弃幻想，全面拥抱Transformer：自然语言处理三大特征抽取器（CNN/RNN/TF）比较](https://zhuanlan.zhihu.com/p/54743941)

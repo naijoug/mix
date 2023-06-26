@@ -22,6 +22,10 @@
     > A machine learning based toolkit for the processing of natural language text.
 - [Tokenizers](https://github.com/huggingface/tokenizers)
     > 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
+- [fastText](https://github.com/facebookresearch/fastText)
+    > Library for fast text representation and classification.
+- [polyglot](https://github.com/aboSamoor/polyglot)
+    > Multilingual text (NLP) processing toolkit
 - [jieba](https://github.com/fxsjy/jieba) : Chinese
     > “结巴”中文分词：做最好的 Python 中文分词组件
 - [LAC](https://github.com/baidu/lac) : Chinese
