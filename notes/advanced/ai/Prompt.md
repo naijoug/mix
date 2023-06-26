@@ -14,3 +14,19 @@
     > Prompt 编写模式：如何将思维框架赋予机器，以设计模式的形式来思考 prompt
 - [理解 Prompt](https://github.com/prompt-engineering/understand-prompt)
     > 理解 Prompt：基于编程、绘画、写作的 AI 探索与总结
+
+
+## [GPT Engineer](https://github.com/AntonOsika/gpt-engineer)
+> Specify what you want it to build, the AI asks for clarification, and then builds it.
+
+```sh
+# install 
+$ pip install gpt-engineer
+
+# 新建项目文件夹
+$ mkdir project_folder
+# 创建项目 prompt 项目指令
+$ vim project_folder/prompt
+# 运行 gpt-engineer
+$ gpt-engineer project_folder/
+```

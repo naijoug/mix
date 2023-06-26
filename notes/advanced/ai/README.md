@@ -74,6 +74,8 @@
     > ⚡ Building applications with LLMs through composability ⚡
 - [embedchain](https://github.com/embedchain/embedchain)
     > Framework to easily create LLM powered bots over any dataset.
+- [Lightning](https://github.com/lightning-ai/lightning)
+    > Deep learning framework to train, deploy, and ship AI products Lightning fast.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
     > Integrate cutting-edge LLM technology quickly and easily into your apps
 - [guidance](https://github.com/microsoft/guidance)
@@ -86,6 +88,8 @@
 - [Amazon CodeWhisperer](https://aws.amazon.com/cn/codewhisperer)
 - [Alibaba cosy](https://github.com/alibaba-cloud-toolkit/cosy) 
     > 阿里云智能编码插件（Alibaba Cloud AI Coding Assistant）是一款AI编程助手，它提供代码智能补全和IDE内的代码示例搜索能力，帮助你更快更高效地写出高质量代码。
+- [CodeGeeX](https://github.com/THUDM/CodeGeeX)
+    > CodeGeeX: An Open Multilingual Code Generation Model
 
 ## Tutorial
 

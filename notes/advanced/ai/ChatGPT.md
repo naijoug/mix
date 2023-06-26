@@ -24,8 +24,6 @@
 
 ## Tools
 
-- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer)
-    > Specify what you want it to build, the AI asks for clarification, and then builds it.
 - [ChatALL](https://github.com/sunner/ChatALL)
     > Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers
 - [Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
