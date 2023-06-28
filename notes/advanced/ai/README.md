@@ -90,6 +90,10 @@
     > 阿里云智能编码插件（Alibaba Cloud AI Coding Assistant）是一款AI编程助手，它提供代码智能补全和IDE内的代码示例搜索能力，帮助你更快更高效地写出高质量代码。
 - [CodeGeeX](https://github.com/THUDM/CodeGeeX)
     > CodeGeeX: An Open Multilingual Code Generation Model
+- [Bito AI](https://github.com/gitbito/bitoai)
+    > 🚀 Bito AI – Bring ChatGPT to your IDE to 10x your dev abilities!
+- [CopilotForXcode](https://github.com/intitni/CopilotForXcode)
+    > The missing GitHub Copilot, Codeium and ChatGPT Xcode Source Editor Extension
 
 ## Tutorial
 

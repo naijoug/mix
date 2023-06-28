@@ -3,7 +3,8 @@
 ## Reference
 
 - [chatGPT](chat.openai.com)
-- [OpenAI docs](https://platform.openai.com/docs)
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
+    > Examples and guides for using the OpenAI API
 - [Chat GPT Demo](https://chatgptdemo.net)
 - [Awesome-ChatGPT](https://github.com/runningcheese/Awesome-ChatGPT)
 
@@ -34,11 +35,14 @@
     > Interact your data and environment using the local GPT, no data leaks, 100% privately, 100% security
 - [polyglot](https://github.com/liou666/polyglot)
     > 🤖️ 桌面端AI语言练习应用
+- [myGPTReader](https://github.com/madawei2699/myGPTReader)
+    > A community-driven way to read and chat with AI bots - powered by chatGPT.
 
 ## Tutorial
 
 - [使用腾讯云函数一分钟搭建 OpenAI 免翻墙代理](https://github.com/Ice-Hazymoon/openai-scf-proxy)
 - [2023-05-24 拥有自我意识的AI：AutoGPT](https://juejin.cn/post/7236594708301840441)
+- [2023-05-21 我与ChatGPT结对编程的体验](https://www.bmpi.dev/dev/chatgpt-development-notes/pair-programming)
 - [2023-05-17 70款ChatGPT插件评测](https://zhuanlan.zhihu.com/p/629337429)
 - [2023-05-14 简单实现一个ChatGPT Plugin](https://zhuanlan.zhihu.com/p/629207240)
 - [2023-04-07 ChatGPT应用开发小记](https://www.bmpi.dev/dev/chatgpt-development-notes/my-gpt-reader/)

@@ -10,8 +10,10 @@
 - [Python 100 Days](https://github.com/jackfrued/Python-100-Days)
 - [Python 教程](https://www.liaoxuefeng.com/wiki/1016959663602400)
 - [Python Cookbook](https://github.com/yidao620c/python3-cookbook)
-- [Python 最佳实践指南](https://github.com/Prodesire/Python-Guide-CN)
-- [Python 进阶](https://github.com/eastlakeside/interpy-zh)
+- [Python-Guide-CN](https://github.com/Prodesire/Python-Guide-CN)
+    > Python最佳实践指南。 The chinese translation of "Hitchhiker's Guide to Python".
+- [interpy-zh](https://github.com/eastlakeside/interpy-zh)
+    > 📘《Python进阶》（Intermediate Python - Chinese Version）
 - [Python 中文学习大本营](http://www.pythondoc.com/)
 
 ## Usage
@@ -44,10 +46,12 @@ $ pip config list
 | `3 / 2 = 1` | `3 / 2 = 1.5` 
 
 ## Virtual Environment 
-> `venv` & `pyenv` & `virtualenv` & `Anaconda`
+> `venv` & `pyenv` & `pipenv` & `virtualenv` & `Anaconda`
 
 - [pyenv](https://github.com/pyenv/pyenv)
     > Simple Python version management
+- [pipenv](https://github.com/pypa/pipenv)
+    > Python Development Workflow for Humans.
 - [virtualenv](https://github.com/pypa/virtualenv) 
     > Virtual Python Environment builder
 - [Anaconda](https://www.anaconda.com)
@@ -62,6 +66,10 @@ $ deactivate # 关闭虚拟空间
 # pyenv
 $ brew install pyenv    # 安装 pyenv
 $ pyenv versions        # 查看 python 版本
+
+# pipenv
+$ pipenv --python 3.10      # 设置项目使用 python 版本
+$ pipenv install <package>  # 安装依赖包
 
 # virtualenv
 $ pip install virtualenv    # 安装 virtualenv

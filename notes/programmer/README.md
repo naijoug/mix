@@ -6,6 +6,7 @@
 - [OKR](https://www.okr.com/)
     > OKR（Objectives & Key Results），中文名称是“目标与关键结果”
 - [Random Street View](https://randomstreetview.com)
+- [Quuick, Draw!](https://quickdraw.withgoogle.com)
 
 ## notes
 
