@@ -25,7 +25,9 @@
 | IIS       | 
 | Nginx     |
 
-## Cloud
+## Cloud Server
 
 - [Vercel](https://vercel.com/)
     > Vercel's frontend cloud gives developers frameworks, workflows, and infrastructure to build a faster, more personalized web.
+- [zeabur](https://zeabur.com/)
+    > Zeabur is a platform that helps developers deploy services with a single click, no matter what programming language or development framework your project uses.

@@ -101,5 +101,6 @@
     > 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all
 - [Ali - 人工智能学习路线](https://developer.aliyun.com/learning/roadmap/ai)
 - [course.fast.ai](https://github.com/fastai/course22)
+- [2023-06-06 从零开始学LangChain](https://www.yuque.com/layingqingyangair/ssaoyc/eghmafr97u3po8xq)
 - [2023-05-25 通过抬杠，了解文本摘要的实现原理](https://juejin.cn/post/7236694100216692795)
 - [2023-05-20 快来尝试你的第一个AI程序](https://juejin.cn/post/7234852669021831227)
