@@ -13,6 +13,11 @@
 - [算法 4 课后练习解答](https://github.com/jimmysuncpt/Algorithms)
 - [数据结构和算法必知必会的50个代码实现](https://github.com/wangzheng0822/algo)
 
+## Math
+
+- [The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) : 线性代数的艺术
+    > Graphic notes on Gilbert Strang's "Linear Algebra for Everyone"
+
 ## Visualizer
 
 - [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)

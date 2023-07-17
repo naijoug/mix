@@ -3,6 +3,8 @@
 ## Reference
 
 - [MDN - HTML](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
+- [htmx](https://github.com/bigskysoftware/htmx)
+    > </> htmx - high power tools for HTML
 - [绿叶学习网](www.lvyestudy.com)
 - [从 0 到 1: HTML+CSS 快速上手](https://weread.qq.com/web/reader/1053223071cad78210554c5)
 - [CANVAS](https://github.com/airingursb/canvas)

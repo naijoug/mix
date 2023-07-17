@@ -6,6 +6,10 @@
 - [OpenCV Python Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)
 - [Face Recognition](https://github.com/ageitgey/face_recognition)
     > The world's simplest facial recognition api for Python and the command line
+- [DeepFaceLive](https://github.com/iperov/DeepFaceLive)
+    > Real-time face swap for PC streaming or video calls
+- [IGL](https://github.com/facebook/igl)
+    > Intermediate Graphics Library (IGL) is a cross-platform library that commands the GPU. It provides a single low-level cross-platform interface on top of various graphics APIs (e.g. OpenGL, Metal and Vulkan).
 
 ## Usage
 

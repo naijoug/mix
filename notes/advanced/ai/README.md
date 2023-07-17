@@ -59,6 +59,8 @@
     > Create UIs for your machine learning model in Python in 3 minutes
 - [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
     > A browser interface based on Gradio library for Stable Diffusion.
+- [Reflex](https://github.com/reflex-dev/reflex)
+    > (Previously Pynecone) 🕸 Web apps in pure Python 🐍
 
 ## Concept
 
