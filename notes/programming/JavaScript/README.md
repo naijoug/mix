@@ -8,13 +8,6 @@
 - [JavaScript Tutorial](https://github.com/wangdoc/javascript-tutorial)
 - [JS Training](https://github.com/ruanyf/jstraining)
 
-## TypeScript
-
-- [TypeScript](https://github.com/microsoft/TypeScript)
-    > TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
-- [TypeScript 使用手册（中文版）](https://github.com/zhongsp/TypeScript)
-- [typescript-tutorial](https://github.com/xcatliu/typescript-tutorial) : [TypeScript 入门教程](https://ts.xcatliu.com/)
-
 ## Libraries
 
 - [JQuery](https://github.com/jquery/jquery)

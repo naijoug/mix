@@ -7,6 +7,9 @@
     > Examples and guides for using the OpenAI API
 - [Chat GPT Demo](https://chatgptdemo.net)
 - [Awesome-ChatGPT](https://github.com/runningcheese/Awesome-ChatGPT)
+- [ChatGPT-Mac-MenuBar](https://github.com/KittenYang/ChatGPT-Mac-MenuBar)
+- [wechat-chatgpt](https://github.com/fuergaosi233/wechat-chatgpt)
+- [chat-gpt-google-extension](https://github.com/wong2/chat-gpt-google-extension)
 
 ## Fake
 

@@ -1,19 +1,8 @@
 # Tutorials
 
-## Apple
-
-- [Documentation Archive](https://developer.apple.com/library/archive/navigation/)
-- [iOS App Dev Tutorials](https://developer.apple.com/tutorials/app-dev-training)
-- [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui)
-- [Apple Open Source](https://opensource.apple.com/)
-
-## OpenSource
+## Reference
 
 - [Developing iOS 8 Apps with Swift](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
-
-## Apple Samples
-
-- [Asynchronously Loading Images into Table and Collection Views](https://developer.apple.com/library/archive/samplecode/LazyTableImages) 
 
 ## [Raywenderlich](https://raywenderlich.com) 
 

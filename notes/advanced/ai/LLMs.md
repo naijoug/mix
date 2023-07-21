@@ -5,6 +5,8 @@
 
 - [Open LLMs](https://github.com/eugeneyan/open-llms)
     > 🤖 A list of open LLMs available for commercial use.   
+- [Z-Bench](https://github.com/zhenbench/z-bench)
+    > Z-Bench 1.0 by 真格基金：一个麻瓜的大语言模型中文测试集。Z-Bench is a LLM prompt dataset for non-technical users, developed by an enthusiastic AI-focused team in Zhenfund
 
 ## GPT
 

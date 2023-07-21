@@ -5,6 +5,10 @@
 - [Kotlin](https://github.com/JetBrains/kotlin)
 - [Kotlin 语言中文站](https://github.com/hltj/kotlin-web-site-cn)
 
+## Collector
+
+- [2023-06-20 Netflix Android 客户端开源库大公开](https://juejin.cn/post/7246453307735392316)
+
 ## Concept
 
 - Android 系统体系结构

@@ -10,6 +10,10 @@
 - [iOS8下代码安装/卸载APP](https://blog.0xbbc.com/2014/12/ios8%E4%B8%8B%E4%BB%A3%E7%A0%81%E5%AE%89%E8%A3%85%E5%8D%B8%E8%BD%BDapp/)
 - [iOS 逆向: 越狱使用 SSH](http://www.veryitman.com/2018/05/12/iOS-%E9%80%86%E5%90%91-%E8%B6%8A%E7%8B%B1%E4%BD%BF%E7%94%A8-SSH/)
 
+## Assets.car
+
+- [Analysing Assets.car file in iOS](https://stackoverflow.com/questions/22630418/analysing-assets-car-file-in-ios)
+
 ## Jailbreak
 > 越狱
 

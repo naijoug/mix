@@ -2,6 +2,7 @@
 
 ## Reference
 
+- [Apple PKI](https://www.apple.com/certificateauthority)
 - [Open Source macOS Apps](https://github.com/serhii-londar/open-source-mac-os-apps)
 - [强迫症的 Mac 设置指南](https://github.com/macdao/ocds-guide-to-setting-up-mac)
 - [Objective-See's Tools](https://github.com/objective-see)

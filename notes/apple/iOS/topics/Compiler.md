@@ -32,3 +32,9 @@ clang -x objective-c -arch arm-64 -c XX/Test.m -o XX/Test.o
 clang -rewrite-objc main.m -o main.cpp
 # 将 OC 代码转化为 C/C++ 代码
 ```
+
+## DWARF & dSYM
+> [DWARF Debugging Standard](https://dwarfstd.org)
+
+- DWARF (debuging with attributed record formats) : 一种调试文件的格式
+- dSYM (debug Symbils) : 调试符号，符号文件。按照 `DWARF` 格式保存的调试文件

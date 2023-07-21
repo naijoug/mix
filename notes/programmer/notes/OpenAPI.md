@@ -13,3 +13,4 @@
     > Documentation and Samples for the Official HN API
 - [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
     > 哔哩哔哩-API收集整理
+- [免费节假日 API](https://timor.tech/api/holiday)
