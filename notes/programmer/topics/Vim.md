@@ -14,7 +14,7 @@
 
 ## Commands
 
-  ```bash
+  ```shell
   # Liunx
   $ sudo apt-get install vim  # 安装Vim
   $ sudo vim /etc/vim/vimrc   # 开启高亮，去掉 synax on 前面 "

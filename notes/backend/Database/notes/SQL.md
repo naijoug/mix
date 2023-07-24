@@ -1,5 +1,5 @@
-
-> SQL (Structured Query Language) : 结构化查询语言，是一种对关系型数据库中的数据进行定义和操作的语言。
+# SQL
+> Structured Query Language : 结构化查询语言，是一种对关系型数据库中的数据进行定义和操作的语言。
 
 ## Concept
 

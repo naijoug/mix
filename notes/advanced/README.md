@@ -2,5 +2,8 @@
 ## notes
 
 - [ai](ai/README.md)
-- [OpenCV](notes/OpenCV.md)
-- [OpenGL](notes/OpenGL.md)
+- [blockchain](blockchain/README.md)
+- [OpenCV](topics/OpenCV.md)
+- [OpenGL](topics/OpenGL.md)
+- [ROS](topics/ROS.md)
+- [Hardware](topics/Hardware.md)

@@ -19,7 +19,7 @@
 ## [GPT Engineer](https://github.com/AntonOsika/gpt-engineer)
 > Specify what you want it to build, the AI asks for clarification, and then builds it.
 
-```sh
+```shell
 # install 
 $ pip install gpt-engineer
 

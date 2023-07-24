@@ -20,7 +20,7 @@
 
 ## Startup & Shutdown
 
-``` bash
+``` shell
 # 服务端启动
 $ mongod    # 启动 mongo 服务，默认数据库目录"/data/db"
 $ mongod --dbpath=/path     # 指定数据库目录
@@ -45,7 +45,7 @@ $ ./mongo     # 进入 mongo 后台管理
 
 - ubuntu
 
-``` bash
+``` shell
 # 默认 path
 #   config : /etc/mongod.conf
 #   dbpath : /var/lib/mongodb
@@ -65,7 +65,7 @@ $ tail -n 100 /var/log/mongodb/mongod.log # 查看 mongo 日志
 
 - brew
 
-``` bash
+``` shell
 # config: /usr/local/etc/mongod.conf
 # logpath: /usr/local/var/log/mongodb
 # dbpath: /usr/local/var/mongodb
@@ -79,7 +79,7 @@ $ brew services start mongodb
 
 - 常用命令
 
-``` bash
+``` shell
 > show users                # 显示所有用户
 > show dbs                  # 显示所有数据库
 > db                        # 显示当前所在数据库
@@ -93,7 +93,7 @@ $ brew services start mongodb
 
 - 用户授权
 
-``` bash
+``` shell
 # 用户授权
 > use reporting
 > db.grantRolesToUser(
@@ -115,7 +115,7 @@ $ brew services start mongodb
 
 - 数据库(创建 & 删除)
 
-``` bash
+``` shell
 # 创建数据库
 > use User  # 存在，切换到User数据库；不存在，创建(刚创建的数据库，需要插入一条数据后，才能显示)
 # 删除数据库
@@ -130,7 +130,7 @@ $ brew services start mongodb
 
 - 集合数据(增 & 删 & 改 & 查)
 
-``` bash
+``` shell
 # 插入数据
 > db.User.insert({"id","0001", "name":"kobe", "age":24}) # User是插入的集合名
 > db.User.save({"id":"0002", "name":"James", "age":23})  # 不传_id，等价于insert
@@ -165,7 +165,7 @@ $ brew services start mongodb
 
 - 数据库迁移
 
-``` sh
+``` shell
 # mongodump
 
 # mongorestore
@@ -176,7 +176,7 @@ $ brew services start mongodb
 
 - [MongoDB can not start by the command `service mongod start`](https://stackoverflow.com/questions/51184838/mongodb-can-not-start-by-the-command-service-mongod-start)
 
-``` bash
+``` shell
 $ [sudo] chown mongodb.mongodb -R /var/lib/mongodb
 ```
 

@@ -1,4 +1,5 @@
-# Front End
+# Frontend
+
 
 ## Reference
 
@@ -40,13 +41,6 @@ $ yarn config set registry https://registry.yarnpkg.com
 
 - SPA (Single Page Applaction) : 单页面应用
 
-## Monorepo
-
-- [Lerna](https://github.com/lerna/lerna)
-    > 🐉 Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.
-- [nx](https://github.com/nrwl/nx)
-    > Smart, Fast and Extensible Build System
-
 ## Frameworks
 
 - [nest](https://github.com/nestjs/nest) : [中文文档](https://docs.nestjs.cn/)
@@ -58,7 +52,7 @@ $ yarn config set registry https://registry.yarnpkg.com
 - [Strapi](https://github.com/strapi/strapi)
     > 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
 
-## Cross Platform
+## Web Cross Platform
 
 - [uni-app](https://github.com/dcloudio/uni-app)
     > A cross-platform framework using Vue.js
@@ -74,6 +68,17 @@ $ yarn config set registry https://registry.yarnpkg.com
     > Mpx，一款具有优秀开发体验和深度性能优化的增强型跨端小程序框架
 - [mpvue](https://github.com/Meituan-Dianping/mpvue)
     > 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系。
+
+## Native Corss Platform
+
+- [NativeScript](https://github.com/NativeScript/NativeScript)
+    > ⚡ Empowering JavaScript with native platform APIs. ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java). Use what you love ❤️ Angular, Capacitor, Ionic, React, Svelte, Vue and you name it compatible.
+- [SCADE](https://www.scade.io)
+    > Native App Development with Swift for iOS and Android
+- [RubyMotion](http://www.rubymotion.com)
+    > 使用 Ruby 开发 iOS, Android 以及 OS X 原生应用
+- [Flybirds](https://github.com/ctripcorp/flybirds)
+    > 基于自然语言的，跨端跨框架 BDD UI 自动化测试方案，BDD testing, Python style, Present by Trip Flight
 
 ## Tool
 
@@ -91,3 +96,9 @@ $ yarn config set registry https://registry.yarnpkg.com
 - [Ant Desgin](https://ant.design)
     > An enterprise-class UI design language and React UI library
 
+## Monorepo
+
+- [Lerna](https://github.com/lerna/lerna)
+    > 🐉 Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.
+- [nx](https://github.com/nrwl/nx)
+    > Smart, Fast and Extensible Build System

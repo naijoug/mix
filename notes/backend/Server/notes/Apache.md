@@ -1,8 +1,19 @@
 # Apache
 
-## Commands
+## Usage
     
-```bash
+- macOS
+    * 系统级根目录 : `/Library/WebServer/Documents`
+        + 配置文件 : `/etc/apache2/httpd.conf`
+    * 用户级别根目录 : `/Users/${user}/Sites`
+        + 配置文件 : `/etc/apache2/users/${user}.conf`
+    * apache 日志目录 : `/var/log/apache2`
+    
+- ubuntu
+    * 默认根目录 : `/var/www/html/index.html`
+    * 配置文件目录 : `/etc/apache2/apache2.conf`
+
+```shell
 # macOS
 $ httpd -v                      # 查看 apache 版本
 $ apachectl -k start            # 可以查看启动日志
@@ -22,26 +33,11 @@ $ /etc/init.d/apache2 restart   # 重启 apache
 $ service apache2 restart       # 重启 apache
 ```
 
-## Usage
-
-- macOS
-    * 系统级根目录 : `/Library/WebServer/Documents`
-        + 配置文件 : `/etc/apache2/httpd.conf`
-    * 用户级别根目录 : `/Users/${user}/Sites`
-        + 配置文件 : `/etc/apache2/users/${user}.conf`
-    * apache 日志目录 : `/var/log/apache2`
-    
-
-- ubuntu
-    * 默认根目录 : `/var/www/html/index.html`
-    * 配置文件目录 : `/etc/apache2/apache2.conf`
-
-
 ### Config
 
 - 开启用户目录
 
-```bash
+```shell
 # 1> /etc/apache2/httpd.conf
 LoadModule userdir_module libexec/apache2/mod_userdir.so    # 启用用户目录功能
 Include /private/etc/apache2/extra/httpd-userdir.conf       # 启用用户目录配置文件
@@ -62,7 +58,7 @@ Include /private/etc/apache2/users/*.conf
 
 - 开启虚拟空间
 
-```bash
+```shell
 # 1> /etc/apache2/httpd.conf
 LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so    # 启用虚拟空间功能
 Include /private/etc/apache2/extra/httpd-vhosts.conf                # 启用虚拟空间配置文件

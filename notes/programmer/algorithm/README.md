@@ -1,6 +1,6 @@
 # Algorithm
 
-## GitHub
+## Reference
 
 - [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
 - [代码随想录](https://github.com/youngyangyang04/leetcode-master)
@@ -12,9 +12,6 @@
 - [Swift 算法俱乐部](https://github.com/KeithMorning/swift-algorithm-club-cn)
 - [算法 4 课后练习解答](https://github.com/jimmysuncpt/Algorithms)
 - [数据结构和算法必知必会的50个代码实现](https://github.com/wangzheng0822/algo)
-
-## Math
-
 - [The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) : 线性代数的艺术
     > Graphic notes on Gilbert Strang's "Linear Algebra for Everyone"
 

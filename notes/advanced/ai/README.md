@@ -4,12 +4,22 @@
 
 - [AI 工具集](https://ai-bot.cn/)
 
+## notes
+
+- [NLP](notes/NLP.md)
+- [ML](notes/ML.md)
+- [LLMs](notes/LLMs.md)
+- [AIGC](notes/AIGC.md)
+- [ChatGPT](notes/ChatGPT.md)
+- [Prompt](notes/Prompt.md)
+
 ## Concept
 
 | abbr | full | description
 | --- | --- | ---
 | `NLP`     | Natural Language Processing           | 自然语言处理
 | `LLMs`    | Large Language Models                 | 大语言模型
+| `GLM`     | General Language Model                | 通用语言模型
 | `LoRA`    | Low-Rank Adaptation of Large Language Models | 大语言模型的低阶适应
 | `BERT`    | Bidirectional Encoder Representations from Transformers | 基于大规模无监督预训练的双向表示法
 | `GPT`     | Generative Pre-trained Transformer    | 生成式预训练语言模型
@@ -26,12 +36,7 @@
 | `TF`      | Term Frequency                        | 词频
 | `SW`      | Stop Words                            | 停用词
 | `IDF`     | Inverse Document Frequency            | 逆文档频率
-
-
-## `Large Language Model` vs `General Language Model`
-
-- `Large Language Model` : 大语言模型
-- `General Language Model` : 通用语言模型
+|           | Fine Tuning                           | 微调
 
 ## `TensorFlow` vs `PyTorch` vs  `Jax`
 
@@ -61,10 +66,6 @@
     > A browser interface based on Gradio library for Stable Diffusion.
 - [Reflex](https://github.com/reflex-dev/reflex)
     > (Previously Pynecone) 🕸 Web apps in pure Python 🐍
-
-## Concept
-
-- `Fine Tuning` : 微调
 
 ## Tools
 

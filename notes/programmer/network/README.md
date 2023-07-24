@@ -109,7 +109,7 @@
 
 ## `SSH`
 
-  ```sh
+  ```shell
   # 安装 openssh
   $ sudo apt-get update # 更新系统工具和依赖
   $ sudo apt-get install openssh-server openssh-client

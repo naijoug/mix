@@ -4,16 +4,16 @@
 
 - [Docker 命令大全](http://www.runoob.com/docker/docker-command-manual.html)
 
-## Commands
+## Usage
 
-``` bash
+``` shell
 $ docker -h
 #   > 查看 docker 帮助信息
 $ docker COMMAND --help 
 #   > 查看指定命令帮助信息
 ```
 
-``` bash
+``` shell
 $ docker deploy
 # docker deploy [OPTIONS] STACK      
 #   > Deploy a new stack or update an existing stack
@@ -52,13 +52,12 @@ $ docker version
 #       -f : 
 ```
 
-## Management Commands
+## Management
 
 ### checkpoint 
-
 > `docker checkpoint COMMAND`
 
-``` bash
+``` shell
 $ docker checkpoint create 
 # docker checkpoint create [OPTIONS] CONTAINER CHECKPOINT      
 #   > Create a checkpoint from a running container
@@ -71,10 +70,9 @@ $ docker checkpoint rm
 ```
 
 ### config
-
 > `docker config COMMAND`
 
-``` bash
+``` shell
 $ docker config create 
 # docker config create [OPTIONS] CONFIG file|-      
 #   > Create a config from a file or STDIN
@@ -90,10 +88,9 @@ $ docker config rm
 ```
 
 ### container
-
 > `docker [container] COMMAND`
 
-``` bash
+``` shell
 $ docker [container] attach --sig-proxy=false mynginx
 # docker [container] attach [OPTIONS] CONTAINER      
 #   > 将本地标准输入，输出和错误流附加到正在运行的容器
@@ -229,10 +226,9 @@ $ docker [container] wait myngix
 ```
 
 ### image
-
 > `docker [image] COMMAND` : 管理 Docker 镜像
 
-``` bash
+``` shell
 $ docker [image] build 
 # docker [image] build [OPTIONS] PATH | URL | -       
 #   > 根据 Dockerfile 创建一个镜像
@@ -294,10 +290,9 @@ $ docker [image] tag httpd ng/httpd:test
 ```
 
 ### network
-
 > `docker network COMMAND`
 
-``` bash
+``` shell
 $ docker network connect 
 # docker network connect [OPTIONS] NETWORK CONTAINER    
 #   > Connect a container to a network
@@ -322,10 +317,9 @@ $ docker network rm
 ```
 
 ### node    
-
 > `docker node COMMAND`
 
-``` bash
+``` shell
 $ docker node demote 
 # docker node demote NODE [NODE...]      
 #   > Demote one or more nodes from manager in the swarm
@@ -350,10 +344,9 @@ $ docker node update
 ```
 
 ### plugin  
-
 > `docker plugin COMMAND`
 
-``` bash
+``` shell
 $ docker plugin create 
 # docker plugin create [OPTIONS] PLUGIN PLUGIN-DATA-DIR      
 #   > Create a plugin from a rootfs and configuration. Plugin data directory must contain config.json and rootfs directory.
@@ -387,10 +380,9 @@ $ docker plugin upgrade
 ```
 
 ### secret      
-
 > `docker secret COMMAND`
 
-``` bash
+``` shell
 $ docker secret create 
 # docker secret create [OPTIONS] SECRET file|-      
 #   > Create a secret from a file or STDIN as content
@@ -406,10 +398,9 @@ $ docker secret rm
 ```
 
 ### service    
-
 > `docker service COMMAND`
 
-``` bash
+``` shell
 $ docker service create 
 # docker service create [OPTIONS] IMAGE [COMMAND] [ARG...]      
 #   > Create a new service
@@ -440,10 +431,9 @@ $ docker service update
 ```
 
 ### swarm       
-
 > `docker swarm COMMAND`
 
-``` bash
+``` shell
 $ docker swarm ca 
 # docker swarm ca [OPTIONS]          
 #   > Display and rotate the root CA
@@ -471,10 +461,9 @@ $ docker swarm update
 ```
 
 ### system
-
 > `docker system COMMAND` 
 
-``` bash
+``` shell
 $ docker system df
 # docker system df [OPTIONS]
 #   > 查看 Docker 磁盘使用情况
@@ -494,10 +483,9 @@ $ docker system prune
 ```
 
 ### trust       
-
 > `docker trust COMMAND`
 
-``` bash
+``` shell
 # docker trust key COMMAND
 #   > Manage keys for signing Docker images
 $ docker trust key generate 
@@ -526,10 +514,9 @@ $ docker trust sign
 ```
 
 ### volume
-
 > `docker volume COMMAND`
 
-``` bash
+``` shell
 $ docker volume create 
 # docker volume create [OPTIONS] [VOLUME]     
 #   > Create a volume

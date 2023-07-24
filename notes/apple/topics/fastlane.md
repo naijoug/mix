@@ -15,8 +15,8 @@
 
 ## Commands
 
-``` bash
-$ brew cask install fastlane    # install fastlane
+``` shell
+$ brew cask install fastlane # install fastlane
 
 $ fastlane install_plugins  # install plugins
 $ fastlane update_plugins   # update plugins
