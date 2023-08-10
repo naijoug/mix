@@ -38,6 +38,11 @@
 | `IDF`     | Inverse Document Frequency            | 逆文档频率
 |           | Fine Tuning                           | 微调
 
+## community
+
+- [HuggingFace - 抱抱脸](https://huggingface.co/)
+- [ModelScope - 魔搭平台](https://www.modelscope.cn)
+
 ## `TensorFlow` vs `PyTorch` vs  `Jax`
 
 - [TensorFlow](https://github.com/tensorflow/tensorflow)
@@ -71,6 +76,8 @@
 
 - [Transformers](https://github.com/huggingface/transformers)
     > 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX. 为 Jax、PyTorch 和 TensorFlow 打造的先进的自然语言处理
+- [ModelScope](https://github.com/modelscope/modelscope)
+    > ModelScope: bring the notion of Model-as-a-Service to life.
 - [LoRA](https://github.com/microsoft/LoRA)
     > Code for loralib, an implementation of "LoRA: Low-Rank Adaptation of Large Language Models"
 - [LangChain](https://github.com/hwchase17/langchain)

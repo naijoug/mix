@@ -49,6 +49,13 @@
 - [indonesian-roberta-base-posp-tagger](https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger)   
     > Indonesian RoBERTa Base POSP Tagger
 
+## embedding
+
+- [LASER](https://github.com/facebookresearch/LASER)
+    > Language-Agnostic SEntence Representations
+- [gensim](https://github.com/RaRe-Technologies/gensim)
+    > Topic Modelling for Humans
+
 ## Tutorial
 
 - [HuggingFace NLP Course](https://huggingface.co/learn/nlp-course/zh-CN)
