@@ -10,6 +10,7 @@
 - [Python 100 Days](https://github.com/jackfrued/Python-100-Days)
 - [Python 教程](https://www.liaoxuefeng.com/wiki/1016959663602400)
 - [Python Cookbook](https://github.com/yidao620c/python3-cookbook)
+    > 《Python Cookbook in Chinese》 3rd Edition 翻译
 - [Python-Guide-CN](https://github.com/Prodesire/Python-Guide-CN)
     > Python最佳实践指南。 The chinese translation of "Hitchhiker's Guide to Python".
 - [interpy-zh](https://github.com/eastlakeside/interpy-zh)

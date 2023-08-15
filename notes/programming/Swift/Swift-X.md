@@ -62,7 +62,7 @@
 - [Swift Concurrency Manifesto](https://gist.github.com/lattner/31ed37682ef1576b16bca1432ea9f782) - [Swift 并发宣言](https://gist.github.com/yxztj/7744e97eaf8031d673338027d89eea76)
 - [SE 0296][0926] : 加入 `async/await`  
 
-
 [0926]: https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md
 
 ## 5.6 (2022.03.14)
+

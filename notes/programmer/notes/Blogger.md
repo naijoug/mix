@@ -43,6 +43,10 @@
 
 ## Tool
 
+- [NotionNext](https://github.com/tangly1024/NotionNext)
+    > 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。
+    > A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.
+
 - [Publish](https://github.com/johnsundell/publish)
     > A static site generator for Swift developers
     * - [用Publish创建博客](https://zhuanlan.zhihu.com/p/348232897)

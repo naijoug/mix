@@ -6,6 +6,7 @@
 - [及时设计](https://js.design/courses)
 - [OurSketch](https://oursketch.com/)
 - [Adobe全套下载](https://www.yuque.com/qianxun-nzpyh/kb)
+- [设计师口袋心理学](https://iason.notion.site/6719c7650fd1406c92287f556520fbc3)
 
 ## Tool
 
