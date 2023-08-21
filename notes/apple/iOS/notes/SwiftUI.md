@@ -4,6 +4,7 @@
 
 - [🍻SwiftOnTap](https://swiftontap.com/)
     > Complete SwiftUI Docs with Examples.
+- [SwiftUI Cookbook](https://www.kodeco.com/books/swiftui-cookbook)
 - [AltSwiftUI](https://github.com/rakutentech/AltSwiftUI) : 支持 `iOS 11.0` 的 `SwiftUI`
     > Open Source UI framework based on SwiftUI syntax and features, adding backwards 
 - [Awesome SwiftUI](https://github.com/onmyway133/awesome-swiftui)
@@ -30,6 +31,8 @@ compatibility.
 
 ## OpenSource Apps
 
+- [iAppStore-SwiftUI](https://github.com/37MobileTeam/iAppStore-SwiftUI)
+    > iAppStroe is an Apple Store tool app written in SwiftUI.
 - [ACHNBrowserUI](https://github.com/Dimillian/ACHNBrowserUI)
     > Animal Crossing New Horizon companion app in SwiftUI
 - [MovieSwiftUI](https://github.com/Dimillian/MovieSwiftUI)

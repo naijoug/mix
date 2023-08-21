@@ -17,6 +17,11 @@
     > 📘《Python进阶》（Intermediate Python - Chinese Version）
 - [Python 中文学习大本营](http://www.pythondoc.com/)
 
+## Package Management
+
+- [Rye](https://github.com/mitsuhiko/rye)
+    > An Experimental Package Management Solution for Python
+
 ## Usage
 
 ```shell

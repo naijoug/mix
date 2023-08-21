@@ -69,6 +69,8 @@ $ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk3 /opt/ntfs
 
 ## Software
 
+- [Applite](https://github.com/milanvarady/applite)
+    > User-friendly GUI macOS application for Homebrew Casks
 - [mint](https://github.com/yonaskolb/Mint) : swift 软件包管理
     > A package manager that installs and runs executable Swift packages
     >

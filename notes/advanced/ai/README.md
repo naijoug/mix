@@ -104,6 +104,8 @@
     > 🚀 Bito AI – Bring ChatGPT to your IDE to 10x your dev abilities!
 - [CopilotForXcode](https://github.com/intitni/CopilotForXcode)
     > The missing GitHub Copilot, Codeium and ChatGPT Xcode Source Editor Extension
+- [Continue](https://github.com/continuedev/continue)
+    > ⏩ the open-source coding copilot—bring the power of ChatGPT to VS Code
 
 ## Tutorial
 

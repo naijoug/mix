@@ -33,3 +33,13 @@
 | --- | ---
 | 测试 | gateway.sandbox.push.apple.com:2195 
 | 发布 | gateway.push.apple.com:2195
+
+## Certificates
+
+- Services
+    * Apple Push Notification service SSL (Sandbox)
+        > 开发环境(沙盒)苹果推送证书
+    * Apple Push Notification service SSL (Sandbox & Production)
+        > 通用环境(沙盒和生成)苹果推送证书
+    * VoIP Services Certificate
+        > 苹果推送 VoIP 服务证书
