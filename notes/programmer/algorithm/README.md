@@ -10,6 +10,7 @@
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 - [Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club)
 - [Swift 算法俱乐部](https://github.com/KeithMorning/swift-algorithm-club-cn)
+- [The Algorithms](https://the-algorithms.com)
 - [算法 4 课后练习解答](https://github.com/jimmysuncpt/Algorithms)
 - [数据结构和算法必知必会的50个代码实现](https://github.com/wangzheng0822/algo)
 - [The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) : 线性代数的艺术

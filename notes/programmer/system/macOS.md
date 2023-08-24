@@ -112,6 +112,8 @@ $ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk3 /opt/ntfs
     > The personal information dashboard for your terminal
 - [Poedit](https://github.com/vslavik/poedit) : cross-platform translation editor
     > Translations editor for Mac, Windows and Unix
+- [RustDesk](https://github.com/rustdesk/rustdesk)
+    > An open-source remote desktop, and alternative to TeamViewer.
 
 ## Tips
 
