@@ -51,6 +51,8 @@ $ yarn config set registry https://registry.yarnpkg.com
     > 🥚 Born to build better enterprise frameworks and apps with Node.js & Koa
 - [Strapi](https://github.com/strapi/strapi)
     > 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
+- [Driver.js](https://github.com/kamranahmedse/driver.js)
+    > A light-weight, no-dependency, vanilla JavaScript engine to drive the user's focus across the page
 
 ## Web Cross Platform
 
@@ -82,12 +84,16 @@ $ yarn config set registry https://registry.yarnpkg.com
 
 ## Tool
 
+- [Web Check](https://github.com/lissy93/web-check): [Web Check](https://web-check.xyz)
+    > 🕵️‍♂️ All-in-one OSINT tool for analysing any website
 - [Seeing-Theory](https://github.com/seeingtheory/Seeing-Theory)
     > A visual introduction to probability and statistics.
 - [WebdriverIO](https://github.com/webdriverio/webdriverio)
     > Next-gen browser and mobile automation test framework for Node.js
 - [Jest](https://github.com/jestjs/jest)
     > Delightful JavaScript Testing.
+- [npmgraph](https://github.com/npmgraph/npmgraph)
+    > A tool for exploring NPM modules and dependencies
 
 ## UI
 

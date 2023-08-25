@@ -106,6 +106,8 @@
     > The missing GitHub Copilot, Codeium and ChatGPT Xcode Source Editor Extension
 - [Continue](https://github.com/continuedev/continue)
     > ⏩ the open-source coding copilot—bring the power of ChatGPT to VS Code
+- [Sweep](https://github.com/sweepai/sweep)
+    > Sweep: AI-powered Junior Developer for small features and bug fixes.
 
 ## Tutorial
 

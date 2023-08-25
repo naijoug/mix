@@ -40,6 +40,15 @@ compatibility.
 - [Cleaner for Xcode](https://github.com/waylybaye/XcodeCleaner-SwiftUI)
     > Make Xcode Clean Again
 
+## UIKit -> SwiftUI
+
+- [SwiftUI-Introspect](https://github.com/siteline/SwiftUI-Introspect)
+    > Introspect underlying UIKit/AppKit components from SwiftUI
+- [SwiftUIX](https://github.com/SwiftUIX/SwiftUIX)
+    > An exhaustive expansion of the standard SwiftUI library.
+- [Coordinator](https://github.com/SwiftUIX/Coordinator)
+    > A declarative navigation API for SwiftUI.
+
 ## Concept
 
 - `SwiftUI` vs `UIKit`
@@ -67,3 +76,33 @@ compatibility.
   | DatePicker                | UIDatePicker
   | Alert & ActionSheet       | UIAlertController
   | Map                       | MapKit
+
+## Usage
+
+```swift
+// SwiftUI 中使用 UIKit
+//  > SwiftUI 中使用 UIView
+struct SearchView: UIViewRepresentable {
+    func makeUIView(context: Context) -> UISearchBar {
+        let searchBar = UISearchBar()
+        searchBar.placeholder = "search..."
+        return searchBar
+    }
+    func updateUIView(_ uiView: UISearchBar, context: Context) {
+        
+    }
+}
+//  > SwiftUI 中使用 UIViewController
+struct ColorPickerView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> UIColorPickerViewController {
+        let controller = UIColorPickerViewController()
+        return controller
+    }
+    func updateUIViewController(_ uiViewController: UIColorPickerViewController, context: Context) {
+        
+    }
+}
+
+// UIKit 中使用 SwiftUI
+UIHostingController(rootView: SearchView())
+```

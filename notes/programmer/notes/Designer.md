@@ -10,6 +10,8 @@
 
 ## Tool
 
+- [Obsidian](https://obsidian.md/)
+    > Obsidian 既是一个 Markdown 编辑器，也是一个知识管理软件。
 - [NotionChina](https://notionchina.co/)
 - [AxureChina](https://axurechina.org/)
 - [axure-cn](https://github.com/pluwen/axure-cn)

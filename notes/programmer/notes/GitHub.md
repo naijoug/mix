@@ -30,6 +30,8 @@
 - [Tutorial](https://github.com/zhonghuasheng/Tutorial)
     > 后端 （Java Golang）全栈知识架构体系总结
 - [CodeGuide | 程序员编码指南](https://github.com/fuzhengwei/CodeGuide)
+- [小林 x 图解计算机基础](https://github.com/xiaolincoder/CS-Base)
+    > 图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识，让天下没有难懂的八股文！
 
 ## 📚
 
@@ -52,6 +54,8 @@
     > A complete computer science study plan to become a software engineer.
 - [Tutorials for Web Developers](https://github.com/StevenSLXie/Tutorials-for-Web-Developers)
     > Tutorials for web developers including bash scripting, Linux commands, MongoDB. Actively updating.
+- [💻cs-408](https://github.com/ddy-ddy/cs-408)
+    > 计算机考研专业课程408相关的复习经验，资源和OneNote笔记
 - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
 - [SICP 计算机程序的构造和解释](https://github.com/DeathKing/Learning-SICP)
 - [Open Source Society University](https://github.com/ossu/computer-science)
@@ -88,6 +92,8 @@
     > Your AI pair programmer
 - [HTTPie](https://github.com/httpie/httpie)
     > 🥧 HTTPie for Terminal — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
+- [Talk](https://github.com/vasanthv/talk) : [Talk](https://tlk.li)
+    > Group video call for the web.
 
 ## Animation
 
