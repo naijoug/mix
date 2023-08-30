@@ -54,6 +54,8 @@
     > A complete computer science study plan to become a software engineer.
 - [Tutorials for Web Developers](https://github.com/StevenSLXie/Tutorials-for-Web-Developers)
     > Tutorials for web developers including bash scripting, Linux commands, MongoDB. Actively updating.
+- [sast-skill-docs](https://github.com/SAST-skill-docers/sast-skill-docs) : [SAST Skill Docs](https://docs.net9.org)
+    > SAST Skill Docs. We are paving the way for your CS studying.
 - [💻cs-408](https://github.com/ddy-ddy/cs-408)
     > 计算机考研专业课程408相关的复习经验，资源和OneNote笔记
 - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)

@@ -1,0 +1,1143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB729DBE2A9F156D001921C3 /* 2104-IntegrateWithUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DBD2A9F156D001921C3 /* 2104-IntegrateWithUIKit.swift */; };
+		FB729DC02A9F1633001921C3 /* 2105-IntegrateCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DBF2A9F1633001921C3 /* 2105-IntegrateCoreData.swift */; };
+		FB729DC32A9F16BE001921C3 /* Bookshelf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB729DC12A9F16BE001921C3 /* Bookshelf.xcdatamodeld */; };
+		FB729DC82A9F1B94001921C3 /* 2106-AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DC72A9F1B94001921C3 /* 2106-AsyncAwait.swift */; };
+		FB729DCA2A9F1C7F001921C3 /* 2107-UsingCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DC92A9F1C7F001921C3 /* 2107-UsingCombine.swift */; };
+		FB729DCC2A9F1E49001921C3 /* 2108-UnitTestingStrategies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DCB2A9F1E49001921C3 /* 2108-UnitTestingStrategies.swift */; };
+		FB729DCE2A9F239F001921C3 /* 2109-TestingViewsWithViewInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DCD2A9F239F001921C3 /* 2109-TestingViewsWithViewInspector.swift */; };
+		FB729DE32A9F2862001921C3 /* CookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DE22A9F2862001921C3 /* CookbookUITests.swift */; };
+		FB729DE52A9F2862001921C3 /* CookbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DE42A9F2862001921C3 /* CookbookUITestsLaunchTests.swift */; };
+		FB729DF22A9F2878001921C3 /* CookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DF12A9F2878001921C3 /* CookbookTests.swift */; };
+		FB729DFC2A9F2A0F001921C3 /* 2110-ImplementMVVMArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DFB2A9F2A0F001921C3 /* 2110-ImplementMVVMArchitecture.swift */; };
+		FB729DFE2A9F2B8C001921C3 /* 2001-Building&RunningApps in Xcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DFD2A9F2B8C001921C3 /* 2001-Building&RunningApps in Xcode.swift */; };
+		FB729E002A9F2C1F001921C3 /* 2002-ConfiguringTheDeploymentTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DFF2A9F2C1F001921C3 /* 2002-ConfiguringTheDeploymentTarget.swift */; };
+		FB729E022A9F2D26001921C3 /* 2108-UnitTestingStrategies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DCB2A9F1E49001921C3 /* 2108-UnitTestingStrategies.swift */; };
+		FB729E032A9F2D31001921C3 /* 2109-TestingViewsWithViewInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729DCD2A9F239F001921C3 /* 2109-TestingViewsWithViewInspector.swift */; };
+		FB729E062A9F2DE0001921C3 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = FB729E052A9F2DE0001921C3 /* ViewInspector */; };
+		FB729E092A9F3001001921C3 /* 2003-ConfiguringAppIcons&LaunchScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E082A9F3001001921C3 /* 2003-ConfiguringAppIcons&LaunchScreens.swift */; };
+		FB729E0B2A9F303B001921C3 /* 2004-ManagingAppPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E0A2A9F303B001921C3 /* 2004-ManagingAppPermissions.swift */; };
+		FB729E0D2A9F317F001921C3 /* 2005-DebuggingwithXcodeDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E0C2A9F317F001921C3 /* 2005-DebuggingwithXcodeDebugger.swift */; };
+		FB729E0F2A9F31D5001921C3 /* 2006-UsingTheConsoleToDebugApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E0E2A9F31D5001921C3 /* 2006-UsingTheConsoleToDebugApps.swift */; };
+		FB729E112A9F33DE001921C3 /* 2007-GettingStartedWithPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E102A9F33DE001921C3 /* 2007-GettingStartedWithPreviews.swift */; };
+		FB729E132A9F3428001921C3 /* 2008-CustomizingPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E122A9F3428001921C3 /* 2008-CustomizingPreviews.swift */; };
+		FB729E152A9F354C001921C3 /* 2009-FindingMemoryLeaksUsingInstruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E142A9F354C001921C3 /* 2009-FindingMemoryLeaksUsingInstruments.swift */; };
+		FB729E172A9F3788001921C3 /* 2010-Understanding&ReducingStartupTimeWithInstruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E162A9F3788001921C3 /* 2010-Understanding&ReducingStartupTimeWithInstruments.swift */; };
+		FB729E192A9F3964001921C3 /* 0901-CreateATabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E182A9F3964001921C3 /* 0901-CreateATabView.swift */; };
+		FB729E1B2A9F39E1001921C3 /* 0902-CustomizeTabViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E1A2A9F39E1001921C3 /* 0902-CustomizeTabViewAppearance.swift */; };
+		FB729E1D2A9F3A6A001921C3 /* 0903-AddCustomIconsToTabViewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E1C2A9F3A6A001921C3 /* 0903-AddCustomIconsToTabViewItems.swift */; };
+		FB729E1F2A9F3BE7001921C3 /* 0904-CreateASplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E1E2A9F3BE7001921C3 /* 0904-CreateASplitView.swift */; };
+		FB729E212A9F3D05001921C3 /* 0905-CustomizeSplitViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E202A9F3D05001921C3 /* 0905-CustomizeSplitViewAppearance.swift */; };
+		FB729E232A9F3DBD001921C3 /* 0906-AddDetailViewToSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E222A9F3DBD001921C3 /* 0906-AddDetailViewToSplitView.swift */; };
+		FB729E252A9F3E4C001921C3 /* 0907-PresentModalViewFromTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E242A9F3E4C001921C3 /* 0907-PresentModalViewFromTabView.swift */; };
+		FB729E272A9F3EDB001921C3 /* 0908-SwitchTabsProgrammatically.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E262A9F3EDB001921C3 /* 0908-SwitchTabsProgrammatically.swift */; };
+		FB729E292A9F3F33001921C3 /* 0909-HideATabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E282A9F3F33001921C3 /* 0909-HideATabView.swift */; };
+		FB729E2B2A9F3F97001921C3 /* 0910-AddATabViewToNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E2A2A9F3F97001921C3 /* 0910-AddATabViewToNavigationView.swift */; };
+		FB729E2D2A9F4058001921C3 /* 1001-AnimateAProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E2C2A9F4058001921C3 /* 1001-AnimateAProgressBar.swift */; };
+		FB729E2F2A9F4146001921C3 /* 1002-CreateASpinningActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E2E2A9F4146001921C3 /* 1002-CreateASpinningActivityIndicator.swift */; };
+		FB729E312A9F419A001921C3 /* 1003-CustomizeTheStyleOfProgressIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E302A9F419A001921C3 /* 1003-CustomizeTheStyleOfProgressIndicators.swift */; };
+		FB729E332A9F41E8001921C3 /* 1004-CreateACircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E322A9F41E8001921C3 /* 1004-CreateACircularProgressBar.swift */; };
+		FB729E352A9F4284001921C3 /* 1005-ImplementADeterminateProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E342A9F4284001921C3 /* 1005-ImplementADeterminateProgressBar.swift */; };
+		FB729E372A9F430D001921C3 /* 1006-IndicateIndeterminateProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E362A9F430D001921C3 /* 1006-IndicateIndeterminateProgress.swift */; };
+		FB729E392A9F4378001921C3 /* 1007-AddAProgressViewToANavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E382A9F4378001921C3 /* 1007-AddAProgressViewToANavigationBar.swift */; };
+		FB729E3B2A9F43EE001921C3 /* 1008-MakeACustomSegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E3A2A9F43EE001921C3 /* 1008-MakeACustomSegmentedProgressBar.swift */; };
+		FB729E3D2A9F443E001921C3 /* 1009-CreateACustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB729E3C2A9F443E001921C3 /* 1009-CreateACustomProgressView.swift */; };
+		FBF307152A9ECA4500B59B65 /* CookbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307142A9ECA4500B59B65 /* CookbookApp.swift */; };
+		FBF307172A9ECA4500B59B65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307162A9ECA4500B59B65 /* ContentView.swift */; };
+		FBF307192A9ECA4600B59B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF307182A9ECA4600B59B65 /* Assets.xcassets */; };
+		FBF3071D2A9ECA4600B59B65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF3071C2A9ECA4600B59B65 /* Preview Assets.xcassets */; };
+		FBF3073B2A9ED2A400B59B65 /* 0101-Create&Preivew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3073A2A9ED2A400B59B65 /* 0101-Create&Preivew.swift */; };
+		FBF3073D2A9EDD3400B59B65 /* 0102-UnderstandViews&ViewHierarchies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3073C2A9EDD3400B59B65 /* 0102-UnderstandViews&ViewHierarchies.swift */; };
+		FBF3073F2A9EDE0300B59B65 /* 0103-UseXcodePreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3073E2A9EDE0300B59B65 /* 0103-UseXcodePreviews.swift */; };
+		FBF307412A9EE41E00B59B65 /* 0104-AddATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307402A9EE41E00B59B65 /* 0104-AddATextView.swift */; };
+		FBF307432A9EE43000B59B65 /* 0105-AddAnImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307422A9EE43000B59B65 /* 0105-AddAnImageView.swift */; };
+		FBF307452A9EE43D00B59B65 /* 0106-AddAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307442A9EE43D00B59B65 /* 0106-AddAButton.swift */; };
+		FBF307472A9EE45000B59B65 /* 0107-AddANavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307462A9EE45000B59B65 /* 0107-AddANavigationStack.swift */; };
+		FBF307492A9EE45E00B59B65 /* 0108-AddAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307482A9EE45E00B59B65 /* 0108-AddAListView.swift */; };
+		FBF3074B2A9EE48300B59B65 /* 0109-AddAForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3074A2A9EE48300B59B65 /* 0109-AddAForm.swift */; };
+		FBF3074D2A9EE4A200B59B65 /* 0201-CreateAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3074C2A9EE4A200B59B65 /* 0201-CreateAView.swift */; };
+		FBF3074F2A9EE4B500B59B65 /* 0203-AddShadowsToViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3074E2A9EE4B500B59B65 /* 0203-AddShadowsToViews.swift */; };
+		FBF307512A9EE4D700B59B65 /* 0202-CustomizeViewBackground&Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307502A9EE4D700B59B65 /* 0202-CustomizeViewBackground&Border.swift */; };
+		FBF307532A9EE4F300B59B65 /* 0204-ClipViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307522A9EE4F300B59B65 /* 0204-ClipViews.swift */; };
+		FBF307552A9EE50100B59B65 /* 0205-AdjustViewOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307542A9EE50100B59B65 /* 0205-AdjustViewOpacity.swift */; };
+		FBF307572A9EE51900B59B65 /* 0206-CreateACircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307562A9EE51900B59B65 /* 0206-CreateACircularView.swift */; };
+		FBF307592A9EE52B00B59B65 /* 0207-BuildAGridOfViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307582A9EE52B00B59B65 /* 0207-BuildAGridOfViews.swift */; };
+		FBF3075B2A9EE53E00B59B65 /* 0208-CreateACustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3075A2A9EE53E00B59B65 /* 0208-CreateACustomViewModifier.swift */; };
+		FBF3075D2A9EE55900B59B65 /* 0209-AddACustomShapeToAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3075C2A9EE55900B59B65 /* 0209-AddACustomShapeToAView.swift */; };
+		FBF3075F2A9EE58200B59B65 /* 0301-UnderstandingState&Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3075E2A9EE58200B59B65 /* 0301-UnderstandingState&Binding.swift */; };
+		FBF307612A9EE5B600B59B65 /* 0302-UnderstandingObserableObject&ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307602A9EE5B600B59B65 /* 0302-UnderstandingObserableObject&ObservedObject.swift */; };
+		FBF307632A9EE5F100B59B65 /* 0303-SharingStateAcrossViewsWithEnvironmentObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307622A9EE5F100B59B65 /* 0303-SharingStateAcrossViewsWithEnvironmentObjects.swift */; };
+		FBF307652A9EE75600B59B65 /* 2201-ImprovingPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307642A9EE75600B59B65 /* 2201-ImprovingPerformance.swift */; };
+		FBF307672A9EE8D600B59B65 /* 2202-ReducingComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307662A9EE8D600B59B65 /* 2202-ReducingComplexity.swift */; };
+		FBF307692A9EE9A300B59B65 /* CookbookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307682A9EE9A200B59B65 /* CookbookViewModel.swift */; };
+		FBF3076B2A9EEB7000B59B65 /* 2203-SeparatingViewLogicWithViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3076A2A9EEB7000B59B65 /* 2203-SeparatingViewLogicWithViewModels.swift */; };
+		FBF3076D2A9EEC1F00B59B65 /* 2204-UsingEnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3076C2A9EEC1F00B59B65 /* 2204-UsingEnvironmentVariables.swift */; };
+		FBF3076F2A9EEF1200B59B65 /* 2205-OptimizingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3076E2A9EEF1200B59B65 /* 2205-OptimizingAnimations.swift */; };
+		FBF307712A9EEFCD00B59B65 /* 2206-MaintainingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307702A9EEFCD00B59B65 /* 2206-MaintainingState.swift */; };
+		FBF307732A9F0E4A00B59B65 /* 2207-DebuggingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307722A9F0E4A00B59B65 /* 2207-DebuggingViews.swift */; };
+		FBF307752A9F0F4100B59B65 /* 2208-CreatingReusableComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307742A9F0F4100B59B65 /* 2208-CreatingReusableComponents.swift */; };
+		FBF307772A9F0FD300B59B65 /* 2209-UsingViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307762A9F0FD300B59B65 /* 2209-UsingViewComposition.swift */; };
+		FBF307792A9F109700B59B65 /* 2101-DesignASeamlessOnboardingExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF307782A9F109700B59B65 /* 2101-DesignASeamlessOnboardingExperience.swift */; };
+		FBF3077B2A9F13AA00B59B65 /* 2102-Create&CustomizeCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3077A2A9F13AA00B59B65 /* 2102-Create&CustomizeCharts.swift */; };
+		FBF3077D2A9F146A00B59B65 /* 2103-CreateComplexUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3077C2A9F146A00B59B65 /* 2103-CreateComplexUI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB729DE62A9F2862001921C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF307092A9ECA4500B59B65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF307102A9ECA4500B59B65;
+			remoteInfo = Cookbook;
+		};
+		FB729DF32A9F2878001921C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF307092A9ECA4500B59B65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF307102A9ECA4500B59B65;
+			remoteInfo = Cookbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB729DBD2A9F156D001921C3 /* 2104-IntegrateWithUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2104-IntegrateWithUIKit.swift"; sourceTree = "<group>"; };
+		FB729DBF2A9F1633001921C3 /* 2105-IntegrateCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2105-IntegrateCoreData.swift"; sourceTree = "<group>"; };
+		FB729DC22A9F16BE001921C3 /* Bookshelf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookshelf.xcdatamodel; sourceTree = "<group>"; };
+		FB729DC72A9F1B94001921C3 /* 2106-AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2106-AsyncAwait.swift"; sourceTree = "<group>"; };
+		FB729DC92A9F1C7F001921C3 /* 2107-UsingCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2107-UsingCombine.swift"; sourceTree = "<group>"; };
+		FB729DCB2A9F1E49001921C3 /* 2108-UnitTestingStrategies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2108-UnitTestingStrategies.swift"; sourceTree = "<group>"; };
+		FB729DCD2A9F239F001921C3 /* 2109-TestingViewsWithViewInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2109-TestingViewsWithViewInspector.swift"; sourceTree = "<group>"; };
+		FB729DD52A9F2791001921C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB729DE02A9F2862001921C3 /* CookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB729DE22A9F2862001921C3 /* CookbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookUITests.swift; sourceTree = "<group>"; };
+		FB729DE42A9F2862001921C3 /* CookbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB729DEF2A9F2878001921C3 /* CookbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB729DF12A9F2878001921C3 /* CookbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookTests.swift; sourceTree = "<group>"; };
+		FB729DFB2A9F2A0F001921C3 /* 2110-ImplementMVVMArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2110-ImplementMVVMArchitecture.swift"; sourceTree = "<group>"; };
+		FB729DFD2A9F2B8C001921C3 /* 2001-Building&RunningApps in Xcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2001-Building&RunningApps in Xcode.swift"; sourceTree = "<group>"; };
+		FB729DFF2A9F2C1F001921C3 /* 2002-ConfiguringTheDeploymentTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2002-ConfiguringTheDeploymentTarget.swift"; sourceTree = "<group>"; };
+		FB729E072A9F2F61001921C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FB729E082A9F3001001921C3 /* 2003-ConfiguringAppIcons&LaunchScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2003-ConfiguringAppIcons&LaunchScreens.swift"; sourceTree = "<group>"; };
+		FB729E0A2A9F303B001921C3 /* 2004-ManagingAppPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2004-ManagingAppPermissions.swift"; sourceTree = "<group>"; };
+		FB729E0C2A9F317F001921C3 /* 2005-DebuggingwithXcodeDebugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2005-DebuggingwithXcodeDebugger.swift"; sourceTree = "<group>"; };
+		FB729E0E2A9F31D5001921C3 /* 2006-UsingTheConsoleToDebugApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2006-UsingTheConsoleToDebugApps.swift"; sourceTree = "<group>"; };
+		FB729E102A9F33DE001921C3 /* 2007-GettingStartedWithPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2007-GettingStartedWithPreviews.swift"; sourceTree = "<group>"; };
+		FB729E122A9F3428001921C3 /* 2008-CustomizingPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2008-CustomizingPreviews.swift"; sourceTree = "<group>"; };
+		FB729E142A9F354C001921C3 /* 2009-FindingMemoryLeaksUsingInstruments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2009-FindingMemoryLeaksUsingInstruments.swift"; sourceTree = "<group>"; };
+		FB729E162A9F3788001921C3 /* 2010-Understanding&ReducingStartupTimeWithInstruments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2010-Understanding&ReducingStartupTimeWithInstruments.swift"; sourceTree = "<group>"; };
+		FB729E182A9F3964001921C3 /* 0901-CreateATabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0901-CreateATabView.swift"; sourceTree = "<group>"; };
+		FB729E1A2A9F39E1001921C3 /* 0902-CustomizeTabViewAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0902-CustomizeTabViewAppearance.swift"; sourceTree = "<group>"; };
+		FB729E1C2A9F3A6A001921C3 /* 0903-AddCustomIconsToTabViewItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0903-AddCustomIconsToTabViewItems.swift"; sourceTree = "<group>"; };
+		FB729E1E2A9F3BE7001921C3 /* 0904-CreateASplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0904-CreateASplitView.swift"; sourceTree = "<group>"; };
+		FB729E202A9F3D05001921C3 /* 0905-CustomizeSplitViewAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0905-CustomizeSplitViewAppearance.swift"; sourceTree = "<group>"; };
+		FB729E222A9F3DBD001921C3 /* 0906-AddDetailViewToSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0906-AddDetailViewToSplitView.swift"; sourceTree = "<group>"; };
+		FB729E242A9F3E4C001921C3 /* 0907-PresentModalViewFromTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0907-PresentModalViewFromTabView.swift"; sourceTree = "<group>"; };
+		FB729E262A9F3EDB001921C3 /* 0908-SwitchTabsProgrammatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0908-SwitchTabsProgrammatically.swift"; sourceTree = "<group>"; };
+		FB729E282A9F3F33001921C3 /* 0909-HideATabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0909-HideATabView.swift"; sourceTree = "<group>"; };
+		FB729E2A2A9F3F97001921C3 /* 0910-AddATabViewToNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0910-AddATabViewToNavigationView.swift"; sourceTree = "<group>"; };
+		FB729E2C2A9F4058001921C3 /* 1001-AnimateAProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1001-AnimateAProgressBar.swift"; sourceTree = "<group>"; };
+		FB729E2E2A9F4146001921C3 /* 1002-CreateASpinningActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1002-CreateASpinningActivityIndicator.swift"; sourceTree = "<group>"; };
+		FB729E302A9F419A001921C3 /* 1003-CustomizeTheStyleOfProgressIndicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1003-CustomizeTheStyleOfProgressIndicators.swift"; sourceTree = "<group>"; };
+		FB729E322A9F41E8001921C3 /* 1004-CreateACircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1004-CreateACircularProgressBar.swift"; sourceTree = "<group>"; };
+		FB729E342A9F4284001921C3 /* 1005-ImplementADeterminateProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1005-ImplementADeterminateProgressBar.swift"; sourceTree = "<group>"; };
+		FB729E362A9F430D001921C3 /* 1006-IndicateIndeterminateProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1006-IndicateIndeterminateProgress.swift"; sourceTree = "<group>"; };
+		FB729E382A9F4378001921C3 /* 1007-AddAProgressViewToANavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1007-AddAProgressViewToANavigationBar.swift"; sourceTree = "<group>"; };
+		FB729E3A2A9F43EE001921C3 /* 1008-MakeACustomSegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1008-MakeACustomSegmentedProgressBar.swift"; sourceTree = "<group>"; };
+		FB729E3C2A9F443E001921C3 /* 1009-CreateACustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1009-CreateACustomProgressView.swift"; sourceTree = "<group>"; };
+		FBF307112A9ECA4500B59B65 /* Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF307142A9ECA4500B59B65 /* CookbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookApp.swift; sourceTree = "<group>"; };
+		FBF307162A9ECA4500B59B65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBF307182A9ECA4600B59B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF3071A2A9ECA4600B59B65 /* Cookbook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cookbook.entitlements; sourceTree = "<group>"; };
+		FBF3071C2A9ECA4600B59B65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBF3073A2A9ED2A400B59B65 /* 0101-Create&Preivew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0101-Create&Preivew.swift"; sourceTree = "<group>"; };
+		FBF3073C2A9EDD3400B59B65 /* 0102-UnderstandViews&ViewHierarchies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0102-UnderstandViews&ViewHierarchies.swift"; sourceTree = "<group>"; };
+		FBF3073E2A9EDE0300B59B65 /* 0103-UseXcodePreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0103-UseXcodePreviews.swift"; sourceTree = "<group>"; };
+		FBF307402A9EE41E00B59B65 /* 0104-AddATextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0104-AddATextView.swift"; sourceTree = "<group>"; };
+		FBF307422A9EE43000B59B65 /* 0105-AddAnImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0105-AddAnImageView.swift"; sourceTree = "<group>"; };
+		FBF307442A9EE43D00B59B65 /* 0106-AddAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0106-AddAButton.swift"; sourceTree = "<group>"; };
+		FBF307462A9EE45000B59B65 /* 0107-AddANavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0107-AddANavigationStack.swift"; sourceTree = "<group>"; };
+		FBF307482A9EE45E00B59B65 /* 0108-AddAListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0108-AddAListView.swift"; sourceTree = "<group>"; };
+		FBF3074A2A9EE48300B59B65 /* 0109-AddAForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0109-AddAForm.swift"; sourceTree = "<group>"; };
+		FBF3074C2A9EE4A200B59B65 /* 0201-CreateAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0201-CreateAView.swift"; sourceTree = "<group>"; };
+		FBF3074E2A9EE4B500B59B65 /* 0203-AddShadowsToViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0203-AddShadowsToViews.swift"; sourceTree = "<group>"; };
+		FBF307502A9EE4D700B59B65 /* 0202-CustomizeViewBackground&Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0202-CustomizeViewBackground&Border.swift"; sourceTree = "<group>"; };
+		FBF307522A9EE4F300B59B65 /* 0204-ClipViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0204-ClipViews.swift"; sourceTree = "<group>"; };
+		FBF307542A9EE50100B59B65 /* 0205-AdjustViewOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0205-AdjustViewOpacity.swift"; sourceTree = "<group>"; };
+		FBF307562A9EE51900B59B65 /* 0206-CreateACircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0206-CreateACircularView.swift"; sourceTree = "<group>"; };
+		FBF307582A9EE52B00B59B65 /* 0207-BuildAGridOfViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0207-BuildAGridOfViews.swift"; sourceTree = "<group>"; };
+		FBF3075A2A9EE53E00B59B65 /* 0208-CreateACustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0208-CreateACustomViewModifier.swift"; sourceTree = "<group>"; };
+		FBF3075C2A9EE55900B59B65 /* 0209-AddACustomShapeToAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0209-AddACustomShapeToAView.swift"; sourceTree = "<group>"; };
+		FBF3075E2A9EE58200B59B65 /* 0301-UnderstandingState&Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0301-UnderstandingState&Binding.swift"; sourceTree = "<group>"; };
+		FBF307602A9EE5B600B59B65 /* 0302-UnderstandingObserableObject&ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0302-UnderstandingObserableObject&ObservedObject.swift"; sourceTree = "<group>"; };
+		FBF307622A9EE5F100B59B65 /* 0303-SharingStateAcrossViewsWithEnvironmentObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0303-SharingStateAcrossViewsWithEnvironmentObjects.swift"; sourceTree = "<group>"; };
+		FBF307642A9EE75600B59B65 /* 2201-ImprovingPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2201-ImprovingPerformance.swift"; sourceTree = "<group>"; };
+		FBF307662A9EE8D600B59B65 /* 2202-ReducingComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2202-ReducingComplexity.swift"; sourceTree = "<group>"; };
+		FBF307682A9EE9A200B59B65 /* CookbookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookViewModel.swift; sourceTree = "<group>"; };
+		FBF3076A2A9EEB7000B59B65 /* 2203-SeparatingViewLogicWithViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2203-SeparatingViewLogicWithViewModels.swift"; sourceTree = "<group>"; };
+		FBF3076C2A9EEC1F00B59B65 /* 2204-UsingEnvironmentVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2204-UsingEnvironmentVariables.swift"; sourceTree = "<group>"; };
+		FBF3076E2A9EEF1200B59B65 /* 2205-OptimizingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2205-OptimizingAnimations.swift"; sourceTree = "<group>"; };
+		FBF307702A9EEFCD00B59B65 /* 2206-MaintainingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2206-MaintainingState.swift"; sourceTree = "<group>"; };
+		FBF307722A9F0E4A00B59B65 /* 2207-DebuggingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2207-DebuggingViews.swift"; sourceTree = "<group>"; };
+		FBF307742A9F0F4100B59B65 /* 2208-CreatingReusableComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2208-CreatingReusableComponents.swift"; sourceTree = "<group>"; };
+		FBF307762A9F0FD300B59B65 /* 2209-UsingViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2209-UsingViewComposition.swift"; sourceTree = "<group>"; };
+		FBF307782A9F109700B59B65 /* 2101-DesignASeamlessOnboardingExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2101-DesignASeamlessOnboardingExperience.swift"; sourceTree = "<group>"; };
+		FBF3077A2A9F13AA00B59B65 /* 2102-Create&CustomizeCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2102-Create&CustomizeCharts.swift"; sourceTree = "<group>"; };
+		FBF3077C2A9F146A00B59B65 /* 2103-CreateComplexUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2103-CreateComplexUI.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB729DDD2A9F2862001921C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB729E062A9F2DE0001921C3 /* ViewInspector in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB729DEC2A9F2878001921C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF3070E2A9ECA4500B59B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB729DD42A9F2791001921C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB729DD52A9F2791001921C3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB729DE12A9F2862001921C3 /* CookbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB729DE22A9F2862001921C3 /* CookbookUITests.swift */,
+				FB729DE42A9F2862001921C3 /* CookbookUITestsLaunchTests.swift */,
+			);
+			path = CookbookUITests;
+			sourceTree = "<group>";
+		};
+		FB729DF02A9F2878001921C3 /* CookbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB729DF12A9F2878001921C3 /* CookbookTests.swift */,
+			);
+			path = CookbookTests;
+			sourceTree = "<group>";
+		};
+		FBF307082A9ECA4500B59B65 = {
+			isa = PBXGroup;
+			children = (
+				FBF307132A9ECA4500B59B65 /* Cookbook */,
+				FB729DE12A9F2862001921C3 /* CookbookUITests */,
+				FB729DF02A9F2878001921C3 /* CookbookTests */,
+				FBF307122A9ECA4500B59B65 /* Products */,
+				FB729DD42A9F2791001921C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF307122A9ECA4500B59B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF307112A9ECA4500B59B65 /* Cookbook.app */,
+				FB729DE02A9F2862001921C3 /* CookbookUITests.xctest */,
+				FB729DEF2A9F2878001921C3 /* CookbookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF307132A9ECA4500B59B65 /* Cookbook */ = {
+			isa = PBXGroup;
+			children = (
+				FB729E072A9F2F61001921C3 /* Info.plist */,
+				FBF307232A9ECC3400B59B65 /* Sections */,
+				FBF307142A9ECA4500B59B65 /* CookbookApp.swift */,
+				FBF307162A9ECA4500B59B65 /* ContentView.swift */,
+				FBF307682A9EE9A200B59B65 /* CookbookViewModel.swift */,
+				FBF307182A9ECA4600B59B65 /* Assets.xcassets */,
+				FBF3071A2A9ECA4600B59B65 /* Cookbook.entitlements */,
+				FBF3071B2A9ECA4600B59B65 /* Preview Content */,
+			);
+			path = Cookbook;
+			sourceTree = "<group>";
+		};
+		FBF3071B2A9ECA4600B59B65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBF3071C2A9ECA4600B59B65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBF307232A9ECC3400B59B65 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				FBF307392A9ECF2900B59B65 /* 22-BestPractices&Tips */,
+				FBF307382A9ECDFA00B59B65 /* 21-AdvancedTopics */,
+				FBF307372A9ECDE600B59B65 /* 20-Deploying&Debugging */,
+				FBF307362A9ECDC600B59B65 /* 19-Localization&Internationalization */,
+				FBF307352A9ECDBA00B59B65 /* 18-Accessibility */,
+				FBF307342A9ECD9C00B59B65 /* 17-BuildingForMultiplePlatforms */,
+				FBF307332A9ECD8900B59B65 /* 16-AddingAudio&Video */,
+				FBF307322A9ECD7300B59B65 /* 15-CreatingModalViews */,
+				FBF307312A9ECD6800B59B65 /* 14-TextInput */,
+				FBF307302A9ECD5400B59B65 /* 13-Gestures&Interactions */,
+				FBF3072F2A9ECD4200B59B65 /* 12-Animations&Transitions */,
+				FBF3072E2A9ECD3200B59B65 /* 11-Frames&Layouts */,
+				FBF3072D2A9ECD1A00B59B65 /* 10-ProgressIndicators */,
+				FBF3072C2A9ECD0000B59B65 /* 09-TabViews&SplitViews */,
+				FBF3072B2A9ECCF000B59B65 /* 08-Forms&Controls */,
+				FBF3072A2A9ECCE200B59B65 /* 07-Lists&Navigation */,
+				FBF307292A9ECCD900B59B65 /* 06-Buttons */,
+				FBF307282A9ECCC700B59B65 /* 05-Images&Icons */,
+				FBF307272A9ECCB900B59B65 /* 04-Text&Fonts */,
+				FBF307262A9ECC9F00B59B65 /* 03-ManagingUserInterfaceState */,
+				FBF307252A9ECC7E00B59B65 /* 02-Views&Modifiers */,
+				FBF307242A9ECC5C00B59B65 /* 01-GettingStarted */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		FBF307242A9ECC5C00B59B65 /* 01-GettingStarted */ = {
+			isa = PBXGroup;
+			children = (
+				FBF3073A2A9ED2A400B59B65 /* 0101-Create&Preivew.swift */,
+				FBF3073C2A9EDD3400B59B65 /* 0102-UnderstandViews&ViewHierarchies.swift */,
+				FBF3073E2A9EDE0300B59B65 /* 0103-UseXcodePreviews.swift */,
+				FBF307402A9EE41E00B59B65 /* 0104-AddATextView.swift */,
+				FBF307422A9EE43000B59B65 /* 0105-AddAnImageView.swift */,
+				FBF307442A9EE43D00B59B65 /* 0106-AddAButton.swift */,
+				FBF307462A9EE45000B59B65 /* 0107-AddANavigationStack.swift */,
+				FBF307482A9EE45E00B59B65 /* 0108-AddAListView.swift */,
+				FBF3074A2A9EE48300B59B65 /* 0109-AddAForm.swift */,
+			);
+			path = "01-GettingStarted";
+			sourceTree = "<group>";
+		};
+		FBF307252A9ECC7E00B59B65 /* 02-Views&Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FBF3074C2A9EE4A200B59B65 /* 0201-CreateAView.swift */,
+				FBF307502A9EE4D700B59B65 /* 0202-CustomizeViewBackground&Border.swift */,
+				FBF3074E2A9EE4B500B59B65 /* 0203-AddShadowsToViews.swift */,
+				FBF307522A9EE4F300B59B65 /* 0204-ClipViews.swift */,
+				FBF307542A9EE50100B59B65 /* 0205-AdjustViewOpacity.swift */,
+				FBF307562A9EE51900B59B65 /* 0206-CreateACircularView.swift */,
+				FBF307582A9EE52B00B59B65 /* 0207-BuildAGridOfViews.swift */,
+				FBF3075A2A9EE53E00B59B65 /* 0208-CreateACustomViewModifier.swift */,
+				FBF3075C2A9EE55900B59B65 /* 0209-AddACustomShapeToAView.swift */,
+			);
+			path = "02-Views&Modifiers";
+			sourceTree = "<group>";
+		};
+		FBF307262A9ECC9F00B59B65 /* 03-ManagingUserInterfaceState */ = {
+			isa = PBXGroup;
+			children = (
+				FBF3075E2A9EE58200B59B65 /* 0301-UnderstandingState&Binding.swift */,
+				FBF307602A9EE5B600B59B65 /* 0302-UnderstandingObserableObject&ObservedObject.swift */,
+				FBF307622A9EE5F100B59B65 /* 0303-SharingStateAcrossViewsWithEnvironmentObjects.swift */,
+			);
+			path = "03-ManagingUserInterfaceState";
+			sourceTree = "<group>";
+		};
+		FBF307272A9ECCB900B59B65 /* 04-Text&Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "04-Text&Fonts";
+			sourceTree = "<group>";
+		};
+		FBF307282A9ECCC700B59B65 /* 05-Images&Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "05-Images&Icons";
+			sourceTree = "<group>";
+		};
+		FBF307292A9ECCD900B59B65 /* 06-Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "06-Buttons";
+			sourceTree = "<group>";
+		};
+		FBF3072A2A9ECCE200B59B65 /* 07-Lists&Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "07-Lists&Navigation";
+			sourceTree = "<group>";
+		};
+		FBF3072B2A9ECCF000B59B65 /* 08-Forms&Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "08-Forms&Controls";
+			sourceTree = "<group>";
+		};
+		FBF3072C2A9ECD0000B59B65 /* 09-TabViews&SplitViews */ = {
+			isa = PBXGroup;
+			children = (
+				FB729E182A9F3964001921C3 /* 0901-CreateATabView.swift */,
+				FB729E1A2A9F39E1001921C3 /* 0902-CustomizeTabViewAppearance.swift */,
+				FB729E1C2A9F3A6A001921C3 /* 0903-AddCustomIconsToTabViewItems.swift */,
+				FB729E1E2A9F3BE7001921C3 /* 0904-CreateASplitView.swift */,
+				FB729E202A9F3D05001921C3 /* 0905-CustomizeSplitViewAppearance.swift */,
+				FB729E222A9F3DBD001921C3 /* 0906-AddDetailViewToSplitView.swift */,
+				FB729E242A9F3E4C001921C3 /* 0907-PresentModalViewFromTabView.swift */,
+				FB729E262A9F3EDB001921C3 /* 0908-SwitchTabsProgrammatically.swift */,
+				FB729E282A9F3F33001921C3 /* 0909-HideATabView.swift */,
+				FB729E2A2A9F3F97001921C3 /* 0910-AddATabViewToNavigationView.swift */,
+			);
+			path = "09-TabViews&SplitViews";
+			sourceTree = "<group>";
+		};
+		FBF3072D2A9ECD1A00B59B65 /* 10-ProgressIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				FB729E2C2A9F4058001921C3 /* 1001-AnimateAProgressBar.swift */,
+				FB729E2E2A9F4146001921C3 /* 1002-CreateASpinningActivityIndicator.swift */,
+				FB729E302A9F419A001921C3 /* 1003-CustomizeTheStyleOfProgressIndicators.swift */,
+				FB729E322A9F41E8001921C3 /* 1004-CreateACircularProgressBar.swift */,
+				FB729E342A9F4284001921C3 /* 1005-ImplementADeterminateProgressBar.swift */,
+				FB729E362A9F430D001921C3 /* 1006-IndicateIndeterminateProgress.swift */,
+				FB729E382A9F4378001921C3 /* 1007-AddAProgressViewToANavigationBar.swift */,
+				FB729E3A2A9F43EE001921C3 /* 1008-MakeACustomSegmentedProgressBar.swift */,
+				FB729E3C2A9F443E001921C3 /* 1009-CreateACustomProgressView.swift */,
+			);
+			path = "10-ProgressIndicators";
+			sourceTree = "<group>";
+		};
+		FBF3072E2A9ECD3200B59B65 /* 11-Frames&Layouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "11-Frames&Layouts";
+			sourceTree = "<group>";
+		};
+		FBF3072F2A9ECD4200B59B65 /* 12-Animations&Transitions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "12-Animations&Transitions";
+			sourceTree = "<group>";
+		};
+		FBF307302A9ECD5400B59B65 /* 13-Gestures&Interactions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "13-Gestures&Interactions";
+			sourceTree = "<group>";
+		};
+		FBF307312A9ECD6800B59B65 /* 14-TextInput */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "14-TextInput";
+			sourceTree = "<group>";
+		};
+		FBF307322A9ECD7300B59B65 /* 15-CreatingModalViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "15-CreatingModalViews";
+			sourceTree = "<group>";
+		};
+		FBF307332A9ECD8900B59B65 /* 16-AddingAudio&Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "16-AddingAudio&Video";
+			sourceTree = "<group>";
+		};
+		FBF307342A9ECD9C00B59B65 /* 17-BuildingForMultiplePlatforms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "17-BuildingForMultiplePlatforms";
+			sourceTree = "<group>";
+		};
+		FBF307352A9ECDBA00B59B65 /* 18-Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "18-Accessibility";
+			sourceTree = "<group>";
+		};
+		FBF307362A9ECDC600B59B65 /* 19-Localization&Internationalization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "19-Localization&Internationalization";
+			sourceTree = "<group>";
+		};
+		FBF307372A9ECDE600B59B65 /* 20-Deploying&Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				FB729DFD2A9F2B8C001921C3 /* 2001-Building&RunningApps in Xcode.swift */,
+				FB729DFF2A9F2C1F001921C3 /* 2002-ConfiguringTheDeploymentTarget.swift */,
+				FB729E082A9F3001001921C3 /* 2003-ConfiguringAppIcons&LaunchScreens.swift */,
+				FB729E0A2A9F303B001921C3 /* 2004-ManagingAppPermissions.swift */,
+				FB729E0C2A9F317F001921C3 /* 2005-DebuggingwithXcodeDebugger.swift */,
+				FB729E0E2A9F31D5001921C3 /* 2006-UsingTheConsoleToDebugApps.swift */,
+				FB729E102A9F33DE001921C3 /* 2007-GettingStartedWithPreviews.swift */,
+				FB729E122A9F3428001921C3 /* 2008-CustomizingPreviews.swift */,
+				FB729E142A9F354C001921C3 /* 2009-FindingMemoryLeaksUsingInstruments.swift */,
+				FB729E162A9F3788001921C3 /* 2010-Understanding&ReducingStartupTimeWithInstruments.swift */,
+			);
+			path = "20-Deploying&Debugging";
+			sourceTree = "<group>";
+		};
+		FBF307382A9ECDFA00B59B65 /* 21-AdvancedTopics */ = {
+			isa = PBXGroup;
+			children = (
+				FB729DC12A9F16BE001921C3 /* Bookshelf.xcdatamodeld */,
+				FBF307782A9F109700B59B65 /* 2101-DesignASeamlessOnboardingExperience.swift */,
+				FBF3077A2A9F13AA00B59B65 /* 2102-Create&CustomizeCharts.swift */,
+				FBF3077C2A9F146A00B59B65 /* 2103-CreateComplexUI.swift */,
+				FB729DBD2A9F156D001921C3 /* 2104-IntegrateWithUIKit.swift */,
+				FB729DBF2A9F1633001921C3 /* 2105-IntegrateCoreData.swift */,
+				FB729DC72A9F1B94001921C3 /* 2106-AsyncAwait.swift */,
+				FB729DC92A9F1C7F001921C3 /* 2107-UsingCombine.swift */,
+				FB729DCB2A9F1E49001921C3 /* 2108-UnitTestingStrategies.swift */,
+				FB729DCD2A9F239F001921C3 /* 2109-TestingViewsWithViewInspector.swift */,
+				FB729DFB2A9F2A0F001921C3 /* 2110-ImplementMVVMArchitecture.swift */,
+			);
+			path = "21-AdvancedTopics";
+			sourceTree = "<group>";
+		};
+		FBF307392A9ECF2900B59B65 /* 22-BestPractices&Tips */ = {
+			isa = PBXGroup;
+			children = (
+				FBF307642A9EE75600B59B65 /* 2201-ImprovingPerformance.swift */,
+				FBF307662A9EE8D600B59B65 /* 2202-ReducingComplexity.swift */,
+				FBF3076A2A9EEB7000B59B65 /* 2203-SeparatingViewLogicWithViewModels.swift */,
+				FBF3076C2A9EEC1F00B59B65 /* 2204-UsingEnvironmentVariables.swift */,
+				FBF3076E2A9EEF1200B59B65 /* 2205-OptimizingAnimations.swift */,
+				FBF307702A9EEFCD00B59B65 /* 2206-MaintainingState.swift */,
+				FBF307722A9F0E4A00B59B65 /* 2207-DebuggingViews.swift */,
+				FBF307742A9F0F4100B59B65 /* 2208-CreatingReusableComponents.swift */,
+				FBF307762A9F0FD300B59B65 /* 2209-UsingViewComposition.swift */,
+			);
+			path = "22-BestPractices&Tips";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB729DDF2A9F2862001921C3 /* CookbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB729DE82A9F2862001921C3 /* Build configuration list for PBXNativeTarget "CookbookUITests" */;
+			buildPhases = (
+				FB729DDC2A9F2862001921C3 /* Sources */,
+				FB729DDD2A9F2862001921C3 /* Frameworks */,
+				FB729DDE2A9F2862001921C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB729DE72A9F2862001921C3 /* PBXTargetDependency */,
+			);
+			name = CookbookUITests;
+			packageProductDependencies = (
+				FB729E052A9F2DE0001921C3 /* ViewInspector */,
+			);
+			productName = CookbookUITests;
+			productReference = FB729DE02A9F2862001921C3 /* CookbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FB729DEE2A9F2878001921C3 /* CookbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB729DF52A9F2878001921C3 /* Build configuration list for PBXNativeTarget "CookbookTests" */;
+			buildPhases = (
+				FB729DEB2A9F2878001921C3 /* Sources */,
+				FB729DEC2A9F2878001921C3 /* Frameworks */,
+				FB729DED2A9F2878001921C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB729DF42A9F2878001921C3 /* PBXTargetDependency */,
+			);
+			name = CookbookTests;
+			productName = CookbookTests;
+			productReference = FB729DEF2A9F2878001921C3 /* CookbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBF307102A9ECA4500B59B65 /* Cookbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF307202A9ECA4600B59B65 /* Build configuration list for PBXNativeTarget "Cookbook" */;
+			buildPhases = (
+				FBF3070D2A9ECA4500B59B65 /* Sources */,
+				FBF3070E2A9ECA4500B59B65 /* Frameworks */,
+				FBF3070F2A9ECA4500B59B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cookbook;
+			packageProductDependencies = (
+			);
+			productName = Cookbook;
+			productReference = FBF307112A9ECA4500B59B65 /* Cookbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF307092A9ECA4500B59B65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FB729DDF2A9F2862001921C3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FBF307102A9ECA4500B59B65;
+					};
+					FB729DEE2A9F2878001921C3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FBF307102A9ECA4500B59B65;
+					};
+					FBF307102A9ECA4500B59B65 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = FBF3070C2A9ECA4500B59B65 /* Build configuration list for PBXProject "Cookbook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF307082A9ECA4500B59B65;
+			packageReferences = (
+				FB729E042A9F2DE0001921C3 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
+			productRefGroup = FBF307122A9ECA4500B59B65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF307102A9ECA4500B59B65 /* Cookbook */,
+				FB729DEE2A9F2878001921C3 /* CookbookTests */,
+				FB729DDF2A9F2862001921C3 /* CookbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB729DDE2A9F2862001921C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB729DED2A9F2878001921C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF3070F2A9ECA4500B59B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF3071D2A9ECA4600B59B65 /* Preview Assets.xcassets in Resources */,
+				FBF307192A9ECA4600B59B65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB729DDC2A9F2862001921C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB729E032A9F2D31001921C3 /* 2109-TestingViewsWithViewInspector.swift in Sources */,
+				FB729DE52A9F2862001921C3 /* CookbookUITestsLaunchTests.swift in Sources */,
+				FB729DE32A9F2862001921C3 /* CookbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB729DEB2A9F2878001921C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB729E022A9F2D26001921C3 /* 2108-UnitTestingStrategies.swift in Sources */,
+				FB729DF22A9F2878001921C3 /* CookbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF3070D2A9ECA4500B59B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB729DFE2A9F2B8C001921C3 /* 2001-Building&RunningApps in Xcode.swift in Sources */,
+				FB729E2F2A9F4146001921C3 /* 1002-CreateASpinningActivityIndicator.swift in Sources */,
+				FB729E212A9F3D05001921C3 /* 0905-CustomizeSplitViewAppearance.swift in Sources */,
+				FBF307532A9EE4F300B59B65 /* 0204-ClipViews.swift in Sources */,
+				FBF307692A9EE9A300B59B65 /* CookbookViewModel.swift in Sources */,
+				FB729DC82A9F1B94001921C3 /* 2106-AsyncAwait.swift in Sources */,
+				FB729E332A9F41E8001921C3 /* 1004-CreateACircularProgressBar.swift in Sources */,
+				FBF307492A9EE45E00B59B65 /* 0108-AddAListView.swift in Sources */,
+				FBF3074D2A9EE4A200B59B65 /* 0201-CreateAView.swift in Sources */,
+				FBF3075B2A9EE53E00B59B65 /* 0208-CreateACustomViewModifier.swift in Sources */,
+				FB729E372A9F430D001921C3 /* 1006-IndicateIndeterminateProgress.swift in Sources */,
+				FBF307712A9EEFCD00B59B65 /* 2206-MaintainingState.swift in Sources */,
+				FBF307412A9EE41E00B59B65 /* 0104-AddATextView.swift in Sources */,
+				FB729DFC2A9F2A0F001921C3 /* 2110-ImplementMVVMArchitecture.swift in Sources */,
+				FB729E0B2A9F303B001921C3 /* 2004-ManagingAppPermissions.swift in Sources */,
+				FB729E3D2A9F443E001921C3 /* 1009-CreateACustomProgressView.swift in Sources */,
+				FBF3073F2A9EDE0300B59B65 /* 0103-UseXcodePreviews.swift in Sources */,
+				FB729E1F2A9F3BE7001921C3 /* 0904-CreateASplitView.swift in Sources */,
+				FB729E192A9F3964001921C3 /* 0901-CreateATabView.swift in Sources */,
+				FBF307472A9EE45000B59B65 /* 0107-AddANavigationStack.swift in Sources */,
+				FB729E3B2A9F43EE001921C3 /* 1008-MakeACustomSegmentedProgressBar.swift in Sources */,
+				FB729E112A9F33DE001921C3 /* 2007-GettingStartedWithPreviews.swift in Sources */,
+				FB729DC32A9F16BE001921C3 /* Bookshelf.xcdatamodeld in Sources */,
+				FB729E152A9F354C001921C3 /* 2009-FindingMemoryLeaksUsingInstruments.swift in Sources */,
+				FBF3074B2A9EE48300B59B65 /* 0109-AddAForm.swift in Sources */,
+				FBF307452A9EE43D00B59B65 /* 0106-AddAButton.swift in Sources */,
+				FBF307572A9EE51900B59B65 /* 0206-CreateACircularView.swift in Sources */,
+				FB729E312A9F419A001921C3 /* 1003-CustomizeTheStyleOfProgressIndicators.swift in Sources */,
+				FBF307172A9ECA4500B59B65 /* ContentView.swift in Sources */,
+				FBF307652A9EE75600B59B65 /* 2201-ImprovingPerformance.swift in Sources */,
+				FB729DC02A9F1633001921C3 /* 2105-IntegrateCoreData.swift in Sources */,
+				FB729E132A9F3428001921C3 /* 2008-CustomizingPreviews.swift in Sources */,
+				FBF3075D2A9EE55900B59B65 /* 0209-AddACustomShapeToAView.swift in Sources */,
+				FBF3073B2A9ED2A400B59B65 /* 0101-Create&Preivew.swift in Sources */,
+				FBF307592A9EE52B00B59B65 /* 0207-BuildAGridOfViews.swift in Sources */,
+				FBF3076F2A9EEF1200B59B65 /* 2205-OptimizingAnimations.swift in Sources */,
+				FB729E272A9F3EDB001921C3 /* 0908-SwitchTabsProgrammatically.swift in Sources */,
+				FBF307552A9EE50100B59B65 /* 0205-AdjustViewOpacity.swift in Sources */,
+				FBF307632A9EE5F100B59B65 /* 0303-SharingStateAcrossViewsWithEnvironmentObjects.swift in Sources */,
+				FB729E172A9F3788001921C3 /* 2010-Understanding&ReducingStartupTimeWithInstruments.swift in Sources */,
+				FB729E2B2A9F3F97001921C3 /* 0910-AddATabViewToNavigationView.swift in Sources */,
+				FBF307732A9F0E4A00B59B65 /* 2207-DebuggingViews.swift in Sources */,
+				FBF307152A9ECA4500B59B65 /* CookbookApp.swift in Sources */,
+				FBF3077D2A9F146A00B59B65 /* 2103-CreateComplexUI.swift in Sources */,
+				FB729E2D2A9F4058001921C3 /* 1001-AnimateAProgressBar.swift in Sources */,
+				FB729E0F2A9F31D5001921C3 /* 2006-UsingTheConsoleToDebugApps.swift in Sources */,
+				FB729DCC2A9F1E49001921C3 /* 2108-UnitTestingStrategies.swift in Sources */,
+				FB729E002A9F2C1F001921C3 /* 2002-ConfiguringTheDeploymentTarget.swift in Sources */,
+				FB729E232A9F3DBD001921C3 /* 0906-AddDetailViewToSplitView.swift in Sources */,
+				FBF307672A9EE8D600B59B65 /* 2202-ReducingComplexity.swift in Sources */,
+				FBF3076D2A9EEC1F00B59B65 /* 2204-UsingEnvironmentVariables.swift in Sources */,
+				FB729E392A9F4378001921C3 /* 1007-AddAProgressViewToANavigationBar.swift in Sources */,
+				FB729E0D2A9F317F001921C3 /* 2005-DebuggingwithXcodeDebugger.swift in Sources */,
+				FBF3076B2A9EEB7000B59B65 /* 2203-SeparatingViewLogicWithViewModels.swift in Sources */,
+				FB729DCE2A9F239F001921C3 /* 2109-TestingViewsWithViewInspector.swift in Sources */,
+				FBF307612A9EE5B600B59B65 /* 0302-UnderstandingObserableObject&ObservedObject.swift in Sources */,
+				FB729E1D2A9F3A6A001921C3 /* 0903-AddCustomIconsToTabViewItems.swift in Sources */,
+				FB729E352A9F4284001921C3 /* 1005-ImplementADeterminateProgressBar.swift in Sources */,
+				FB729E292A9F3F33001921C3 /* 0909-HideATabView.swift in Sources */,
+				FB729DBE2A9F156D001921C3 /* 2104-IntegrateWithUIKit.swift in Sources */,
+				FB729E252A9F3E4C001921C3 /* 0907-PresentModalViewFromTabView.swift in Sources */,
+				FBF3075F2A9EE58200B59B65 /* 0301-UnderstandingState&Binding.swift in Sources */,
+				FB729E1B2A9F39E1001921C3 /* 0902-CustomizeTabViewAppearance.swift in Sources */,
+				FBF307792A9F109700B59B65 /* 2101-DesignASeamlessOnboardingExperience.swift in Sources */,
+				FBF3073D2A9EDD3400B59B65 /* 0102-UnderstandViews&ViewHierarchies.swift in Sources */,
+				FBF307772A9F0FD300B59B65 /* 2209-UsingViewComposition.swift in Sources */,
+				FB729DCA2A9F1C7F001921C3 /* 2107-UsingCombine.swift in Sources */,
+				FBF3074F2A9EE4B500B59B65 /* 0203-AddShadowsToViews.swift in Sources */,
+				FBF307432A9EE43000B59B65 /* 0105-AddAnImageView.swift in Sources */,
+				FBF3077B2A9F13AA00B59B65 /* 2102-Create&CustomizeCharts.swift in Sources */,
+				FB729E092A9F3001001921C3 /* 2003-ConfiguringAppIcons&LaunchScreens.swift in Sources */,
+				FBF307512A9EE4D700B59B65 /* 0202-CustomizeViewBackground&Border.swift in Sources */,
+				FBF307752A9F0F4100B59B65 /* 2208-CreatingReusableComponents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB729DE72A9F2862001921C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF307102A9ECA4500B59B65 /* Cookbook */;
+			targetProxy = FB729DE62A9F2862001921C3 /* PBXContainerItemProxy */;
+		};
+		FB729DF42A9F2878001921C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF307102A9ECA4500B59B65 /* Cookbook */;
+			targetProxy = FB729DF32A9F2878001921C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB729DE92A9F2862001921C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3464PCK3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naijoug.CookbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cookbook;
+			};
+			name = Debug;
+		};
+		FB729DEA2A9F2862001921C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3464PCK3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naijoug.CookbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cookbook;
+			};
+			name = Release;
+		};
+		FB729DF62A9F2878001921C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3464PCK3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naijoug.CookbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cookbook";
+			};
+			name = Debug;
+		};
+		FB729DF72A9F2878001921C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3464PCK3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naijoug.CookbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cookbook";
+			};
+			name = Release;
+		};
+		FBF3071E2A9ECA4600B59B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF3071F2A9ECA4600B59B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FBF307212A9ECA4600B59B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cookbook/Cookbook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cookbook/Preview Content\"";
+				DEVELOPMENT_TEAM = B3464PCK3Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cookbook/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access your Photos";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naijoug.Cookbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF307222A9ECA4600B59B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cookbook/Cookbook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cookbook/Preview Content\"";
+				DEVELOPMENT_TEAM = B3464PCK3Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cookbook/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access your Photos";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naijoug.Cookbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB729DE82A9F2862001921C3 /* Build configuration list for PBXNativeTarget "CookbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB729DE92A9F2862001921C3 /* Debug */,
+				FB729DEA2A9F2862001921C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB729DF52A9F2878001921C3 /* Build configuration list for PBXNativeTarget "CookbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB729DF62A9F2878001921C3 /* Debug */,
+				FB729DF72A9F2878001921C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF3070C2A9ECA4500B59B65 /* Build configuration list for PBXProject "Cookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF3071E2A9ECA4600B59B65 /* Debug */,
+				FBF3071F2A9ECA4600B59B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF307202A9ECA4600B59B65 /* Build configuration list for PBXNativeTarget "Cookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF307212A9ECA4600B59B65 /* Debug */,
+				FBF307222A9ECA4600B59B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB729E042A9F2DE0001921C3 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB729E052A9F2DE0001921C3 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB729E042A9F2DE0001921C3 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FB729DC12A9F16BE001921C3 /* Bookshelf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB729DC22A9F16BE001921C3 /* Bookshelf.xcdatamodel */,
+			);
+			currentVersion = FB729DC22A9F16BE001921C3 /* Bookshelf.xcdatamodel */;
+			path = Bookshelf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBF307092A9ECA4500B59B65 /* Project object */;
+}
