@@ -12,7 +12,7 @@
 
 ## Commands
 
-```bash
+```shell
 $ brew install cocoapods        # brew 安装 cocoapods
 
 # 参数说明:
@@ -69,7 +69,7 @@ $ pod repo push XXSpecs XXKit.podspec           # 添加specs文件到指定的�
 
 ## Podfile
 
-``` bash Podfile 
+```ruby
 source 'https://github.com/CocoaPods/Sepcs.git' # 指定获得框架的源代码的仓库
 source 'https://xxx.gitt.com/xxx/XXSpecs.git'   # 指定私有仓库
 
@@ -101,7 +101,7 @@ spec.resource_bundles = {
 }
 ```
 
-```ruby XXKit.podsepc
+```ruby
 Pod::Spec.new do |s|
   s.name                  = 'XX Kit'
   s.version               = '0.0.1'

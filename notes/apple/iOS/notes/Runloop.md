@@ -3,6 +3,7 @@
 - [CFRunLoopRef 开源代码](http://opensource.apple.com/source/CF/CF-1151.16/)
 - [2015-03-20 CFRunLoop - 戴铭](https://github.com/ming1016/study/wiki/CFRunLoop)
 - [2015-05-18 深入理解RunLoop - 郭曜源](http://blog.ibireme.com/2015/05/18/runloop/)
+- [2022-04-04 由点入面吃透RunLoop](https://juejin.cn/post/7082739417370066974)
 
 ## UIApplicationMain
 > iOS 程序启动的入口 main 函数中的 `UIApplicationMain` 就是启动了一个 RunLoop

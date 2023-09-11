@@ -7,7 +7,7 @@
 
 ## Commands
 
-```bash
+```shell
 # 查看版本
 $ swift package --version
 # 查看帮助

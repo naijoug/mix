@@ -1,14 +1,60 @@
 
 ## Reference
 
+- [2022-11-10 iOS 求职寒冬？听听他们怎么说](https://juejin.cn/post/7164222659528491022)
+- [2020-07-24 iOS面试总结（2020年6月）](https://juejin.cn/post/6854573217320402952)
+- [2020-03-28 快手iOS面经](https://zhangferry.com/2020/03/28/interview_kuaishou/)
+- [2018-07-17 2018年 iOS 面试心得](https://juejin.cn/post/6844903639270572046)
+
+------
+
 - [iOS 面试题集锦 - 陈奕龙(阿里)](https://github.com/ChenYilong/iOSInterviewQuestions)
+    > iOS interview questions;iOS面试题集锦
 - [iOSInterviewsAndDevNotes](https://github.com/DevDragonLi/iOSInterviewsAndDevNotes)
     > 🚴 iOS Interviews, Dev Notes && Git ...
-- [2015-07-04 招聘一个靠谱的 iOS - 孙源(滴滴)](http://blog.sunnyxx.com/2015/07/04/ios-interview)
-- [2016-10-09 一份"有点难"的iOS面试题](https://zhuanlan.zhihu.com/p/22834934)
-- [2018-07-24 出一套 iOS 高级面试题](juejin.im/post/5b56155e6fb9a04f8b78619b)
+- [2020-08-16 iOS面试总结（2020年6月）参考答案](https://zhangferry.com/2020/08/16/interview_202006_answer/)
+- [2020-07-20 iOS面试了20几家总结出来的面试题](https://juejin.cn/post/6854573212165111822)
 - [2020-02-14 阿里、字节：一套高效的iOS面试题](https://juejin.cn/post/6844904064937902094)
-    > [runtime 结构模型](https://juejin.cn/post/7218915344119234616)
+    * [2023-04-06 Answer](https://juejin.cn/post/7218915344119234616)
+    * [2020-07-06 Answer](https://www.sunyazhou.com/tags/ios%E9%9D%A2%E8%AF%95%E9%A2%98/)
+- [2018-07-24 出一套 iOS 高级面试题](juejin.im/post/5b56155e6fb9a04f8b78619b)
+- [2017-06-08 2017年5月iOS招人心得（附面试题）](https://juejin.cn/post/6844903480805556238)
+    * [2017-06-29 面试题总结](https://zhangferry.com/2017/06/29/interview-question/)
+- [2016-10-09 一份"有点难"的iOS面试题](https://zhuanlan.zhihu.com/p/22834934)
+- [2015-07-04 招聘一个靠谱的 iOS - 孙源(滴滴)](http://blog.sunnyxx.com/2015/07/04/ios-interview)
+
+------ 
+
+- [2022-04-02 当面试官问Runloop时，想听到的答案是什么？](https://juejin.cn/post/7081932582576717831)
+
+## Swift
+
+- 类和结构体的区别
+- `Cow` (copy on wirte) 写时拷贝机制。`isKnownUniquelyReferenced` 实现自定义结构体 `Cow`
+- `Swift` 中的枚举和其它编程语言的区别
+- `Swift` 中的 `switch` 和其它编程语言有什么区别？其中的匹配模式深入说一下？
+- `Swift` 中的协议与 `OC` 中协议的特点和区别？面向协议开发说一下你的理解？
+- `Swift` 可选类型 `Optional` 说一下理解？
+- `Swift` 语法特性泛型 (`@_specialize`)、运算符、下标、字面量协议、尾随闭包
+- `Swift` 泛型类型擦除如何实现？
+- `Swift` 函数式编程 (函子、单子)，“函数是第一等公民”这句话你是怎么理解的？
+- 响应式编程中数据响应、UI 响应。 `RxSwift` `Combine` 这两个框架第比较？
+- `Swift 5.1` 新特性 `@propertyWrapper`、`@_functionBuilder`、`@dynamicMemberLookup`
+- `Swift` 在其它领域的扩展 (AI、AR、VR、Web、Backend)
+- `SwiftUI` vs `Flutter`
+- `Swift` 函数派发机制
+- `swift_once` 是用在什么地方的？
+
+## OC
+
+- `OC` 中的三种字符串？ `Tagged Pointer` 了解吗？ 
+
+## 设计模式
+
+- MVC、MVVM、Coordinator、单向数据流 (Redux、ReSwift、RxFeedback)
+
+
+------
 
 ## Project Show
 

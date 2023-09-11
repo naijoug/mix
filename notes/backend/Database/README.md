@@ -12,6 +12,9 @@
 
 - [db-tutorial](https://github.com/dunwu/db-tutorial)
     > 📚 db-tutorial 是一个数据库教程。
+- [设计数据密集型应用](https://github.com/Vonng/ddia)
+    > 《Designing Data-Intensive Application》DDIA中文翻译
+    > [一本神书：《数据密集型应用系统设计》](https://fuxuemingzhu.cn/ddia)
     
 ## ClickHouse
     

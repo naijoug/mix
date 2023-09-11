@@ -2,15 +2,13 @@
 
 ## Reference
 
-- [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
-- [代码随想录](https://github.com/youngyangyang04/leetcode-master)
-- [算法通关之路](https://github.com/azl397985856/leetcode)
-- [算法模板](https://github.com/greyireland/algorithm-pattern)
-- [LeetCode Animation](https://github.com/MisterBooo/LeetCodeAnimation)
+- [The Algorithms](https://github.com/TheAlgorithms): [website](https://the-algorithms.com)
+    > Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language
+- [Hello 算法](https://github.com/krahets/hello-algo)
+    > 《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 - [Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club)
 - [Swift 算法俱乐部](https://github.com/KeithMorning/swift-algorithm-club-cn)
-- [The Algorithms](https://the-algorithms.com)
 - [算法 4 课后练习解答](https://github.com/jimmysuncpt/Algorithms)
 - [数据结构和算法必知必会的50个代码实现](https://github.com/wangzheng0822/algo)
 - [The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) : 线性代数的艺术
@@ -21,6 +19,21 @@
 - [algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
 - [VisuAlgo](http://visualgo.net/) 
 - [Data Structure Visualizations](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+## LeetCode
+
+- [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
+    > 刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why.
+- [算法模板](https://github.com/greyireland/algorithm-pattern)
+    > 算法模板，最科学的刷题方式，最快速的刷题路径，你值得拥有~
+- [代码随想录](https://github.com/youngyangyang04/leetcode-master)
+    > 《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫！🔥🔥 来看看，你会发现相见恨晚！🚀
+- [LeetCode Animation](https://github.com/MisterBooo/LeetCodeAnimation)
+    > Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）
+- [算法通关之路](https://github.com/azl397985856/leetcode)
+    > LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)
+- [Leetcode-Solution-All](https://github.com/fuxuemingzhu/Leetcode-Solution-All)
+    > 1000篇通俗易懂且高质量的 LeetCode 解析，动画题解，套路分析，模板分享
 
 ## Concept
 

@@ -5,6 +5,10 @@
 - [Chisel](https://github.com/facebook/chisel) 
     > a collection of LLDB Commands
 
+------
+
+- [2019-08-13 iOS程序员的自我修养](https://juejin.cn/post/6844903912143585288)
+
 ## Compile
 
 - 编译流程 : `预处理 -> 语法和语义分析 -> 生成代码和优化 -> 汇编 -> 链接`

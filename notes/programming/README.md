@@ -3,16 +3,15 @@
 ## Reference
 
 - [Learn X in Y minutes](https://learnxinyminutes.com/)
+- [📚 Go语言圣经中文版](https://github.com/golang-china/gopl-zh)
 
 ## notes
 
+- [Paradigm](notes/Paradigm.md)
 - [Code Style](notes/CodeStyle.md)
 - [Multithread](notes/Multithread.md)
 - [Memory Management](notes/MemoryManagement.md)
 - [Regular Expression](notes/RegularExpression.md)
-
-## [Paradigm](Paradigm/README.md)
-
 
 ## Basic
 

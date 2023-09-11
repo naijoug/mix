@@ -134,7 +134,7 @@
 
 ## Commands
 
-  ```bash
+  ```shell
   # 将 OC 代码转化为 C/C++ 代码
   clang -rewrite-objc main.m -o main.cpp
   # 只生成 iOS 平台下代码

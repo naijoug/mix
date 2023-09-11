@@ -12,12 +12,13 @@
 - [林洵锋](https://fullstackaction.com/) : FSA全栈行动
 - [郭曜源 (ibireme) - 优酷](http://blog.ibireme.com) : `YYKit` 作者、iOS RunLoop
 - [孙源 (sunnyxx) - 滴滴](http://blog.sunnyxx.com) : Objective-C 深入研究
+- [孙亚洲 迈腾大队长 - TME](https://www.sunyazhou.com)
 - [李忠 (limboy) - 蘑菇街](http://limboy.me) : RAC
 - [田伟宇 (casatwy)](https://casatwy.com) : iOS 架构系列 [](阿里 -> 得物)
 - [杨萧玉 (玉令天下) - 腾讯](http://yulingtianxia.com/) : iOS Runtime、消息机制
 - [张宇星 (bestswifter) - 今日头条](https://bestswifter.com/) : iOS
 - [于德志 (halfrost) - 饿了么](https://halfrost.com/) : iOS 、FE、Go、机器学习
-- [崔江涛 (kenshincui)](http://www.cnblogs.com/kenshincui/) :
+- [崔江涛 (kenshincui)](http://www.cnblogs.com/kenshincui/)
 - [钟颖 (Cyan) - 微软](https://www.zhihu.com/people/ios_dev/posts) : `Pin` 作者
 - [戴铭 (ming1016) - 快手](https://github.com/ming1016/study)
 - [翁培钧 - 滴滴](https://github.com/windstormeye/iOS-Course)
@@ -45,6 +46,7 @@
 
 ## Tool
 
+- [xLog](https://xlog.app)
 - [NotionNext](https://github.com/tangly1024/NotionNext)
     > 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。
     > A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.
