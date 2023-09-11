@@ -1,5 +1,3 @@
-package note.Programming.Java.samples;
-
 // 顶级类(top level class) : 非嵌套类就是顶级类，主类 & 文件类
 
 // 0. 主类 : (main class) public 修饰的类，一个 java 文件只能有一个主类

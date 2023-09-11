@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>HTML Basic</title>
+	<style type="text/css">
+		body{
+			background-color : white;
+		}
+		h3{
+			color : red;
+		}
+		h4{
+			color : blue;
+		}
+	</style>
+</head>
+<body>
+	
+	<h1>目录</h1>
+	<div>
+		<ul>
+			<li><a href="#h">标题</a></li>
+			<li><a href="#br">换行</a></li>
+			<li><a href="#p">段落</a></li>
+			<li><a href="#img">图片</a></li>
+			<li><a href="#a">超链接</a></li>
+			<li><a href="#li">列表</a>
+				<ul>
+					<li><a href="#ul">无序列表</a></li>
+					<li><a href="#ol">有序列表</a></li>
+					<li><a href="#dl">定义列表</a></li>
+					<li><a href="#list1">内嵌列表</a></li>
+				</ul>
+			</li>
+			<li><a href="#form">表单</a>
+				<ul>
+					<li><a href="#input-text">输入框</a></li>
+					<li><a href="#input-radio">单选按钮</a></li>
+					<li><a href="#input-checkbox">复选按钮</a></li>
+					<li><a href="#input-password">密码输入框</a></li>
+					<li><a href="#input-button">按钮</a></li>
+					<li><a href="#button">button</a></li>
+					<li><a href="#select">下拉列表</a></li>
+					<li><a href="#textarea">文本域</a></li>
+				</ul>
+			</li>
+			<li><a href="#table">表格</a>
+				<ul>
+					<li><a href="#table1">基本表格</a></li>
+					<li><a href="#table2">垂直表头</a></li>
+					<li><a href="#table3">合并单元格</a></li>
+					<li><a href="#table4">内嵌表格</a></li>
+				</ul>
+			</li>
+			<li><a href="#div">div</a></li>
+			<li><a href="#span">span</a></li>
+			<li><a href="#sign">字符实体</a>
+				<ul>
+					<li><a href="#lt">小于号</a></li>
+					<li><a href="#gt">大于号</a></li>
+					<li><a href="#copy">版权标志</a></li>
+					<li><a href="#nbsp"></a></li>
+				</ul>
+			</li>
+			<li><a href="#abandon">废弃标签</a>
+				<ul>
+					<li><a href="#b">粗体</a></li>
+					<li><a href="#u">下划线</a></li>
+					<li><a href="#i">斜体</a></li>
+					<li><a href="#del">删除</a></li>
+					<li><a href="#strong">strong</a></li>
+					<li><a href="#em">em</a></li>
+					<li><a href="#hr">分割线</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
+	<!-- 标题 -->
+	<h3><a name="h">标题</a></h3>
+	<div>
+		<h1>标题1</h1>
+		<h2>标题2</h2>
+	</div>
+	
+	<!-- 换行 -->
+	<h3><a name="br">换行</a></h3>
+	<br />
+	
+	<!-- 段落 -->
+	<h3><a name="p">段落</a></h3>
+	<div>
+		<p>这是一个标准的段落</p>
+		<!-- 空白折叠 : 标签内空格、tab、换行，会被忽略一个空格 -->
+		<p>这是一个标准
+
+		的
+
+			段
+			落 </p>
+	</div>
+		
+	<!-- 图片 -->
+	<h3><a name="img">图片</a></h3>
+	<div>
+		<img src="./images/appl.png"  alt="图片不存在" />
+		<img src="./images/apple.png" width="50" height="50" alt="" />
+	</div>
+	
+	<!-- 超链接 -->
+	<h3><a name="a">超链接</a></h3>
+	<div>
+		<p><a href="http://www.baidu.com" target="_blank" >百度</a></p>
+		<p><a href="http://www.so.com" title="这是360搜素">360</a></p>
+		<p><a href="http://www.apple.com" target="_top">苹果</a></p>
+		<p><a href="http://www.apple.com"><img src="./images/apple.png" alt="苹果" height="50" /></a></p>
+		<!-- 页内锚点设置 -->
+		<p><a name="anchor">定义的锚点</a></p>
+		<!-- 跳转到页内锚点 -->
+		<p><a href="#anchor">跳转到锚点</a></p>
+		<!-- 跳转到其它页面锚点 -->
+		<p><a href="./basic.html#anchor">跳转到其它页面锚点</a></p>
+	</div>
+	
+	
+	<!-- 列表 -->
+	<h3><a name="li">列表</a></h3>
+	<div>
+		<!-- 无序列表 -->
+		<h4><a name="ul">无序列表</a></h4>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>jQuery</li>
+			<li>Node.js</li>
+		</ul>
+		<!-- 有序列表 -->
+		<h4><a name="ol">有序列表</a></h4>
+		<ol>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>jQuery</li>
+			<li>Node.js</li>
+		</ol>
+		<!-- 定义列表 -->
+		<h4><a name="dl">定义列表</a></h4>
+		<dl>
+			<dt>HTML</dt>
+			<dd>HTML是描述文本结构的语言</dd>
+			
+			<dt>CSS</dt>
+			<dd>CSS是描述页面样式</dd>
+			
+			<dt>JavaScript</dt>
+			<dd>JavaScript是页面交互语言</dd>
+			<dd>JavaScript是解释性编程语言</dd>
+			<!-- 一个dt可以对应多个dd -->
+			
+			<dt>jQuery</dt>
+			<!-- 可以没有dd -->
+		</dl>
+		<!-- 嵌套列表 -->
+		<h4><a name="list1">嵌套列表</a></h4>
+		<ul>
+			<li>前端开发
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+			</li>
+			<li>后端开发
+				<ul>
+					<li>Java</li>
+					<li>C#</li>
+					<li>C++</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
+	<!-- 表单 -->
+	<h3><a name="form">表单</a></h3>
+	<div>
+			<form action="">
+			<!-- 单行文本框 -->
+			<h4><a name="input-text">单行文本框</a></h4>
+			<input type="text" />
+			<br />
+			<!-- 单选按钮 -->
+			<h4><a name="input-radio">单选按钮</a></h4>
+			<input type="radio" name="sex" />男
+			<input type="radio" name="sex" />女
+			<br />
+			<!-- 单选按钮 - 点击文字选中 -->
+			<input type="radio" name="sex1" id="male" />
+			<label for="male">男</label>
+			<input type="radio" name="sex1" id="female" />
+			<label for="female">女</label>
+			<br />
+			<!-- 复选框 -->
+			<h4><a name="input-checkbox">复选框</a></h4>
+			<input type="checkbox" name="hobby" />篮球
+			<input type="checkbox" name="bobby" />兵乓球
+			<input type="checkbox" name="hobby" />足球
+			<br />
+			<!-- 密码框 -->
+			<h4><a name="input-password">密码框</a></h4>
+			<input type="password" />
+			<br />
+			<!-- 按钮 -->
+			<h4><a name="input-button">按钮</a></h4>
+			<input type="button" value="button" onclick="alert('input-button');" />
+			<input type="submit" value="submit" onclick="alert('input-submit');" />
+			<input type="reset"  value="reset" onclick="alert('input-reset');" />
+			<br />
+			<!-- button -->
+			<h4><a name="button">button</a></h4>
+			<button type="button" onclick="alert('button');">按钮</button>
+			<!-- 下拉列表 -->
+			<h4><a name="select">下拉列表</a></h4>
+			<select>
+				<option value="Kobe">科比</option>
+				<option value="James">詹姆斯</option>
+				<option value="Howard">霍华德</option>
+				<option value="Wade">韦德</option>
+				<option value="Iverson">艾弗森</option>
+			</select>
+			<br />
+			<!-- 文本域 -->
+			<h4><a name="textarea">文本域</a></h4>
+			<textarea cols="30" rows="10">
+				请输入内容...
+			</textarea>
+		</form>
+	</div>
+
+	<!-- 表格 -->
+	<h3><a name="table">表格</a></h3>
+	<div>
+		<!-- 基本表格 -->
+		<h4><a name="table1">基本表格</a></h4>
+		<table border="1">
+			<caption>三层结构</caption>
+			<thead>
+				<tr>
+					<th>语言</th>
+					<th>层</th>
+					<th>说明</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>HTML</td>
+					<td>结构层</td>
+					<td>从语义的角度描述页面的结构</td>
+				</tr>
+				<tr>
+					<td>CSS</td>
+					<td>样式层</td>
+					<td>从审美的角度装饰页面</td>
+				</tr>
+				<tr>
+					<td>JavaScript</td>
+					<td>行为层</td>
+					<td>从审美的角度装饰页面</td>
+				</tr>
+			</tbody>
+			
+		</table>
+		<!-- 垂直表头 -->
+		<h4><a name="table2">垂直表头</a></h4>
+		<table border="1">
+			<tr>
+				<th>编程语言</th>
+				<td>JavaScript</td>
+				<td>Java</td>
+				<td>Python</td>
+			</tr>
+			<tr>
+				<th>说明</th>
+				<td>解释性语言</td>
+				<td>编译型语言</td>
+				<td>脚本语言</td>
+			</tr>
+		</table>
+		<!-- 合并单元格 -->
+		<h4><a name="table3">合并单元格</a></h4>
+		<table border="1">
+			<tr>
+				<th>编程语言</th>
+				<th>类型</th>
+				<th>说明</th>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>1</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Python</td>
+				<td>2</td>
+				<td rowspan="2">脚本语言</td>
+			</tr>
+			<tr>
+				<td>Ruby</td>
+				<td>2</td>
+			</tr>
+		</table>
+		<!-- 内嵌表格 -->
+		<h4><a name="table4">内嵌表格</a></h4>
+		<table border="1">
+			<tr>
+				<td>(0,0)</td>
+				<td>(0,1)</td>
+			</tr>
+			<tr>
+				<td>(1,0)</td>
+				<td>
+					<table border="1">
+						<tr>
+							<td>(1,1)</td>
+							<td>(1,2)</td>
+						</tr>
+						<tr>
+							<td>(2,1)</td>
+							<td>(2,2)</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- div -->
+	<h3><a name="div">div</a></h3>
+	<div>
+		这是一个div!!!
+	</div>
+	
+	<!-- span -->
+	<h3><a name="span">span</a></h3>
+	<div>
+		<span>这是一个span</span>	
+	</div>
+	
+	<!-- 实体符号 -->
+	<h3><a name="sign">实体符号</a></h3>
+	<div>
+		<!-- lt -->
+		<h4><a name="lt">小于号</a></h4>
+		<p>HTML中有标签&lt;p></p>
+		<!-- gt -->
+		<h4><a name="gt">大于号</a></h4>
+		<p>数学中 2&gt;1 </p>
+		<!-- copy -->
+		<h4><a name="copy">版权标志</a></h4>
+		<p>版权标志 : &copy;</p>
+		<!-- nbsp -->
+		<h4><a name="nbsp">空格</a></h4>
+		<p>中间有一个&nbsp;空格</p>
+	</div>
+	
+	<!-- 废弃标签 -->
+	<h3><a name="abandon">废弃标签</a></h3>
+	<div>
+		<!-- b -->
+		<h4><a name="b">粗体</a></h4>
+		<p>这是一个<b>bold粗体</b>文本！</p>
+		<!-- u -->
+		<h4><a name="u">下划线</a></h4>
+		<p>这是一个<u>underline下划线</u>文本！</p>
+		<!-- i -->
+		<h4><a name="i">斜体</a></h4>
+		<p>这是一个<i>italic斜体</i>文本！</p>
+		<!-- del -->
+		<h4><a name="del">删除</a></h4>
+		<p>这是一个<del>delete删除</del>文本！</p>
+		<!-- strong -->
+		<h4><a name="strong">strong</a></h3>
+		<p>这是一个<strong>强壮</strong>文本！</p>
+		<!-- em -->
+		<h4><a name="em">em</a></h3>
+		<p>这是一个<em>强调</em>文本！</p>
+		<!-- hr -->
+		<h4><a name="hr">分割线</a></h4>
+		<hr />
+	</div>
+	
+</body>
+</html>

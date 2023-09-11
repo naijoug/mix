@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='raw' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Reference'/>
+        <page name='Big-O notation'/>
+        <page name='Where to starts'/>
+        <page name='The algorithms'/>
+        <page name='- Searching'/>
+        <page name='- String Search'/>
+        <page name='- Sorting'/>
+        <page name='- Compression'/>
+        <page name='- Miscellaneous'/>
+        <page name='- Mathematics'/>
+        <page name='- Machine learing'/>
+        <page name='Data structures'/>
+        <page name='- Variations on arrays'/>
+        <page name='- Queues'/>
+        <page name='- Lists'/>
+        <page name='- Trees'/>
+        <page name='- Hashing'/>
+        <page name='- Sets'/>
+        <page name='- Graphs'/>
+        <page name='Puzzles'/>
+    </pages>
+</playground>

@@ -1,4 +1,3 @@
-package note.Programming.Java.samples;
 
 public class ExceptionSample {
 
