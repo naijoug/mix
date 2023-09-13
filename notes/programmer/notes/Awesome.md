@@ -1,6 +1,6 @@
-# GitHub
+# Awesome
 
-## Reference
+## GitHub
 
 - [GitHub Hosts](https://github.com/ineo6/hosts/) : [GitLab](https://gitlab.com/ineo6/hosts/)
     > GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。
@@ -41,6 +41,8 @@
     > The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。
 - [RoadMap](https://github.com/xx-zh/xx-zh-roadmap)
 - [书栈网](https://www.bookstack.cn/)
+- [BookStash](https://bookstash.io)
+    > Top books recommended by famous folk, in 3m or less.
 - [给程序员的开源、免费图书集合](https://github.com/waylau/books-collection)
 - [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)

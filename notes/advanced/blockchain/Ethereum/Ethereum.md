@@ -87,6 +87,7 @@ $ web3j wallet send
 
 ## Solidity
 
+- [以太坊Solidity语言中文文档](https://github.com/etherchina/solidity-doc-cn)
 - [Solidity Docs](https://solidity.readthedocs.io)
 - [Solidity 文档](https://solidity-cn.readthedocs.io)
 - [Smart Contract Security Best Practices](https://github.com/ConsenSys/smart-contract-best-practices)

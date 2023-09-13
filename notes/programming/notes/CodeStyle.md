@@ -11,6 +11,8 @@
 - [Airbnb JavaScript编码规范指南](https://github.com/libertyAlone/airbnb-javascript-style-guide-cn)
 - [JavaScript Standard Style](https://github.com/standard/standard)
     > 🌟 JavaScript Style Guide, with linter & automatic code fixer
+- [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+    > 🛁 Clean Code concepts adapted for JavaScript
 
 ## Naming
 

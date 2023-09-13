@@ -3,6 +3,8 @@
 ## Reference
 
 - [互联网公司经典技术架构](https://github.com/davideuler/architecture.of.internet-product)
+- [深入架构原理与实践](https://github.com/isno/theByteBook)
+    > 深入讲解内核网络、Kubernetes、ServiceMesh、容器等云原生相关技术，大厂人都在看的书籍。
 
 ## Concept
 
