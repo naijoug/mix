@@ -48,11 +48,15 @@
 ## OC
 
 - `OC` 中的三种字符串？ `Tagged Pointer` 了解吗？ 
+- Runtime: isa, 消息转发, 弱引用表.
+- Runloop: mode, timer.
+- Block: __block, __forwording.
+- Property: assign, weak, copy.
+- Category: assoc, load
 
 ## 设计模式
 
 - MVC、MVVM、Coordinator、单向数据流 (Redux、ReSwift、RxFeedback)
-
 
 ------
 
@@ -67,6 +71,13 @@
 - 优化安装包过大，优化页面
 
 ## Questions
+
+- 设计一个网络框架, 如何进行不同数据解析的设计(header, body), 并能够进行自定义, 重连机制如何处理, 状态码错误转发机制的处理, 如何避免回调地狱, 实现Promise的自实现.
+- 根据 `UIControl` 实现 `UIButton`
+- 找到两个排序数组的中位数
+- pow(double, double)函数的自实现
+
+- 安全方面: lild重签名, Mach-O
 
 - 如果让你实现属性的weak，如何实现的？
 - 如果让你来实现属性的atomic，如何实现？
@@ -95,6 +106,8 @@
 - 怎么防止别人反编译你的app？
 - YYAsyncLayer如何异步绘制？
 - 优化你是从哪几方面着手？
+
+- 多种计时器的使用有哪些问题？
 
 - 你一般学习iOS是如何学习的？
 - app内存你是如何分析的？
@@ -132,13 +145,17 @@
 - 消息模块 - `SQLite` 进行消息缓存
 - 自定义 `TabBar` - 顶部灰线去除
 - 快捷模式 - 动画处理和换肤处理
-- 创意Menu - 自定义 `Window`
+- 创意Menu - 自定义 `UIWindow`
 
 ## Ability
 
 - 设计一个时长统计模块
 - 设计一个日志记录模块
 - 设计一个缓存模块？LRUCache 算法怎么实现？
+- 内存缓存策略有哪些？（例如：LRU策略）NSCache使用什么缓存策略？
 - 设计一个通用网络模块
 - 设计一个通用视频播放器
 - 模块化分层设计方案
+- 如何检测 Bug 和崩溃，包括线上版本？
+- 如何计算一个像素点的大小以及一张图片的大小？
+- 图片格式有哪些？有什么区别？
