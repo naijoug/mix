@@ -1,5 +1,5 @@
 
-// reference : [Swift 的可选值优化](https://juejin.cn/post/7244809939839434808)
+// - [Swift 的可选值优化](https://juejin.cn/post/7244809939839434808)
 
 /// 以下方法取 value 的地址，并从地址处向后取它在内存中的大小 size 个字节，转为对应的数组
 func bytes<T>(of value: T) -> [UInt8] {

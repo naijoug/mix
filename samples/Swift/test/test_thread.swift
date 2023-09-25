@@ -1,5 +1,5 @@
 
-// Reference: [2021-08-06 为什么Swift说自己是安全的？](https://juejin.cn/post/6993238432436715551)
+// - [2021-08-06 为什么Swift说自己是安全的？](https://juejin.cn/post/6993238432436715551)
 
 import Foundation
 
