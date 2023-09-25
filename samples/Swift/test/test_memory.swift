@@ -1,4 +1,90 @@
 
+// 基础数据类型的内存布局
+
+func test_data() {
+    print(">>>> 基础数据类型的内存布局")
+    print("Bool:")
+    print(" - size:  \(MemoryLayout<Bool>.size)")
+    print(" - stride: \(MemoryLayout<Bool>.stride)")
+    print(" - alignment: \(MemoryLayout<Bool>.alignment)")
+
+    print("Int:")
+    print(" - size:  \(MemoryLayout<Int>.size)")
+    print(" - stride: \(MemoryLayout<Int>.stride)")
+    print(" - alignment: \(MemoryLayout<Int>.alignment)")
+
+    print("Float:")
+    print(" - size:  \(MemoryLayout<Float>.size)")
+    print(" - stride: \(MemoryLayout<Float>.stride)")
+    print(" - alignment: \(MemoryLayout<Float>.alignment)")
+
+    print("Double:")
+    print(" - size:  \(MemoryLayout<Double>.size)")
+    print(" - stride: \(MemoryLayout<Double>.stride)")
+    print(" - alignment: \(MemoryLayout<Double>.alignment)")
+
+    print("Character:")
+    print(" - size:  \(MemoryLayout<Character>.size)")
+    print(" - stride: \(MemoryLayout<Character>.stride)")
+    print(" - alignment: \(MemoryLayout<Character>.alignment)")
+
+    print("String:")
+    print(" - size:  \(MemoryLayout<String>.size)")
+    print(" - stride: \(MemoryLayout<String>.stride)")
+    print(" - alignment: \(MemoryLayout<String>.alignment)")
+}
+test_data()
+
+// 结构体的内存布局
+
+struct Size {
+    var width = 0.0, height = 0.0
+    var area = 0.0
+    var sum: Float = 0
+
+    func test() {
+        print("area: \(area)")
+    }
+}
+func test_struct() {
+    print(">>>> 结构体的内存布局")
+    print(" - size:  \(MemoryLayout<Size>.size)")
+    print(" - stride: \(MemoryLayout<Size>.stride)")
+    print(" - alignment: \(MemoryLayout<Size>.alignment)")
+
+    let size = Size()
+    print(">>> 结构体实例的内存布局")
+    print(" - size: \(MemoryLayout.size(ofValue: size))")
+    print(" - stride: \(MemoryLayout.stride(ofValue: size))")
+    print(" - alignment: \(MemoryLayout.alignment(ofValue: size))")
+}
+test_struct()
+
+// 类的内存布局
+
+class Size2 {
+    var width = 0.0, height = 0.0
+    var area = 0.0
+    var sum: Float = 0
+
+    func test() {
+        print("area: \(area)")
+    }
+}
+func test_class() {
+    print(">>>> 类的内存布局")
+    print(" - size:  \(MemoryLayout<Size2>.size)")
+    print(" - stride: \(MemoryLayout<Size2>.stride)")
+    print(" - alignment: \(MemoryLayout<Size2>.alignment)")
+
+    let size = Size2()
+    print(">>> 类实例的内存布局")
+    print(" - size: \(MemoryLayout.size(ofValue: size))")
+    print(" - stride: \(MemoryLayout.stride(ofValue: size))")
+    print(" - alignment: \(MemoryLayout.alignment(ofValue: size))")
+}
+test_class()
+
 // - [Swift Enum-内存初探](https://juejin.cn/post/7209852595002212410)
 
 // 原始值枚举
@@ -10,7 +96,7 @@ enum Color {
 }
 
 func test() {
-    print(">>> test1")
+    print(">>> 原始枚举")
 
     let c1 = Color.red
     print(MemoryLayout.size(ofValue: c1)) // 1
@@ -33,7 +119,7 @@ enum Color2: String {
 }
 
 func test2() {   
-    print(">>> test2")
+    print(">>> 带原始值的枚举")
 
     let c1 = Color2.red
     print(MemoryLayout.size(ofValue: c1)) // 1
@@ -57,7 +143,7 @@ enum Color3 {
 }
 
 func test3() {
-    print(">>> test3")
+    print(">>> 带关联值的枚举")
     let c1 = Color3.red
     print(MemoryLayout.size(ofValue: c1)) // 13
 
@@ -82,7 +168,7 @@ enum Color4 {
 }
 
 func test4() {
-    print(">>>> test4")
+    print(">>>> 带特殊关联值的枚举")
     let c1 = Color4.red
     print(MemoryLayout.size(ofValue: c1)) // 1
     
@@ -114,7 +200,7 @@ enum Color5 {
 }
 
 func test5() {
-    print(">>>> test5")
+    print(">>>> 枚举中的方法和计算属性")
     let c = Color5.red
     _ = c.desc()       // "desc"
     _ = Color5.staticDesc()  // "staticDesc"
