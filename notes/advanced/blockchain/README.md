@@ -106,9 +106,9 @@
 
 | 区块链 | 名称 | github | whitepaper(白皮书) | 交易数/s | 区块生成(s) | gas 
 | --- | --- | --- | --- | --- | --- | ---
-| 1.0 | [比特币](btc-00) | [bitcoin][btc-01] | [en][btc-02] & [zh][btc-03] | 7 | 600 | -
-| 2.0 | [以太坊](eth-00) | [ethereum][eth-01] | [en][eth-02] & [zh][eth-03] | 30 | - | -
-| 3.0 | [EOS][eos-00]  | [EOSIO][eos-01] | [en][eos-02] & [zh][eos-03] | 百万 | 3 | 0
+| 1.0 | [比特币][btc-00] | [bitcoin][btc-01] | [en][btc-02] & [zh][btc-03] | 7     | 600 | -
+| 2.0 | [以太坊][eth-00] | [ethereum][eth-01]| [en][eth-02] & [zh][eth-03] | 30    | -   | -
+| 3.0 | [EOS][eos-00]   | [EOSIO][eos-01]   | [en][eos-02] & [zh][eos-03] | 百万   | 3   | 0
 
 [btc-00]: https://bitcoin.org
 [btc-01]: https://github.com/bitcoin

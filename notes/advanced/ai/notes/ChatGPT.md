@@ -3,6 +3,8 @@
 ## Reference
 
 - [chatGPT](chat.openai.com)
+- [ChatGPT-API-Faucet](https://github.com/terobox/ChatGPT-API-Faucet)
+    > AI 圈的水龙头网站，每24小时可领取一个令牌用于开发测试 AI 产品
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
     > Examples and guides for using the OpenAI API
 - [Chat GPT Demo](https://chatgptdemo.net)

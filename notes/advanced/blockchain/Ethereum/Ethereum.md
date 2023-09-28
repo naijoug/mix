@@ -20,6 +20,8 @@
 
 ## Testnet
 
+- [MultiFaucet](https://github.com/Anish-Agnihotri/MultiFaucet)
+    > MultiFaucet drips ETH, tokens, and NFTs across many testnet networks, at once.
 - [Ropsten](https://github.com/ethereum/ropsten) : 以太坊 PoW 测试网 - [MetaMask Faucet](https://faucet.metamask.io/)
 - [Rinkeby](https://rinkeby.io/) : 以太坊官方 PoA 测试网 - [Faucet](https://faucet.rinkeby.io/)
 - [Kovan](https://github.com/kovan-testnet/proposal) : Parity 提供的 PoA 测试网 - [Faucet](https://faucet.kovan.network/)
