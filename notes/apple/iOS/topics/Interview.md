@@ -3,6 +3,7 @@
 
 - [2022-11-10 iOS 求职寒冬？听听他们怎么说](https://juejin.cn/post/7164222659528491022)
 - [2020-07-24 iOS面试总结（2020年6月）](https://juejin.cn/post/6854573217320402952)
+- [2020-04-25 iOSer疫情期间的虐心面试经历](https://juejin.cn/post/6844904137369485325)
 - [2020-03-28 快手iOS面经](https://zhangferry.com/2020/03/28/interview_kuaishou/)
 - [2018-07-17 2018年 iOS 面试心得](https://juejin.cn/post/6844903639270572046)
 
@@ -12,6 +13,10 @@
     > iOS interview questions;iOS面试题集锦
 - [iOSInterviewsAndDevNotes](https://github.com/DevDragonLi/iOSInterviewsAndDevNotes)
     > 🚴 iOS Interviews, Dev Notes && Git ...
+- [iOS-Interview-Strategy](https://github.com/iOS-Mayday/iOS-Interview-Strategy)
+    > iOS面试技术文章
+- [全网各大厂iOS面试题-文集大全](https://github.com/iOS-Mayday/heji)
+- [全网各大厂iOS面试题-文集大全](https://github.com/LGBamboo/iOS-Advanced)
 - [2020-08-16 iOS面试总结（2020年6月）参考答案](https://zhangferry.com/2020/08/16/interview_202006_answer/)
 - [2020-07-20 iOS面试了20几家总结出来的面试题](https://juejin.cn/post/6854573212165111822)
 - [2020-02-14 阿里、字节：一套高效的iOS面试题](https://juejin.cn/post/6844904064937902094)
@@ -22,10 +27,6 @@
     * [2017-06-29 面试题总结](https://zhangferry.com/2017/06/29/interview-question/)
 - [2016-10-09 一份"有点难"的iOS面试题](https://zhuanlan.zhihu.com/p/22834934)
 - [2015-07-04 招聘一个靠谱的 iOS - 孙源(滴滴)](http://blog.sunnyxx.com/2015/07/04/ios-interview)
-
------- 
-
-- [2022-04-02 当面试官问Runloop时，想听到的答案是什么？](https://juejin.cn/post/7081932582576717831)
 
 ## Swift
 

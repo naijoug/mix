@@ -1,5 +1,10 @@
 # OS : Operating System
 
+## Reference
+
+- [什么是虚拟内存(Virtual Memory)?](https://zhuanlan.zhihu.com/p/82746153)
+- [虚拟内存的那点事儿](https://sylvanassun.github.io/2017/10/29/2017-10-29-virtual_memory/)
+
 ## notes
 
 - [macOS](macOS.md)

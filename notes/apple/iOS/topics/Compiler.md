@@ -37,6 +37,16 @@ clang -rewrite-objc main.m -o main.cpp
 # 将 OC 代码转化为 C/C++ 代码
 ```
 
+## Memory Layout
+
+```swift
+MemoryLayout.size       // 占用的内存大小
+MemoryLayout.stride     // 分配的内存大小
+MemoryLayout.alignment  // 内存的对齐大小
+
+withUnsafePointer()     // 获取 swift 中对象的指针地址
+```
+
 ## DWARF & dSYM
 > [DWARF Debugging Standard](https://dwarfstd.org)
 

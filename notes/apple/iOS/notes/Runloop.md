@@ -3,10 +3,14 @@
 - [CFRunLoopRef 开源代码](http://opensource.apple.com/source/CF/CF-1151.16/)
 - [2015-03-20 CFRunLoop - 戴铭](https://github.com/ming1016/study/wiki/CFRunLoop)
 - [2015-05-18 深入理解RunLoop - 郭曜源](http://blog.ibireme.com/2015/05/18/runloop/)
+
+------
+
 - [2022-04-04 由点入面吃透RunLoop](https://juejin.cn/post/7082739417370066974)
+- [2022-04-02 当面试官问Runloop时，想听到的答案是什么？](https://juejin.cn/post/7081932582576717831)
 
 ## UIApplicationMain
-> iOS 程序启动的入口 main 函数中的 `UIApplicationMain` 就是启动了一个 RunLoop
+> `iOS` 程序启动的入口 `main` 函数中的 `UIApplicationMain` 就是启动了一个 `RunLoop`
 
 ```objc
 // 通过以下代码，“end main” 不会打印。可以测试出，UIApplicationMain一直没有返回值。
@@ -40,7 +44,7 @@ int main(int argc, char * argv[]) {
     
 - CFRunLoopMode
     > 每个 Mode 包含若干个 `Source/Timer/Observer`
-    > 切换 Mode，需要退出 Loop，再重新另一个 Mode 的 Loop
+    > 切换 Mode，需要退出 Loop，再重新创建另一个 Mode 的 Loop
     
     | RunLoopMode (运行模式) | 说明 
     | --- | --- 
@@ -49,7 +53,6 @@ int main(int argc, char * argv[]) {
     | `UIInitializationRunLoopMode` | 在刚启动 App 时第进入的第一个 Mode，启动完成后就不再使用 
     | `GSEventReceiveRunLoopMode`   | 接受系统事件的内部 Mode，通常用不到 
     | `kCFRunLoopCommonModes`       | 这是一个占位用的 Mode，不是一种真正的 Mode。被标记为 common modes 模式 kCFRunLoopDefaultMode UITrackingRunLoopMode 两种模式。 
-    
     
 - CFRunLoopSourceRef
     

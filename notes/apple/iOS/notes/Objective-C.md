@@ -1,7 +1,5 @@
 # Objective-C
 
-## Reference
-
 ## Concept
 
 - Foundation & Core Foundation
@@ -527,8 +525,7 @@ CADisplayLink *link = [CADisplayLink displayLinkWithTarget:self selector:@select
 
 ### Reference
 
-- [黑幕背后的 Autorelease](http://blog.sunnyxx.com/2014/10/15/behind-autorelease/)
-- [Objective-C Autorelease Pool 的实现原理](http://blog.leichunfeng.com/blog/2015/05/31/objective-c-autorelease-pool-implementation-principle/)
+
 
 ### Basic
 
@@ -719,10 +716,6 @@ NSBlockOperation *op = [NSBlockOperation blockOperationWithBlock:^{
     | 条件锁   | 
     | 递归锁   | 
     | 分布式锁 | 
-
-``` objc
-
-```
 
 ### 经典面试题
 

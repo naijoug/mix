@@ -26,7 +26,6 @@
 - [2016-11-29 手机天猫解耦之路](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247488349&idx=1&sn=8e3234789a5de4db24f7a30c126d3894&source=41#wechat_redirect)
 - [2016-10-16 豆瓣App的模块化实践](http://lincode.github.io/Modularity)
 
-
 ## CocoaPods 资源管理
 
 - [2020-05-14 组件化资源文件管理方案](http://gonghonglou.com/2020/05/14/pod-resource/)
