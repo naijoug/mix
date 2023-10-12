@@ -100,11 +100,12 @@ void objc_autoreleasePoolPop(void *context) {
 }
 ```
 
-### `RunLoop` 中什么时候释放内存
+### `RunLoop` 什么时候释放内存
 
-  首先翻译一下 `RunLoop` : 运行循环，从最基本编程语言语法层面来说就是一个循环 (`for`、`while`)。只不过这个循环结束条件，依赖于与这个 `RunLoop` 一一对应的线程，这个 `RunLoop` 循环结束的条件就是线程结束。而对于 `iOS` 程序来说，程序启动时会启动一个主 `RunLoop` 运行主线程，可以理解为一个死循环，程序结束时才会结束。
+  `RunLoop` : 运行循环，从最基本编程语言语法层面来说就是一个循环 (`for`、`while`)。只不过这个循环结束条件，依赖于与这个 `RunLoop` 一一对应的线程，这个 `RunLoop` 循环结束的条件就是线程结束。而对于 `iOS` 程序来说，程序启动时会启动一个主 `RunLoop` 运行主线程，可以理解为一个死循环，程序结束时才会结束。
 
-## Reference
+### Reference
 
-- [Python 内存管理](https://docs.python.org/zh-cn/3/c-api/memory.html)
-- [Swift 中的 ARC 机制: 从基础到进阶](https://juejin.cn/post/7094799538455576584)
+- [2022-09-09 探秘AutoreleasePool实现原理](https://juejin.cn/post/7141285896250195982)
+- [2022-05-07 Swift 中的 ARC 机制: 从基础到进阶](https://juejin.cn/post/7094799538455576584)
+- [2014-10-15 黑幕背后的Autorelease](http://blog.sunnyxx.com/2014/10/15/behind-autorelease/)
