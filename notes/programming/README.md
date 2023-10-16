@@ -13,6 +13,11 @@
 - [Memory Management](notes/MemoryManagement.md)
 - [Regular Expression](notes/RegularExpression.md)
 
+## Programming Language
+
+- [comprehensive-rust](https://github.com/google/comprehensive-rust)
+    > This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.
+
 ## Basic
 
 - `Type` (基本类型) & `Conversion` (类型转换)
