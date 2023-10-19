@@ -18,6 +18,7 @@
 - [全网各大厂iOS面试题-文集大全](https://github.com/iOS-Mayday/heji)
 - [全网各大厂iOS面试题-文集大全](https://github.com/LGBamboo/iOS-Advanced)
 - [2020-08-16 iOS面试总结（2020年6月）参考答案](https://zhangferry.com/2020/08/16/interview_202006_answer/)
+- [2020-08-15 iOS面试梳理](https://juejin.cn/post/6860888953638256654)
 - [2020-07-20 iOS面试了20几家总结出来的面试题](https://juejin.cn/post/6854573212165111822)
 - [2020-02-14 阿里、字节：一套高效的iOS面试题](https://juejin.cn/post/6844904064937902094)
     * [2023-04-06 Answer](https://juejin.cn/post/7218915344119234616)
