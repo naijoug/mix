@@ -7,7 +7,7 @@ class HorizontalListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Horizontal ListView'),
+        title: const Text('Horizontal ListView'),
       ),
       body: ListView(
         // This next line does the trick.

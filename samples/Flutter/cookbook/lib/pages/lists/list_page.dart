@@ -9,7 +9,7 @@ class ListPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('ListView'),
         leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios),
+          icon: const Icon(Icons.arrow_back_ios),
           onPressed: () {
             Navigator.pop(context);
           },

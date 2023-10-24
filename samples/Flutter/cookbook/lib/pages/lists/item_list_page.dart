@@ -13,7 +13,7 @@ class ItemListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Item ListView'),),
+      appBar: AppBar(title: const Text('Item ListView'),),
       body: ListView.builder(itemCount: items.length, itemBuilder: (context, index) {
         final item = items[index];
         return ListTile(title: item.buildTitle(context), subtitle: item.buildSubtitle(context),);

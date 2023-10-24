@@ -8,7 +8,7 @@ class LongListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Long ListView'),),
+      appBar: AppBar(title: const Text('Long ListView'),),
       body: ListView.builder(
           itemCount: items.length,
           prototypeItem: ListTile(

@@ -1,4 +1,3 @@
-import 'package:cookbook/main.dart';
 import 'package:flutter/material.dart';
 
 class GridPage extends StatelessWidget {
@@ -7,7 +6,7 @@ class GridPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('GridView'),),
+      appBar: AppBar(title: const Text('GridView'),),
       body: GridView.count(
         // Create a grid with 2 columns. If you change the scrollDirection to
         // horizontal, this produces 2 rows.
