@@ -1,14 +1,16 @@
-import 'package:cookbook/pages/images/image_page.dart';
-import 'package:cookbook/pages/lists/grid_page.dart';
-import 'package:cookbook/pages/lists/horizontal_list_page.dart';
-import 'package:cookbook/pages/lists/item_list_page.dart';
-import 'package:cookbook/pages/lists/long_list_page.dart';
+import 'package:cookbook/pages/animation/animation_page.dart';
+import 'package:cookbook/pages/form_page.dart';
+import 'package:cookbook/pages/image_page.dart';
+import 'package:cookbook/pages/list/list_page.dart';
+import 'package:cookbook/pages/list/grid_page.dart';
+import 'package:cookbook/pages/list/horizontal_list_page.dart';
+import 'package:cookbook/pages/list/item_list_page.dart';
+import 'package:cookbook/pages/list/long_list_page.dart';
 import 'package:cookbook/pages/navigation/hero_page.dart';
 import 'package:cookbook/pages/navigation/navigation_page.dart';
 import 'package:cookbook/pages/navigation/todo_page.dart';
 import 'package:cookbook/pages/networking/network_page.dart';
 import 'package:flutter/material.dart';
-import 'package:cookbook/pages/lists/list_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -31,6 +33,8 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: [
+          _buildTile(context, Icons.animation, 'animation', const AnimationPage()),
+          _buildTile(context, Icons.text_fields, 'form', const FormPage()),
           _buildTile(context, Icons.image, 'image', const ImagePage()),
           _buildTile(context, Icons.navigation, 'navigation', const NavigationPage()),
           _buildTile(context, Icons.navigation_outlined, 'hero', const HeroPage()),

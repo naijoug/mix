@@ -1,6 +1,6 @@
 import 'package:cookbook/pages/navigation/route_page.dart';
 import 'package:flutter/material.dart';
-import 'pages/home_page.dart';
+import 'home_page.dart';
 
 void main() {
   runApp(const App());
