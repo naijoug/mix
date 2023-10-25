@@ -36,6 +36,12 @@ $ flutter clean
   
 `pub.dev`
   
+```shell
+# 发布 packages
+$ flutter packages pub publish --dry-run # 检查包
+$ flutter packages pub pushlish # 发布包
+```
+ 
 ## Native 消息通道
 
 - BasicMessageChannel : 传递字符串和半结构化的信息
@@ -72,8 +78,33 @@ $ flutter clean
 - MaterialApp : 
 - Scaffold : 脚手架
 - ListView : 列表
+- ListTile :
+- CircleAvatar : 原形头像
+
+Text : 显示文字
+Image : 显示图片 -> AssetImage
+PopupMenuButton
+
+FutureBuilder
+
+InheritedWidget
 
 ## 布局系统
+
+- Scaffold : 脚手架
+
+- Row、Column、Stack : 布局方向
+
+- Container、Expanded、Positioned、AspectRatio
+
+- Center、Chip、SizedBox、BoxDecoration
+
+mianAxis: 主轴
+crossAxis : 交叉轴
+
+flexbox : 弹性盒子布局
+
+padding vs margin
 
 ## 导航系统 
 
@@ -86,13 +117,27 @@ $ flutter clean
   
 ## 渲染引擎
 
+- Key
+    * GlobalKey
+    * LocalKey
+        * ValueKey
+        * ObjectKey
+        * UniqueKey
+
 增量渲染
+
+## 热重载
+
+flutter_tools
 
 ## 线程模型
 
 - `Flutter` 的线程模型 : 双队列设计(微任务队列和事件队列)，微任务队列比事件队列具有更高优先级。 
 - `Flutter` 的线程管理 : 4 个 Runner Thread ()
   
+- Microtask : 微任务
+- Isolate : 独立线程
+
 ## 播放器
 
 > 常用的播放器有哪些？
@@ -118,6 +163,28 @@ $ flutter clean
   * Git
   * Pub
   
+## 混合开发
 
+- module 方式
+- framework 方式
+- Cocoapods 方式
 
-   
+```shell
+
+# 构建 framework
+$ flutter build ios-framework --output=path/to/
+
+# 构建 cocoapods framework
+$ flutter build ios-framework --cocoapods --output=path/to/
+```
+
+## lib
+
+- [GetX](https://github.com/jonataslaw/getx)
+    > Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get.
+- [flutter_boost](https://github.com/alibaba/flutter_boost)
+    > FlutterBoost is a Flutter plugin which enables hybrid integration of Flutter for your existing native apps with minimum efforts
+    
+## interview
+
+- [2020-04-24 Android-Flutter面经](https://juejin.cn/post/6844904136937324552)

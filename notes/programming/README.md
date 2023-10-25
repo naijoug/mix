@@ -5,13 +5,25 @@
 - [Learn X in Y minutes](https://learnxinyminutes.com/)
 - [📚 Go语言圣经中文版](https://github.com/golang-china/gopl-zh)
 
-## notes
+## lanuages
 
-- [Paradigm](notes/Paradigm.md)
-- [Code Style](notes/CodeStyle.md)
-- [Multithread](notes/Multithread.md)
-- [Memory Management](notes/MemoryManagement.md)
-- [Regular Expression](notes/RegularExpression.md)
+- [C++](./languages/C++.md)
+- [Java](./languages/Java/README.md)
+- [Swift](./languages/Swift/README.md)
+- [Python](./languages/Python.md)
+- [Ruby](./languages/Ruby.md)
+- [JavaScript](./languages/JavaScript.md)
+- [TypeScript](./languages/TypeScript.md)
+
+## topics
+
+- [Paradigm](topics/Paradigm.md)
+- [Code Style](topics/CodeStyle.md)
+- [Cryptology](topics/cryptology.md)
+- [Multithread](topics/Multithread.md)
+- [Design Pattern](topics/DesignPattern.md)
+- [Memory Management](topics/MemoryManagement.md)
+- [Regular Expression](topics/RegularExpression.md)
 
 ## Programming Language
 

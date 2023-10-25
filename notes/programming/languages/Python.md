@@ -175,7 +175,7 @@ $ conda env remove -n env
 
 - 默认参数
 
-  ``` python
+  ```python
   # 默认参数
   def test1(a, b = 1, c = 2):
       return a + b + c
@@ -206,3 +206,26 @@ $ conda env remove -n env
 - 任意参数
     * `*name` : 不常用，传递的参数被包装成一个元组，在其后面的参数必须是关键字参数
     * `**name` : 必须作为最后一个参数，包含剩余所有的关键字参数
+
+## Error
+
+- `ModuleNotFoundError: No module named '_ctypes'`
+> 没有安装外部函数库(`libffi`)的开发链接库软件包
+
+```shell
+# > ubuntu
+$ apt-get install libffi-dev
+# > centos
+$ yum install libffi-devel -y
+```
+
+- `ModuleNotFoundError: No module named '_lzma'`
+> 没有安装(`lzma-dev` - LZMA 压缩是一种数据压缩算法)的开发链接库软件包 
+
+```shell
+# > ubuntu
+$ apt-get install liblzma-dev -y
+# > centos
+$ yum install xz-devel -y
+$ yum install python-backports-lzma -y
+```

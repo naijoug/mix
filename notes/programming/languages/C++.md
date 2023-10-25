@@ -61,7 +61,7 @@
     | `-shared` | 生成动态库文件 或者 进行动态编译(链接动态库)
     | `-fPIC`   | (Position Independent Code) 使用地址无关代码，可以多进程共享
 
-    ``` bash
+    ```shell
     # 编译过程
     #   1> 预处理阶段，生成 .i 文件
     $ gcc -E hello.c -o hello.i 
@@ -102,7 +102,7 @@
 
 ## `const`
 
-  ``` c
+  ```c
   const int a;            // 常量整形
   int const a;            // 同上
   const int *a;           // 指向常量整形的指针 (指针可变，整形不可变)
@@ -116,7 +116,7 @@
 > - 默认参数可以放在函数声明或者定义中，但只能放在二者之一
 > - 函数重载时谨慎使用默认参数值
 
-  ```c++
+  ```cpp
   int sum(int a, int b = 3, int c = 5) {
   return a + b + c; 
   }
@@ -129,7 +129,9 @@
 
 - make : 通过 Makefile 文件进行编译和链接程序 (Makefile 缺陷 : 工程大时手写 Makefile 比较困难，更换平台需要修改 Makefile)
 
-    ```bash Makefile
+    ```shell 
+    # Makefile
+    
     # target : prerequisites
     # [tab]command
     
@@ -154,15 +156,17 @@
     	-rm sayHello $(objs)
     ```
 
-    ```bash
+    ```shell
     $ make # 按照 Makefile 文件进行编译
     $ make clean # 按照 Makefile 清除中间文件
     ```
 
 - `CMake` : (Cross-platform Make) 跨平台 make 工具, 通过 CMakeLists.txt 文件生成 Makefile
 
-    ```bash CMakeLists.txt
-    # 主目录 CMakeLists.txt
+    ```shell 
+    # CMakeLists.txt
+    
+    # 主目录 
     cmake_minimum_required(VERSION 3.12)    # CMake 最低版本
     project(test)   # 项目名称
     add_subdirectory(hello) # 添加 cmake 管理子目录
@@ -177,7 +181,7 @@
     ```bash
     $ cmake .   # 根据 CMakeLists.txt 生成 Makefile
     $ make      # 根据生成的 Makefile 进行编译链接
-  ```
+    ```
 
 ## [SWIG](https://github.com/swig/swig) 
 > Simplified Wrapper and Interface Generator
@@ -185,19 +189,29 @@
 - [Python与C/C++混合编程](https://zhuanlan.zhihu.com/p/20150641)
 - [编译运行SWIG的example代码样例](https://note.qidong.name/2018/01/hello-swig-example/)
 
-  ```bash
-  # 树莓派安装
-  $ sudo apt-get install swig
-  # macOS(源码安装)
-  $ ./configure 
-  $ make
-  $ make install
+    ```shell
+    # 树莓派安装
+    $ sudo apt-get install swig
+    # macOS(源码安装)
+    $ ./configure 
+    $ make
+    $ make install
+        
+    # 简单使用 
+    #  配置文件(test.i) -> 包装c文件(test_wrap.c) & python文件(test.py)
+    $ swig -python test.i       # C : test.i -> test.py test_wrap.c
+    $ swig -c++ -python test.i  # C++ : test.i -> test.py test.wrap.cxx
+    #  生成动态库
+    $ gcc -fPIC -shared test_wrap.c -o _test.so -I/usr/include/python2.7 -lpython2.7    # C
+    $ g++ -fPIC -shared test_wrap.cxx -o _test.so -I/usr/include/python2.7 -lpython2.7  # C++
+    ```
 
-  # 简单使用 
-  #  配置文件(test.i) -> 包装c文件(test_wrap.c) & python文件(test.py)
-  $ swig -python test.i       # C : test.i -> test.py test_wrap.c
-  $ swig -c++ -python test.i  # C++ : test.i -> test.py test.wrap.cxx
-  #  生成动态库
-  $ gcc -fPIC -shared test_wrap.c -o _test.so -I/usr/include/python2.7 -lpython2.7    # C
-  $ g++ -fPIC -shared test_wrap.cxx -o _test.so -I/usr/include/python2.7 -lpython2.7  # C++
-  ```
+## Error
+
+- `No CMAKE_CXX_COMPILER could be found.`
+    
+    ```shell
+    # solution
+    $ sudo apt-get update
+    $ sudo apt-get install -y build-essential
+    ```

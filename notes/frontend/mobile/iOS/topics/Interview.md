@@ -9,7 +9,7 @@
 
 ------
 
-- [iOS 面试题集锦 - 陈奕龙(阿里)](https://github.com/ChenYilong/iOSInterviewQuestions)
+- [iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions)
     > iOS interview questions;iOS面试题集锦
 - [iOSInterviewsAndDevNotes](https://github.com/DevDragonLi/iOSInterviewsAndDevNotes)
     > 🚴 iOS Interviews, Dev Notes && Git ...
