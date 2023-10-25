@@ -1,4 +1,5 @@
 import 'package:cookbook/pages/animation/animation_page.dart';
+import 'package:cookbook/pages/container_page.dart';
 import 'package:cookbook/pages/form_page.dart';
 import 'package:cookbook/pages/image_page.dart';
 import 'package:cookbook/pages/list/list_page.dart';
@@ -33,6 +34,7 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: [
+          _buildTile(context, Icons.dock, 'container', const ContainerPage()),
           _buildTile(context, Icons.animation, 'animation', const AnimationPage()),
           _buildTile(context, Icons.text_fields, 'form', const FormPage()),
           _buildTile(context, Icons.image, 'image', const ImagePage()),
