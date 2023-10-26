@@ -5,6 +5,7 @@
 
 - [Flutter](https://github.com/flutter/flutter)
 - [Flutter 中文网](https://flutter.cn)
+- [深入浅出 Dart](https://www.coding-time.cn/dart/preamble.html)
 - [Flutter 实战](https://github.com/flutterchina/flutter_in_action_2nd)
 - [Flutter开发实战详解系列](https://github.com/CarGuo/gsy_flutter_book)
     > 本系列将完整讲述：如何快速从 0 开发一个完整的 Flutter APP，配套高完成度 Flutter 开源项目 GSYGithubAppFlutter ，同时会提供一些Flutter的开发细节技巧，之后深入源码和实战为你全面解析 Flutter 。
@@ -45,8 +46,12 @@ $ flutter packages pub pushlish # 发布包
 ## Native 消息通道
 
 - BasicMessageChannel : 传递字符串和半结构化的信息
-- EventChannel : 数据流 (Event Streams) 的通信
-- MethodChannel : 传递方法调用 (Method Invocation)
+- MethodChannel : 传递方法调用 (method invocation)
+- EventChannel : 数据流 (event streams) 的通信
+
+------
+
+- [2018-08-28 深入理解Flutter Platform Channel](https://juejin.cn/post/6844903666193956872)
 
 ## Flutter 3.x
 > 全平台支持 (ios、android、web、windows + => macOS、linux)
@@ -116,6 +121,10 @@ padding vs margin
 ## 生命周期
   
 ## 渲染引擎
+
+> 图像的成像原理 : 计算中的图像的展示，需要 `CPU`、`GPU` 和显示器合作完成。`CPU` 负责计算图像哪些数据需要显示，`GPU` 负责将需要显示的图像数据渲染，然后放入缓存区，显示器读取缓存区数据将图像显示出来。
+
+
 
 - Key
     * GlobalKey
