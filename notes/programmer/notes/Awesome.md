@@ -45,6 +45,7 @@
     > Top books recommended by famous folk, in 3m or less.
 - [给程序员的开源、免费图书集合](https://github.com/waylau/books-collection)
 - [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
+- [awesome-cs-books](https://github.com/imarvinle/awesome-cs-books)
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
 - [Be a professional programmer](https://github.com/stanzhai/be-a-professional-programmer)
 - [DevOps Guidebook](https://github.com/tsejx/devops-guidebook)

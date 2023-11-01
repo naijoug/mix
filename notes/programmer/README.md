@@ -3,10 +3,12 @@
 
 ## Reference
 
-- [OKR](https://www.okr.com/)
-    > OKR（Objectives & Key Results），中文名称是“目标与关键结果”
+- [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
+    > 
 - [Random Street View](https://randomstreetview.com)
 - [Quuick, Draw!](https://quickdraw.withgoogle.com)
+- [OKR](https://www.okr.com/)
+    > OKR（Objectives & Key Results），中文名称是“目标与关键结果”
 
 ## notes
 

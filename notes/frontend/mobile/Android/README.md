@@ -2,6 +2,8 @@
 
 ## Reference
 
+- [android-lifcycle](https://github.com/xxv/android-lifecycle)
+    > A diagram of the Android Activity / Fragment lifecycle
 - [Kotlin](https://github.com/JetBrains/kotlin)
 - [Kotlin 语言中文站](https://github.com/hltj/kotlin-web-site-cn)
 

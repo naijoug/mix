@@ -23,7 +23,7 @@
 
 ## Clang
 
-``` bash
+```shell
 clang -x objective-c -arch arm-64 -c XX/Test.m -o XX/Test.o
 # clang
 #   Options:

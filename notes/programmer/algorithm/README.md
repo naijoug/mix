@@ -22,6 +22,8 @@
 
 ## LeetCode
 
+- [知乎 - 你们初刷leetcode时会怀疑自己的智商吗？](https://www.zhihu.com/question/388971497)
+
 - [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
     > 刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why.
 - [算法模板](https://github.com/greyireland/algorithm-pattern)
@@ -34,6 +36,8 @@
     > LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)
 - [Leetcode-Solution-All](https://github.com/fuxuemingzhu/Leetcode-Solution-All)
     > 1000篇通俗易懂且高质量的 LeetCode 解析，动画题解，套路分析，模板分享
+- [LeetCode in Go](https://github.com/halfrost/LeetCode-Go)
+    > ✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解
 
 ## Concept
 

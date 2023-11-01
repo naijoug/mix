@@ -1,5 +1,9 @@
 # Objective-C
 
+## Reference
+
+- [2018-07-01 isa && 元类 && 函数调用](https://minilv.github.io/2018/07/01/ias-class-metaClass/)
+
 ## Concept
 
 - Foundation & Core Foundation
@@ -525,8 +529,6 @@ CADisplayLink *link = [CADisplayLink displayLinkWithTarget:self selector:@select
 
 ### Reference
 
-
-
 ### Basic
 
 - ARC特点
@@ -599,6 +601,9 @@ ARC 运行时阶段 : 处理 `weak` 修饰变量，引用计数为0时，将其�
 - [使用 dispatch_group 来进行线程同步](http://www.jianshu.com/p/228403206664)
 - [Run repeating NSTimer with GCD?](https://stackoverflow.com/questions/10522928/run-repeating-nstimer-with-gcd)
 - [iOS Swift GCD 开发教程](https://juejin.im/post/5acaea17f265da239a601a01#heading-17)
+
+- [2018-03-03 5 道 iOS 多线程“面试题”](https://juejin.cn/post/6844903569322164232)
+
 - NSMachPort
     > Mach: 第一个以多线程方式处理任务的系统。
 
