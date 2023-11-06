@@ -5,6 +5,10 @@
 - [C++ 参考手册](http://zh.cppreference.com/)
 - [📚 Modern C++ Tutorial: C++11/14/17/20 On the Fly](https://github.com/changkun/modern-cpp-tutorial)
 
+------ 
+
+- [2018-03-31 函数对象](https://svandex.github.io/2018/03/31/function-bind-redemption-after-reading.html)
+
 ## Compiler
 
 - 编译过程 : 
