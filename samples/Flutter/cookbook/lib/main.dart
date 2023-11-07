@@ -13,10 +13,26 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'cookbook',
-      home: const HomePage(),
-      routes: {
-        '/route': (context) => const RoutePage()
-      },
+      // home: const HomePage(),
+      home: DefaultTabController(
+        length: 3,
+        child: Scaffold(
+          appBar: AppBar(
+            bottom: const TabBar(tabs: [
+              Tab(icon: Icon(Icons.directions_car)),
+              Tab(icon: Icon(Icons.directions_train)),
+              Tab(icon: Icon(Icons.directions_bike)),
+            ]),
+            title: const Text('cookbook'),
+          ),
+          body: const TabBarView(children: [
+            HomePage(),
+            Text('train'),
+            Text('bike'),
+          ]),
+        ),
+      ),
+      routes: {'/route': (context) => const RoutePage()},
     );
   }
 }
