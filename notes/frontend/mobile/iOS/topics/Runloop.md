@@ -1,8 +1,8 @@
 ## Reference
 
 - [CFRunLoopRef 开源代码](http://opensource.apple.com/source/CF/CF-1151.16/)
-- [2015-03-20 CFRunLoop - 戴铭](https://github.com/ming1016/study/wiki/CFRunLoop)
 - [2015-05-18 深入理解RunLoop - 郭曜源](http://blog.ibireme.com/2015/05/18/runloop/)
+- [2015-03-20 CFRunLoop - 戴铭](https://github.com/ming1016/study/wiki/CFRunLoop)
 
 ------
 

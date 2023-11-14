@@ -42,6 +42,8 @@
 
 - [Swift 进阶黄金之路](https://juejin.cn/post/6844904152951193608#heading-0)
 - [闲话 Swift 协程](https://www.bennyhuo.com/book/swift-coroutines)
+- [Any & AnyObject in Swift](https://zxy.vercel.app/any-anyobject-in-swift)
+- [Swift 中的方法调用（Method Dispatch）](https://zhuanlan.zhihu.com/p/35696161)
 
 ## Codeable
 
