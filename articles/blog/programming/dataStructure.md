@@ -23,6 +23,9 @@
 
 ## 数组
 
+- [Swift Array](https://github.com/apple/swift/blob/swift-DEVELOPMENT-SNAPSHOT-2023-10-30-a/stdlib/public/core/Array.swift)
+- [NSArray](https://github.com/apple/swift-corelibs-foundation/blob/main/Sources/Foundation/NSArray.swift)
+
 > 为什么大部分编程语言中的数组下标都是从 0 开始？
     
   这个与数组的结构特性和内存寻址有关系。数组是一块存储相同类型数据的连续内存空间，而数组的指针或引用是指向数组的一个元素的。访问数组其它位置的元素就是计算其位置的指针地址，如果第一元素下标为 0，则寻址公式为：`a[i] = a0 + i * dataSize`。如果下标是从 1 开始，则寻址公式为：`a[i] = a1 + (i - 1) * dataSize`。可以看出如果下标为 0，寻址公式少了一次减法运算，提高了数组的访问效率。
@@ -46,9 +49,10 @@
 > 带头链表的好处？
   
   带头链表可以简化链表的添加、删除操作。如果是不带头链表，添加时需要判断链表为空的情况，删除时需要判断链表仅剩一个节点的情况。
+  
   * 不带头链表 : 链表头节点指向链表的第一个数据节点。链表为空时，头结点为空。
   * 带头链表 : 会有一个不包含数据的节点，头结点一直指向这个节点。链表为空时，也会包含这个头结点。
-
+  
 ## 栈
 
   栈是一种先进后出的数据结构，主要包含两个操作，入栈(`push`)和出栈(`pop`)。入栈，在栈顶添加元素；出栈，在栈顶移除元素。
@@ -70,6 +74,8 @@
 ## 队列
 
   队列是一种先进先出的数据结构。主要包含两个操作，入队(`enqueue`)和出队(`dequeue`)。入队，在队列尾部添加元素；出队，在队列头部移除元素。
+  
+  - [Swift - Deque](https://github.com/apple/swift-collections/blob/main/Sources/DequeModule/Deque.swift)
   
 > 队列的实现？
   
@@ -94,13 +100,25 @@
   
 ## 哈希表
 
-
+- [Swift- Dictionary](https://github.com/apple/swift/blob/main/stdlib/public/core/Dictionary.swift)
+- [NSDictionary](https://github.com/apple/swift-corelibs-foundation/blob/main/CoreFoundation/Collections.subproj/CFDictionary.c)
+- [Swift - OrderedDictionary](https://github.com/apple/swift-collections/blob/main/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary.swift)
+- [Java - LinkedHashMap](https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/util/LinkedHashMap.java)
+- [Python - OrderedDict](https://github.com/python/cpython/blob/main/Lib/collections/__init__.py#L83)
 
 ## 二叉树
 
-> 平衡二叉树
+> `Balanced Binary Tree` - “平衡二叉树”
 
-  也称为 `AVL` 二叉树 (名称来源作者 G. M. Adelson-Velsky 和 E. M. Landis)
-  指的是左右子树高度差不超过 1。
+  平衡二叉树需要保证左右子树高度差不超过 1。
+    
+  常见的平衡二叉树
+  
+  * `AVL` 二叉树 (名称来源于两位作者名 G. M. Adelson-Velsky 和 E. M. Landis)
+  * 红黑树
 
 > 搜索二叉树
+
+## 堆
+
+- [Swift - Heap](https://github.com/apple/swift-collections/blob/main/Sources/HeapModule/Heap.swift)

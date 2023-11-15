@@ -43,6 +43,8 @@ public struct Notification : ReferenceConvertible, Equatable, Hashable {
 }
 ```
 
+> [Swift - Notification](https://github.com/apple/swift-corelibs-foundation/blob/main/Sources/Foundation/Notification.swift)
+
 > [GNUstep 中的实现](https://github.com/gnustep/libs-base/blob/master/Source/NSNotificationCenter.m)
 
 ```objc
@@ -191,6 +193,8 @@ open class NotificationQueue : NSObject {
     }
 }
 ```
+
+- [Swift - NotifcationQueue](https://github.com/apple/swift-corelibs-foundation/blob/main/Sources/Foundation/NotificationQueue.swift)
 
 - [GUNStep 中的实现](https://github.com/gnustep/libs-base/blob/master/Source/NSNotificationQueue.m)
 

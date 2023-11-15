@@ -1,8 +1,10 @@
 # “操作系统”那些事
 
-## 虚拟内存(Virtual Memory)
+## `Virtual Memory` - “虚拟内存”
 
-## 用户态(User Mode) vs 核心态(Kernel Mode)
+ 
+
+## `User Mode` - “用户态” vs `Kernel Mode` - “核心态”
 
   这个区分是一种安全机制，保证了用户程序不能随意访问操作系统核心数据和硬件，保证了操作系统运行的稳定性和安全性。
 
