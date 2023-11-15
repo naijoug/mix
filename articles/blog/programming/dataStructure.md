@@ -1,4 +1,4 @@
-# “数据结构”那些事
+# `data structure` - “数据结构”那些事
 
   大多数据编程语言来说，基础的数据类型就是 `int`、`float`、`double`、`char`、`string`、`bool`。基础数据结构就是：数组、链表。高级一点的数据结构有：栈、队列、集合、哈希表。再复杂一些的有：二叉树、图。
   
@@ -21,7 +21,7 @@
 | Trie              | 字典树
 | BloomFilter       | 布隆过滤器
 
-## 数组
+## `Array` - “数组”
 
 - [Swift Array](https://github.com/apple/swift/blob/swift-DEVELOPMENT-SNAPSHOT-2023-10-30-a/stdlib/public/core/Array.swift)
 - [NSArray](https://github.com/apple/swift-corelibs-foundation/blob/main/Sources/Foundation/NSArray.swift)
@@ -34,7 +34,7 @@
   
   归根到底是因为数组分配的一块连续内存。原因可以从两方面分析。其一是数组的访问的可以直接通过下标计算出元素地址，到达了 `O(1)` 的时间复杂度，而链表访问数据需要遍历整个链表时间复杂度为 `O(n)`。其二是 `CPU` 的缓存机制，因为 `CPU` 访问数据时为了提高效率，每次读取数据时并不是只读指定地址内存，而是读取一个内存块保存到 `CPU` 缓存中。以数组来说会将数组后面的数据以加载到 `CPU` 缓存中，当再次读取数组元素时会直接中缓存中读取。
   
-## 链表
+## `Linked List` - “链表”
 
   链表是将一堆零散的内存空间串联起来的数据结构，不需要内存空间连续。链表的数据结构，除了存储数据外，还需存储指向下一个节点的指针。
   
@@ -53,7 +53,7 @@
   * 不带头链表 : 链表头节点指向链表的第一个数据节点。链表为空时，头结点为空。
   * 带头链表 : 会有一个不包含数据的节点，头结点一直指向这个节点。链表为空时，也会包含这个头结点。
   
-## 栈
+## `Stack` - “栈”
 
   栈是一种先进后出的数据结构，主要包含两个操作，入栈(`push`)和出栈(`pop`)。入栈，在栈顶添加元素；出栈，在栈顶移除元素。
   
@@ -71,7 +71,7 @@
   * 括号匹配
   * 浏览器的前进和后退功能
 
-## 队列
+## `Queue` - “队列”
 
   队列是一种先进先出的数据结构。主要包含两个操作，入队(`enqueue`)和出队(`dequeue`)。入队，在队列尾部添加元素；出队，在队列头部移除元素。
   
@@ -98,15 +98,18 @@
   * 数据库连接池
   * (分布式)消息队列 : `kafaka` 
   
-## 哈希表
+## `Hash Table` - “哈希表”
 
-- [Swift- Dictionary](https://github.com/apple/swift/blob/main/stdlib/public/core/Dictionary.swift)
 - [NSDictionary](https://github.com/apple/swift-corelibs-foundation/blob/main/CoreFoundation/Collections.subproj/CFDictionary.c)
+- [Swift- Dictionary](https://github.com/apple/swift/blob/main/stdlib/public/core/Dictionary.swift)
+
+### `Ordered Hash Table` - “有序哈希表”
+
 - [Swift - OrderedDictionary](https://github.com/apple/swift-collections/blob/main/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary.swift)
 - [Java - LinkedHashMap](https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/util/LinkedHashMap.java)
 - [Python - OrderedDict](https://github.com/python/cpython/blob/main/Lib/collections/__init__.py#L83)
 
-## 二叉树
+## `Binary Tree` - “二叉树”
 
 > `Balanced Binary Tree` - “平衡二叉树”
 
@@ -119,6 +122,6 @@
 
 > 搜索二叉树
 
-## 堆
+## `Heap` - “堆”
 
 - [Swift - Heap](https://github.com/apple/swift-collections/blob/main/Sources/HeapModule/Heap.swift)

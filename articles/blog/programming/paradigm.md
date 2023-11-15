@@ -1,4 +1,4 @@
-# paradigm - “编程范式”那些事
+# `paradigm` - “编程范式”那些事
 
 ## `Functional Programming` - “函数式编程”
 

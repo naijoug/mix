@@ -24,6 +24,8 @@
 
 - [知乎 - 你们初刷leetcode时会怀疑自己的智商吗？](https://www.zhihu.com/question/388971497)
 
+- [LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
+    > 汇总各大互联网公司容易考察的高频leetcode题🔥
 - [leetcode](https://github.com/doocs/leetcode)
     > 🔥LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解
 - [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)

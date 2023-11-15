@@ -1,6 +1,6 @@
-# “设计模式”那些事
+# `design pattern`- “设计模式”那些事
 
-## SOLID
+## `SOLID`
 
 - SRP(Single Responsibility Principle) : 单一职责原则
 - OCP(Open-Closed Principle) : 开放封闭原则
@@ -8,7 +8,7 @@
 - ISP(Interface Segregation Principle) : 接口隔离原则
 - DIP(Dependency Inversion Principle) : 依赖倒置原则
 
-## Creational Patterns - 创建型 (5)
+## `Creational Patterns` - “创建型” (5)
 > 对象是如何创建的
 
 - Abstract Factory Pattern : 抽象工厂模式
@@ -17,7 +17,7 @@
 - Prototype Pattern : 原型模式
 - Singleton Pattern : 单例模式
 
-## Structural Patterns - 结构型 (7)
+## `Structural Patterns` - “结构型” (7)
 > 对象是按照怎样的结构组合的
 
 - Adapter Pattern : 适配器模式
@@ -28,7 +28,7 @@
 - Flyweight Pattern : 亨元模式
 - Proxy Pattern : 代理模式
 
-## Behavioral Patterns - 行为型 (11)
+## `Behavioral Patterns` - “行为型” (11)
 > 对象之间的访问行为如何完成的
 
 - Chain of Responsibility : 责任链模式
