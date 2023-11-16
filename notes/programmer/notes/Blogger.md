@@ -56,15 +56,13 @@
 - [Publish](https://github.com/johnsundell/publish)
     > A static site generator for Swift developers
     * - [用Publish创建博客](https://zhuanlan.zhihu.com/p/348232897)
-
 - [Hexo](https://hexo.io/)
     > A fast, simple & powerful blog framework
-
 - [Hugo](https://gohugo.io/)
     > The world’s fastest framework for building websites
-
 - [Typecho](http://typecho.org/)
     > A PHP Blogging Platform. Simple and Powerful. 
-    
 - [docsifyjs](https://docsify.js.org/)
     > A magical documentation site generator.
+- [blog](https://github.com/songquanpeng/blog)
+    > 基于 Node.js 的个人博客系统. Node.js based blog system.

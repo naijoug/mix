@@ -1,6 +1,8 @@
 ## Reference
 
 - [awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn)
+- [LearnBlockchainByCode](https://github.com/uchaindb/LearnBlockchainByCode)
+    > 《区块链系统实现》开源书籍及源代码仓库。The code and book about learning blockchain by code
 - [深入浅出区块链](https://learnblockchain.cn)
 - [区块链技术博客](http://me.tryblockchain.org/)
 - [巴比特图书](http://book.8btc.com/)

@@ -3,6 +3,10 @@
 > 
 > TCP 默认端口 : 80
 
+## reference
+
+- [2023-08-22 post为什么会发送两次请求？](https://juejin.cn/post/7269952188927017015)
+
 ## Concept
 
 - `URL`
