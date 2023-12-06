@@ -1,4 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
 
@@ -19,10 +20,19 @@ class ImagePage extends StatelessWidget {
           Image.network('https://picsum.photos/250?image=1', height: 100,),
           const Center(child: Text('Gif image'),),
           Image.network('https://docs.flutter.dev/assets/images/dash/dash-fainting.gif', height: 100,),
+          CupertinoButton(child: const Text('Cupertino'), onPressed: () {
 
+          }),
           const Center(
             child: Text('Cached network image'),
           ),
+          // CircularProgressIndicator()
+          Overlay
+          SimpleDialog()
+          AlertDialog()
+          ModalBarrier()
+          DraggableScrollableSheet(builder: builder)
+          BottomSheet(onClosing: onClosing, builder: builder)
           CachedNetworkImage(
             height: 100,
             imageUrl: 'https://picsum.photos/250?image=6',
