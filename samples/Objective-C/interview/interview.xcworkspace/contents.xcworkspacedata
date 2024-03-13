@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:0xt06/0xt06.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0xt05/0xt05.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0xt04/0xt04.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0xt03/0xt03.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0xt02/0xt02.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0xt01/0xt01.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0xs01/0xs01.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0xc01/0xc01.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0x07/0x07.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0x06/0x06.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0x05/0x05.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0x04/0x04.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0x03/0x03.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0x02/0x02.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:0x01/0x01.xcodeproj">
+   </FileRef>
+</Workspace>
