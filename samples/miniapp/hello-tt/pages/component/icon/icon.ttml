@@ -1,0 +1,33 @@
+<view class="public-wrapper">
+  <view class="block-wrapper">
+    <view class="title-h">默认样式</view>
+    <view class="list-wrapper">
+      <view class="list-item icon-row" tt:for="{{icons}}" tt:for-item="iconline">
+        <view tt:for="{{iconline}}" class="icon-row-{{index}}" tt:for-item="icon"><label>
+            <icon class="tt-icon" type="{{icon}}"></icon>
+            {{icon}}
+          </label></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">尺寸选择</view>
+    <view class="card-wrapper flex-card">
+      <view class="icon-wrapper" tt:for="{{sizes}}">
+        <icon class="tt-icon" size="{{item}}" type="success"></icon>
+        <view class="icon-size">{{item}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">颜色选择</view>
+    <view class="card-wrapper flex-card">
+      <view class="icon-wrapper" tt:for="{{colors}}">
+        <icon class="tt-icon" size="36" color="{{item}}" type="success"></icon>
+      </view>
+    </view>
+  </view>
+
+</view>

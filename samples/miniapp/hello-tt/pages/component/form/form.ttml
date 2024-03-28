@@ -1,0 +1,49 @@
+<view class="public-wrapper">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="block-wrapper">
+      <view class="title-h" style="margin-bottom: 44rpx">开关选择器 switch</view>
+      <switch style="margin-right: 56rpx;" name="switch" color="var(--icon-color-A)" />
+      <switch name="switch" color="var(--icon-color-A)" checked />
+    </view>
+
+    <view class="block-wrapper">
+      <view class="title-h" style="margin-bottom: 44rpx">单项选择器 radio</view>
+      <radio-group name="radio">
+        <label>
+          <radio value="radio1" checked color="var(--primary-color)" />选项一
+        </label>
+        <label>
+          <radio value="radio2" color="var(--primary-color)" />选项二
+        </label>
+      </radio-group>
+    </view>
+
+    <view class="block-wrapper">
+      <view class="title-h" style="margin-bottom: 44rpx">多项选择器 checkbox</view>
+      <checkbox-group name="checkbox">
+        <label>
+          <checkbox value="checkbox1" color="var(--primary-color)" />选项一
+        </label>
+        <label>
+          <checkbox value="checkbox2" color="var(--primary-color)" />选项二
+        </label>
+      </checkbox-group>
+    </view>
+
+    <view class="block-wrapper" bindtouchstart="disableSwipeBack" bindtouchend="enableSwipeBack">
+      <view class="title-h" style="margin-bottom: 44rpx">滑动选择器 slider</view>
+      <slider active-color="var(--primary-color)" value="50" name="slider" show-value block-size="{{20}}"></slider>
+    </view>
+
+    <view class="block-wrapper">
+      <view class="title-h" style="margin-bottom: 44rpx">输入框 input</view>
+      <input class="ttui-input" name="input" placeholder="这是一个输入框" />
+    </view>
+
+    <view class="block-wrapper button-group">
+      <button type="primary" formType="submit" class="button-primary" hover-class="button-primary-hover">提交</button>
+      <button formType="reset" class="button-secondary" hover-class="button-secondary-hover">重设</button>
+    </view>
+
+  </form>
+</view>

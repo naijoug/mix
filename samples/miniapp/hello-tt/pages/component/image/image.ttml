@@ -1,0 +1,39 @@
+<view class="public-wrapper">
+  <view class="block-wrapper">
+    <view class="title-h">本地图片</view>
+    <view class="page-section-ctn">
+      <image class="image" src="{{imageUrl}}" />
+    </view>
+  </view>
+  <view class="block-wrapper">
+    <view class="title-h">网络图片</view>
+    <view class="page-section-ctn">
+      <image class="image" src="{{url}}" />
+    </view>
+  </view>
+  <view class="block-wrapper">
+    <view class="title-h">binderror 和 bindload</view>
+    <view class="page-section-ctn">
+      <image class="image aspect-fit" src="{{mockUrl}}" mode="aspectFit" binderror="binderror" bindload="bindload"/>
+    </view>
+    <view class="mini-buttons">
+      <button class="mini-btn" type="primary" size="mini" bindtap="setCorrectSrc">设置正确 src</button>
+      <button class="mini-btn" type="default" size="mini" bindtap="setWrongSrc">设置错误 src</button>
+    </view>
+  </view>
+  <view class="title-h">缩放模式</view>
+  <view class="block-wrapper" tt:for="{{list.zoomMode}}" tt:for-item="item" tt:for-index="index" key="{{index}}">
+    <view class="text-p">{{item.mode}}: {{item.desc}}</view>
+    <view class="page-section-ctn">
+      <image class="{{item.class}}" lazy-load="true" mode="{{item.mode}}" src="{{url}}" />
+    </view>
+  </view>
+
+  <view class="title-h">裁剪模式</view>
+  <view class="block-wrapper" tt:for="{{list.clippingMode}}" tt:for-item="item" tt:for-index="index" key="{{index}}">
+    <view class="text-p">{{item.mode}}: {{item.desc}}</view>
+    <view class="page-section-ctn">
+      <image class="{{item.class}}" lazy-load="true" mode="{{item.mode}}" src="{{url}}" />
+    </view>
+  </view>
+</view>

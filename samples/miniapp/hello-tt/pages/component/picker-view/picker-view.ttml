@@ -1,0 +1,35 @@
+<view class="public-wrapper">
+
+    <view class="block-wrapper">
+      <view class="title-h">{{year}}年{{month}}月{{day}}日</view>
+      <view class="card-wrapper">
+        <picker-view
+          indicator-class="indicator-class"
+          indicator-style=""
+          immediate-change="{{immediateChange}}"
+          mask-style=""
+          mask-class="mask-class"
+          style="height: 750rpx"
+          value="{{value}}"
+          bindchange="bindChange"
+          bindpickstart="bindStart"
+          bindpickend="bindEnd"
+        >
+          <picker-view-column style="text-align: center;">
+            <view tt:for="{{years}}" class="text-style">{{item}}年</view>
+          </picker-view-column>
+          <picker-view-column style="text-align: center;">
+            <view tt:for="{{months}}" class="text-style">{{item}}月</view>
+          </picker-view-column>
+          <picker-view-column style="text-align: center;">
+            <view tt:for="{{days}}" class="text-style">{{item}}日</view>
+          </picker-view-column>
+        </picker-view>
+
+      </view>
+    </view>
+    <view class="list-item">
+      <view>immediate-change 属性</view>
+      <view><switch bindchange="switchChange" /></view>
+    </view>
+</view>

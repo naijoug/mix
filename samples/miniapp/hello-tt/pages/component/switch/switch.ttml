@@ -1,0 +1,76 @@
+<view class="container public-wrapper">
+
+  <view class="block-wrapper">
+    <view class="title-h">默认样式</view>
+    <view class="list-wrapper">
+      <view class="list-item">
+        <view>开启</view>
+        <view>
+          <switch checked bindchange="switch1Change" type="switch" disabled="{{false}}" />
+        </view>
+      </view>
+      <view class="list-item">
+        <view>关闭 </view>
+        <view>
+          <switch bindchange="switch2Change" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">不同颜色和大小的switch</view>
+    <view class="list-wrapper">
+      <view class="list-item">
+        <view>开启</view>
+        <view>
+          <switch style="transform: scale(.7)" checked bindchange="switch1Change" type="switch"
+            color="var(--icon-color-A)" disabled="{{false}}" />
+        </view>
+      </view>
+      <view class="list-item">
+        <view>关闭 </view>
+        <view>
+          <switch style="transform: scale(.7)" bindchange="switch2Change" color="var(--icon-color-A)" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">checkbox样式</view>
+    <view class="list-wrapper">
+      <view class="list-item">
+        <view>开启</view>
+        <view>
+          <switch checked bindchange="switch1Change" type="checkbox" disabled="{{false}}" />
+        </view>
+      </view>
+      <view class="list-item">
+        <view>关闭 </view>
+        <view>
+          <switch bindchange="switch2Change" type="checkbox" checked="{{false}}" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">推荐展示样式</view>
+    <view class="list-wrapper">
+      <view class="list-item">
+        <view>开启中</view>
+        <view>
+          <switch checked type="switch" disabled="{{false}}" />
+        </view>
+      </view>
+      <view class="list-item">
+        <view>关闭中</view>
+        <view>
+          <switch type="switch" disabled="{{false}}" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

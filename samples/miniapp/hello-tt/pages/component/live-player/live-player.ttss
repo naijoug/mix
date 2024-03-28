@@ -1,0 +1,16 @@
+.live-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.my-live {
+    margin: 0 auto;
+    width: 574rpx;
+}
+
+.quit-full-screen {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}

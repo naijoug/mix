@@ -1,0 +1,66 @@
+<view class="public-wrapper">
+  <view class="block-wrapper">
+    <view class="title-h">
+      type
+    </view>
+    <view class="card-wrapper" style="padding: 24rpx;">
+      <view class="button-group">
+        <button type="primary">页面主操作 Normal</button>
+        <button type="primary" loading="true">页面主操作 Loading</button>
+        <button type="primary" disabled="true">页面主操作 Disabled</button>
+        <button type="default">页面次要操作 Normal</button>
+        <button type="default" loading="true">页面次要操作 Loading</button>
+        <button type="default" disabled="true">页面次要操作 Disabled</button>
+      </view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">
+      size
+    </view>
+    <view class="card-wrapper mini-buttons" style="padding: 24rpx;">
+      <button class="mini-btn" type="primary" size="mini">按钮</button>
+      <button class="mini-btn" type="default" size="mini">按钮</button>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">
+      form-type
+    </view>
+    <view class="card-wrapper" style="padding: 24rpx;">
+      <form bindsubmit="submit" bindreset="reset" class="button-group">
+        <button form-type="submit" type="primary">submit</button>
+        <button form-type="reset" type="default">reset</button>
+      </form>
+    </view>
+  </view>
+
+  <view class="title-h">
+    open-type
+  </view>
+  <view class="card-wrapper" style="padding: 24rpx;">
+    <view class="button-group">
+      <button open-type="share" type="primary">share</button>
+      <button bindtap="login" disabled="{{isLogin}}">{{isLogin ? "已登录" : "登录"}}</button>
+      <view class="text-p" style="margin-bottom: 32rpx;">
+        登录后获取手机号
+      </view>
+      <button open-type="getPhoneNumber" type="primary" bindgetphonenumber="getPhoneNumberHandler"
+        disabled="{{!isLogin}}">getPhoneNumber</button>
+      <view class="text-p" style="margin-bottom: 32rpx;">
+        提示: 点击获取用户绑定的手机号。仅可在登录后使用，仅企业主体小程序可使用，且需要申请审核。
+      </view>
+      <button open-type="contact" size="default" type="primary" binderror="myerror">打开客服对话</button>
+      <button size="default" type="primary" bindtap="getUserInfo">
+        获取用户信息
+      </button>
+      <button size="default" type="primary" bindtap="openSettings">
+        打开设置授权页
+      </button>
+    </view>
+  </view>
+</view>
+
+</view>

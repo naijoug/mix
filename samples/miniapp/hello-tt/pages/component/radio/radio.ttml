@@ -1,0 +1,37 @@
+<view class="public-wrapper">
+
+  <view class="block-wrapper">
+    <view class="title-h">默认样式</view>
+    <radio-group>
+      <label class="radio">
+        <radio value="cb1" checked="true" disabled="{{false}}" />选中
+      </label>
+      <label class="radio">
+        <radio value="cb2" disabled="{{false}}" />未选中
+      </label>
+    </radio-group>
+  </view>
+  <view class="block-wrapper">
+    <view class="title-h">不同颜色和尺寸的radio</view>
+    <radio-group>
+      <label class="radio">
+        <radio style="transform: scale(.7)" value="cb1" checked="true" disabled="{{false}}"
+          color="var(--icon-color-A)" />选中
+      </label>
+      <label class="radio">
+        <radio style="transform: scale(.7)" value="cb2" disabled="{{false}}" color="var(--icon-color-A)" />未选中
+      </label>
+    </radio-group>
+  </view>
+  <view class="block-wrapper">
+    <view class="title-h">推荐展示样式</view>
+    <radio-group bindchange="checkboxChange">
+      <label class="ttui-cell" tt:for="{{items}}" tt:key="{{item.value}}">
+
+        <radio value="{{item.value}}" checked="{{item.checked}}" disabled="{{false}}" color="#F85959" />
+
+        <view class="ttui-cell__bd">{{item.name}}</view>
+      </label>
+    </radio-group>
+  </view>
+</view>

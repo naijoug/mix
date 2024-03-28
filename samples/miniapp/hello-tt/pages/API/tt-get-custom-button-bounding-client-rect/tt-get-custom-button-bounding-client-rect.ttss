@@ -1,0 +1,33 @@
+.page-section {
+    background: #fff;
+    padding: 30rpx;
+  }
+  .page-body-text-small {
+    display: block;
+  }
+  
+  .navigation-bar-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navigation-bar-wrapper .title {
+    font-size: 25rpx;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navigation-bar-wrapper .back {
+    font-size: 40rpx;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

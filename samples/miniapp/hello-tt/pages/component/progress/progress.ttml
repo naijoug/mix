@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="body body-space">
+    <view class="page-section page-section-space">
+      <view class="progress-box">
+        <progress active-mode="backwords" percent="{{p1}}" stroke-width="3" active-color="red" background-color="gray"
+          active />
+      </view>
+      <view class="progress-box">
+        <progress active-mode="backwords" percent="{{p2}}" active stroke-width="6" />
+      </view>
+      <view class="progress-box">
+        <progress percent="{{p3}}" active stroke-width="3" active-mode="forwards" />
+      </view>
+      <view class="progress-box">
+        <progress active-mode="backwords" percent="{{p4}}" active-color="#10AEFF" active stroke-width="3" />
+      </view>
+    </view>
+  </view>
+</view>

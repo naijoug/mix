@@ -1,0 +1,50 @@
+<view class="public-wrapper">
+  <swiper class="swiper" easing-function="default" indicator-dots="{{indicatorDots}}"
+    indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="rgba(0, 0, 0, 1)" current="{{0}}" current-item-id=""
+    previous-margin="" next-margin="" display-multiple-items="{{1}}" autoplay="{{autoplay}}" interval="{{interval}}"
+    circular="{{circular}}" vertical="{{vertical}}" duration="{{duration}}" bindanimationfinish="animationFinish"
+    bindtransition="transition">
+    <block tt:for="{{background}}">
+      <swiper-item>
+        <view class="swiper-item swiper-item-{{index}}">{{item}}</view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="list-wrapper" style="margin: 32rpx 0 64rpx 0;">
+    <view class="list-item">
+      <view class="title-font">指示点</view>
+      <view>
+        <switch checked="{{indicatorDots}}" bindchange="changeIndicatorDots" color="var(--icon-color-A)" />
+      </view>
+    </view>
+    <view class="list-item">
+      <view class="title-font">自动播放</view>
+      <view>
+        <switch checked="{{autoplay}}" bindchange="changeAutoplay" color="var(--icon-color-A)" />
+      </view>
+    </view>
+    <view class="list-item">
+      <view class="title-font">循环播放</view>
+      <view>
+        <switch checked="{{circular}}" bindchange="changeCircular" color="var(--icon-color-A)" />
+      </view>
+    </view>
+    <view class="list-item">
+      <view class="title-font">滑块放置方向是否为竖直</view>
+      <view>
+        <switch checked="{{vertical}}" bindchange="changeVertical" color="var(--icon-color-A)" />
+      </view>
+    </view>
+  </view>
+
+  <view class="block-wrapper" bindtouchstart="disableSwipeBack" bindtouchend="enableSwipeBack">
+    <view class="text-p">幻灯片切换时长  <text style="color: var(--primary-color)">{{duration}}ms</text></view>
+    <slider block-size="20" active-color="var(--primary-color)" bindchange="durationChange" value="{{duration}}" min="500" max="2000" />
+  </view>
+
+  <view class="block-wrapper" bindtouchstart="disableSwipeBack" bindtouchend="enableSwipeBack">
+    <view class="text-p">自动播放间隔时长  <text style="color: var(--primary-color)">{{interval}}ms</text></view>
+    <slider block-size="20" active-color="var(--primary-color)" bindchange="intervalChange" value="{{interval}}" min="2000" max="10000" />
+  </view>
+</view>

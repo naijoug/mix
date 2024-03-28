@@ -1,0 +1,37 @@
+<view class="public-wrapper">
+
+  <view class="block-wrapper">
+    <view class="title-h">默认样式</view>
+    <label class="checkbox">
+      <checkbox value="cb" checked="true" />选中
+    </label>
+    <label class="checkbox">
+      <checkbox value="cb" disabled="{{false}}" />未选中
+    </label>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">不同颜色和尺寸的checkbox</view>
+    <label class="checkbox">
+      <checkbox style="transform: scale(0.7);" value="cb" checked="true" color="var(--secondary-color)" />选中
+    </label>
+    <label class="checkbox">
+      <checkbox style="transform: scale(0.7);" value="cb" disabled="{{false}}" color="var(--secondary-color)" />未选中
+    </label>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">推荐展示样式</view>
+    <view class="list-wrapper">
+      <checkbox-group bindchange="checkboxChange">
+
+        <label class="list-item" style="justify-content: flex-start" tt:for="{{items}}" tt:key="{{item.value}}">
+          <view style="margin-right: 24rpx">
+            <checkbox value="{{item.value}}" checked="{{item.checked}}" />
+          </view>
+          <view>{{item.name}}</view>
+        </label>
+      </checkbox-group>
+    </view>
+  </view>
+</view>

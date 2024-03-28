@@ -1,0 +1,52 @@
+<view class="public-wrapper">
+  <view class="block-wrapper">
+    <view class="title-h">横向布局</view>
+    <view class="text-p">flex-direction：row</view>
+    <view class="flex-wrapper" style="flex-direction:row;">
+      <view hover-class="hover-item" class="flex-item" style="background-color: var(--icon-color-A)">A</view>
+      <view hover-class="hover-item" class="flex-item" style="background-color: var(--icon-color-B)">B</view>
+      <view hover-class="hover-item" class="flex-item" style="background-color: var(--secondary-color)">C</view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">纵向布局</view>
+    <view class="text-p">flex-direction: column</view>
+    <view class="flex-wrapper" style="flex-direction:column;">
+      <view class="flex-item-v" style="background-color: var(--icon-color-A)">A</view>
+      <view class="flex-item-v" style="background-color: var(--icon-color-B)">B</view>
+      <view class="flex-item-v" style="background-color: var(--secondary-color)">C</view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">更多布局示例</view>
+    <view class="text-p">横向布局-居中</view>
+    <view class="flex-wrapper flex-wrapper-bg" style="flex-direction:row; justify-content: center">
+      <view class="flex-item" style="background-color: var(--icon-color-A)">A</view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="text-p">横向布局-居右</view>
+    <view class="flex-wrapper flex-wrapper-bg" style="flex-direction:row; justify-content: flex-end">
+      <view class="flex-item" style="background-color: var(--icon-color-A)">A</view>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="text-p">横向布局-平均分布</view>
+    <view class="flex-wrapper flex-wrapper-bg" style="flex-direction:row; justify-content: space-around">
+      <view class="flex-item" style="background-color: var(--icon-color-A); width: 50%">A</view>
+      <view class="flex-item" style="background-color: var(--icon-color-B); width: 50%">B</view>
+    </view>
+  </view>
+  
+  <view class="block-wrapper">
+    <view class="text-p">横向布局-两端对齐</view>
+    <view class="flex-wrapper flex-wrapper-bg" style="flex-direction:row; justify-content: space-between">
+      <view class="flex-item" style="background-color: var(--icon-color-A)">A</view>
+      <view class="flex-item" style="background-color: var(--icon-color-B)">B</view>
+    </view>
+  </view>
+</view>

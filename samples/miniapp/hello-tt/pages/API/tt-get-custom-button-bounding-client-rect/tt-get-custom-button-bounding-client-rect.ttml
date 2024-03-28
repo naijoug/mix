@@ -1,0 +1,23 @@
+<!-- /Users/bytedance/miniapp-code/ddemo/pages/API/tt-get-custom-button-bounding-client-rect/tt-get-custom-button-bounding-client-rect.ttml -->
+
+<view class="navigation-bar-wrapper" style="height: {{height + paddingTop}}px; padding-top: {{paddingTop}}px">
+  <view class="back" bindtap="back">返回</view>
+  <view class="title" style="margin-left: 20px">获取自定义导航栏元素位置信息</view>
+</view>
+<view class="container" tt:if="{{rectData}}" style="margin-top: {{height + paddingTop}}px;">
+  <view class="body">
+    <view class="page-section">
+      <view class="page-body-info">
+        <view class="page-body-info">
+          <text class="page-body-text-small">胶囊信息</text>
+          <view class="page-body-text">left: {{rectData.capsule.left}}</view>
+          <view class="page-body-text">right: {{rectData.capsule.right}}</view>
+          <view class="page-body-text">bottom: {{rectData.capsule.bottom}}</view>
+          <view class="page-body-text">top: {{rectData.capsule.top}}</view>
+          <view class="page-body-text">height: {{rectData.capsule.height}}</view>
+          <view class="page-body-text">width: {{rectData.capsule.width}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

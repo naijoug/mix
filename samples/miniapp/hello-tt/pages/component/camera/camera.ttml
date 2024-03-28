@@ -1,0 +1,21 @@
+<view class="camera-wrapper">
+    <camera class="camera" frame-size="medium" device-position="{{cameraType}}" flash="off" bindstop="onStop"
+        binderror="onError"></camera>
+</view>
+<view class="page-body">
+    <button type="primary" bindtap="auth">相机授权</button>
+    <button type="primary" bindtap="toggleCamera">切换摄像头</button>
+    <button type="primary" bindtap="takePhoto">拍照</button>
+    <button type="primary" bindtap="toggleVideo">{{videoStarted ? "停止录像" : "开始录像"}}</button>
+    <!-- <button type="primary" bindtap="setZoom">设置缩放级别</button> -->
+    <button type="primary" bindtap="toggleFrame">{{isOnFrame ? '关闭' : '开启'}}实时帧模式</button>
+    <view tt:if="{{isOnFrame}}">
+        <view>第 {{counter}} 帧</view>
+        <view hidden="{{counter === 0}}">width：{{frameWidth}}; height:{{frameHeight}}</view>
+    </view>
+    <view>拍照和录像可在下方预览</view>
+    <view>
+        <image tt:if="{{ photoOrVideo === 'photo' && photoPath }}" src="{{photoPath}}"></image>
+        <video tt:if="{{ photoOrVideo === 'video' && videoPath }}" src="{{videoPath}}"></video>
+    </view>
+</view>

@@ -1,0 +1,52 @@
+<view class="public-wrapper open-data-wrapper">
+
+  <!-- type 必传 -->
+  <open-data binderror="handleError" />
+
+
+  <!-- avatarUrl -->
+  <open-data type="userAvatarUrl" use-empty-value class="avatar" binderror="handleError" />
+
+  <view class="block-wrapper" style="padding-top: 48rpx;">
+    <view class="list-wrapper">
+      <view class="list-item">
+        <view class="title-font list-item-left">昵称</view>
+        <view class="text-font list-item-right">
+          <open-data class="" type="userNickName" default-text="用户" binderror="handleError" />
+        </view>
+      </view>
+  
+      <view class="list-item">
+        <view class="title-font list-item-left">性别</view>
+        <view class="text-font list-item-right">
+          <open-data type="userGender" default-text="未知" use-empty-value binderror="handleError" />
+        </view>
+      </view>
+  
+      <view class="list-item">
+        <view class="title-font list-item-left">城市</view>
+        <view class="text-font list-item-right">
+          <open-data type="userCity" default-text="未知" use-empty-value binderror="handleError" />
+        </view>
+      </view>
+  
+      <view class="list-item">
+        <view class="title-font list-item-left">省份</view>
+        <view class="text-font list-item-right">
+          <open-data type="userProvince" default-text="未知" binderror="handleError" />
+        </view>
+      </view>
+  
+      <view class="list-item">
+        <view class="title-font list-item-left">国家</view>
+        <view class="text-font list-item-right">
+          <open-data type="userCountry" default-text="未知" use-empty-value binderror="handleError" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <button type="primary" size="default" bindtap="login" class="button-primary"
+    hover-class="button-primary-hover">登录</button>
+
+</view>

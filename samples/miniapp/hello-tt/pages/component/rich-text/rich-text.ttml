@@ -1,0 +1,28 @@
+<view class="container public-wrapper">
+
+  <view class="block-wrapper">
+    <view class="title-h">通过HTML String渲染</view>
+    <view class="card-wrapper show-code">
+      <text>{{htmlSnip}}</text>
+    </view>
+    <button style="margin-top: 32rpx;" type="primary" bindtap="renderHtml">渲染HTML</button>
+    <view class="card-wrapper">
+      <block tt:if="{{renderedByHtml}}">
+        <rich-text nodes="{{htmlSnip}}"></rich-text>
+      </block>
+    </view>
+  </view>
+
+  <view class="block-wrapper">
+    <view class="title-h">通过节点渲染</view>
+    <view class="card-wrapper">
+      <view class="show-code">{{nodeSnip}}</view>
+    </view>
+    <button style="margin-top: 32rpx; margin-bottom: 32rpx" type="primary" bindtap="renderNode">渲染Node</button>
+    <view class="card-wrapper">
+      <block tt:if="{{renderedByNode}}">
+        <rich-text nodes="{{nodes}}"></rich-text>
+      </block>
+    </view>
+  </view>
+</view>
